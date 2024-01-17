@@ -1,0 +1,3160 @@
+@book{RN2531,
+   author = {Alvensleben, Ludwig von},
+   title = {Der entlarvte Jesuit die verabscheuungswerthen Grundsätze und Lehren der Jesuiten, aus ihren eigenen Schriften geschöpft; und die Jesuiten als Königsmörder},
+   publisher = {Goedsche u.a.},
+   address = {Meissen},
+   edition = {2., neu durchges. Aufl., verm. durch die Monita secreta, und das Bildniß Loyola's},
+   note = {(DE-627)110262554X
+(DE-576)032625545
+(DE-599)BSZ032625545
+(OCoLC)311793294
+dargestellt durch L. v. Alvensleben (Gustav Sellen)
+In Fraktur},
+   pages = {XV, 134 S.},
+   year = {1831},
+   type = {Book}
+}
+
+@book{RN615,
+   author = {Anonymous},
+   title = {Lettera Amfibologica e persuasiva di un Giesuita ad un Cavaliero suo Discepolo},
+   publisher = {Turchetto, Antonio},
+   address = {Colonia},
+   volume = {LI SEGRETI DI STATO DE I PRENCIPI dell' EVROPA, Rivelati, DA VARII CONFESSORI POLITICI. Per lo beneficio comune di tutti quelli che maneggiano Affari publici, e per la sodisfatione de' più Curiosi. Nuovamente ristampati, e corretti. Con Aggiunta considerabile},
+   url = {https://books.google.com/books/about/LI_SEGRETI_DI_STATO_DE_I_PRENCIPI_dell_E.html?hl=pl&id=zVbKKhihnfoC},
+   year = {1676},
+   type = {Book}
+}
+
+@misc{RN2688,
+   author = {Anonymous},
+   title = {Compendio apologético dos horrorozos factos, abuzos, e crimes dos fingidos apostollos, e falsos profetas, que produzio a Sociedade Jesuitica, creada por Bulla de Paulo 3.º do 5.º dia das kalendas de 8.bro de 1540, e abolida e extinta por Clem[ent]e 14.º pella Bulla de 21 de Julho de 1773, comprovados com os seos mesmos historiadores, e chronistas, corroborados com os seus proprios Estatutos, Elogios, e com a sua Monita Secreta, impressão de Londres de 1723, e confirmados com bullas, breves, leis, apologias, e discursos juridicos, q[ue] os fazem totalmente indubitaveis, a quem os não. conheceo, e tractou, ou imprudemente os impugna, e contraria},
+   publisher = {Biblioteca Nacional de Portugal},
+   url = {https://www.manuscriptorium.com/apps/index.php?direct=record&pid=BNDPL_-BNDPL_COD_11046___0WUGYE1-pt#search},
+   year = {1802},
+   type = {Manuscript}
+}
+
+@book{RN772,
+   author = {Anonymous},
+   title = {Lettera Amfibologica e persuasiva di un Giesuita ad un Cavaliero suo Discepolo},
+   publisher = {[n.p.]},
+   address = {[Torino?]},
+   volume = {Forma del Governo Giesuitico con vna instruttione et uuiso a'Potentati del modo, Con il quale si gouernano li Giesuiti, Per ridurre la loro Compagnia ad vna perfetta Monarchia},
+   url = {https://books.google.com/books/about/Forma_del_Governo_Giesuitico_con_vna_ins.html?hl=pl&id=1G7DMnEa88QC},
+   year = {[1669]},
+   type = {Book}
+}
+
+@book{RN773,
+   author = {Anonymous},
+   title = {Risposta del Cavaliero Discepolo alla Lettera Persuasiva del Gesuita Maestro},
+   publisher = {[n.p.]},
+   address = {[Torino?]},
+   volume = {Forma del Governo Giesuitico con vna instruttione et uuiso a'Potentati del modo, Con il quale si gouernano li Giesuiti, Per ridurre la loro Compagnia ad vna perfetta Monarchia},
+   url = {https://books.google.com/books/about/Forma_del_Governo_Giesuitico_con_vna_ins.html?hl=pl&id=1G7DMnEa88QC},
+   year = {[1669]},
+   type = {Book}
+}
+
+@book{RN1452,
+   author = {Anonymous and [Zahorowski, Hieronim]},
+   title = {Mondo gesuitico scoperto al pubblico : con la vera e distinta relazione dell'arte soprafina con cui la Compagnia tende all'universale monarchia del mondo},
+   publisher = {Nella stamperia privilegiata della Suprema Superiorità Elvetica nelle prefetture italiane(IS), Suprema Superiorita Elvetica},
+   address = {Lugano},
+   url = {https://books.google.co.uk/books?id=Wxh_MC6kH_EC&printsec=frontcover&hl=pl#v=onepage&q&f=false},
+   year = {1759},
+   type = {Book}
+}
+
+@book{RN671,
+   author = {Anonymous and [Zahorowski, Hieronim]},
+   title = {Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo},
+   publisher = {Paletti, Sebastiano},
+   address = {Naples},
+   volume = {Giornale gesuitico o sia estratto delle opere che si pubblicano contro i Gesuiti. Si aggiungono le nouita piu interessanti della medesima Compagnia. Tomo 1. per seruire all'anno 1759},
+   url = {https://books.google.com/books/about/Giornale_gesuitico_o_sia_estratto_delle.html?hl=pl&id=R9iRsulkYO0C},
+   year = {1760},
+   type = {Book}
+}
+
+@book{RN1453,
+   author = {Anonymous and [Zahorowski, Hieronim]},
+   title = {Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo},
+   publisher = {Stamperia Privilegiata della Suprema Superiorità Elvetica},
+   address = {Lugano [Venezia]},
+   volume = {Raccolta d'opuscoli curiosi ed interessanti intorno gli affari presenti di Portogallo, 4},
+   url = {https://books.google.com/books/about/Raccolta_d_opuscoli_curiosi_ed_interessa.html?id=laUEAAAAQAAJ},
+   year = {1760},
+   type = {Book}
+}
+
+@book{RN2697,
+   author = {Anonymous and [Zahorowski, Hieronim]},
+   title = {Il Mondo Gesuitico (scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo},
+   address = {Carpentras},
+   note = {A reprint of a work printed in 1758 in Carpentras},
+   url = {https://search.worldcat.org/title/561484907},
+   url = {https://vufind.catholicresearch.org/vufind/Record/lucmarc_995684033402506|},
+   year = {1886},
+   type = {Book}
+}
+
+@misc{RN811,
+   author = {Arias Montano, Benito and [Zahorowski, Hieronim]},
+   title = {Conclusión de esta apología : máximas de prudencia, para saver governarse el Discreto, en las ocasiones que se hallase en este mundo},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000186876&page=1},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@book{RN2682,
+   author = {Bollaerdt, Nathan Bohemer Christiaan Corbelijn Thomas and [Zahorowski, Hieronim]},
+   title = {Geheime Verhaltungsbefehle der Jesuiten oder monita secreta Societatis Jesu},
+   publisher = {LaRuelle},
+   address = {Aachen},
+   note = {(Middelburg)
+
+(Vlissingen)},
+   url = {https://www.digitale-sammlungen.de/en/view/bsb10570197?page=,1},
+   year = {1825},
+   type = {Book}
+}
+
+@book{RN1884,
+   author = {Bosmans, Jules},
+   title = {Monita secreta ou Règles secrètes de la Maffia, par Jules Bosmans},
+   address = {Bruxelles},
+   note = {Bibliothèque anti-superstitieuse},
+   year = {1900},
+   type = {Book}
+}
+
+@book{RN2262,
+   author = {Brownlee, W. C. and Leyden, Thomas Edward},
+   title = {The secret instructions of the Jesuits. In Latin and English},
+   publisher = {T. E. Leyden},
+   address = {Boston},
+   note = {11003119
+Monita secreta Societatis Jesu. [from old catalog]
+With an historical sketch by Rev. W. C. Brownlee, D. D.
+18 cm.
+First published under title, monita privata Societatis Jesu, Notobrigae, 1612 (i.e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon. 2. aufl. 1866-1901. v. 8, col. 1776.
+Latin and English on opposite pages.
+"To the public" signed : Thomas E. Leyden.
+Also available in digital form.
+Monita secreta Societatis Jesu. English.},
+   keywords = {Jesuits},
+   pages = {142, 2 p.},
+   url = {http://hdl.loc.gov/loc.gdc/scd0001.00195666763},
+   year = {1888},
+   type = {Book}
+}
+
+@book{RN1850,
+   author = {Brownlee, W. C. and Leyden, Thomas Edward and Zahorowski, Hieronim},
+   title = {The secret instructions of the Jesuits},
+   publisher = {T.E. Leyden},
+   address = {Somerville, Mass.},
+   note = {Monita secreta Societatis Jesu. English
+with an historical sketch by Rev W.C. Brownlee.
+18 cm.
+Originally published under title, Monita privata Societatis Jesu, Notobrigae, 1612 (i.e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon 2. aufl. 1886-1901. v. 8, col. 1776.
+"To the public" signed: Thomas E. Leyden.
+Cover title.
+Principal authorship generally attributed to Hieronim Zahorowski (cf. ESTC).},
+   year = {1894},
+   type = {Book}
+}
+
+@book{RN1788,
+   author = {Brownlee, W. C. and Leyden, Thomas Edward and Zahorowski, Hieronim},
+   title = {The secret instructions of the Jesuits},
+   publisher = {T.E. Leyden},
+   address = {Somerville, Mass.},
+   note = {AEF4024^^^^^
+Monita secreta Societatis Jesu. English.
+with an historical sketch by Rev W.C. Brownlee.
+18 cm.
+First published under title, Monita privata Societatis Jesu, Notobrigae, 1612 (i.e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon 2. aufl. 1886-1901. v. 8, col. 1776.
+"To the public" signed: Thomas E. Leyden.
+Cover title.
+Principal authorship generally attributed to Hieronim Zahorowski (cf. ESTC)},
+   keywords = {Jesuits Controversial literature.
+Anti-Catholicism United States Sources.},
+   year = {1897},
+   type = {Book}
+}
+
+@book{RN2559,
+   author = {Capriata and Le Bret, Johann Friedrich and [Zahorowski, Hieronim]},
+   title = {Die Entlarvte Wölfe},
+   publisher = {[s.n.]},
+   address = {O.O.},
+   edition = {2nd ed.},
+   ISBN = {3598516207 G1 - Katalog Bayreuth: 27/GE 6701 S259-8074},
+   url = {https://katalog.uni-bayreuth.de:443/TouchPoint/perma.do?q=+1035%3D%22BV011970954%22+IN+%5B2%5D&v=ubt&b=0&l=de},
+   year = {1762},
+   type = {Book}
+}
+
+@misc{RN2674,
+   author = {Capriata and [Zahorowski, Hieronim]},
+   title = {I lupi smascherati nella confutazione e traduzione del libro intitulato, Monita Secreta societatis Iesu in virtù del quale giunsero i Gesuiti all'orrido ed esecrabile assassinio di S.S.R:I.D. Giuseppe I, Re di Portogallo, & C. & C & C con una appendice di documenti rari ed inediti},
+   note = {Campobasso, Biblioteca Pasquale Albino, Fondo Manoscritti, Ms. 167},
+   url = {https://manus.iccu.sbn.it/cnmd/0000114524},
+   year = {[c. 1760–1800]},
+   type = {Manuscript}
+}
+
+@book{RN2717,
+   author = {Carré, Ezechiel},
+   title = {L'horoscope des jesuites, ou l'on découvre combien ils doivent durer, & de quelle maniere ils doivent cependant tourmenter les hommes},
+   publisher = {Sur la copie imprimée à Londres, chez H. Hills},
+   address = {Amsterdam},
+   note = {Spec. Coll. copy: Bound with: Le Cabinet jesuitique. Cologne, 1682},
+   keywords = {Jesuits -- Controversial literature},
+   url = {https://search.library.ucla.edu/permalink/01UCS_LAL/trta7g/alma998204713606533},
+   year = {1691},
+   type = {Book}
+}
+
+@misc{RN910,
+   author = {Espino, Juan de},
+   title = {Monita secreta de la Compañía de Jesús},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {1-27v},
+   url = {https://datos.bne.es/edicion/a5472315.html?fbclid=IwAR0V_XNGqkrNhjy-79H4lKEhSNEo4UQnjZfp8G1nqbIWjrT3c-lR5-mRR4o},
+   year = {[XVIII c.]},
+   type = {Manuscript}
+}
+
+@book{RN2441,
+   author = {Eulalius, Theophilus pseud and [Zahorowski, Hieronim]},
+   title = {Aurea Monita Religiosissimæ Societatis Jesu. [Comprising the apocryphal “Monita Privata Societatis Jesu,” written by J. Zaorowsky, and “Testimonia de Jesuitis Italorum et Hispanorum quorundam”] ... edita a T. Eulalio},
+   address = {Piacenza},
+   note = {[Main author]},
+   pages = {(4º)},
+   year = {1620},
+   type = {Book}
+}
+
+@book{RN2396,
+   author = {Gerard, John and Catholic Truth Society (Great Britain)},
+   title = {The secret instructions (Monita Secreta) of the Jesuits},
+   publisher = {Catholic Truth Society},
+   address = {London},
+   note = {(UkCU)4940467-cambrdgedb
+by the Rev. John Gerard.
+19 cm.
+Title from cover.},
+   keywords = {Jesuits
+Monita secreta Societatis Jesu.},
+   pages = {19 p.},
+   year = {1901},
+   type = {Book}
+}
+
+@book{RN2338,
+   author = {I., G. W. and [Zahorowski, Hieronim]},
+   title = {Ultramontanism exemplified in Irish disaffection : in the action of the Roman Catholic hierarchy, and in the doctrines of the Jesuit Suarez, and others lately referred to as lights of his church by the Roamn Catholic Archbishop of Dublin : with a translation in full of Monita Privata, or secret advices of the order of Jesuits},
+   publisher = {Thomas Webb},
+   address = {Dublin},
+   note = {“with a translation in full of Monita Privata, or secret advices of the order of Jesuits”},
+   keywords = {Jesuits.
+Ultramontanism Ireland.
+Ultramontanisme Irlande.
+Ultramontanism.
+Ireland.},
+   pages = {1 online resource (81 pages)},
+   url = {https://archive.org/details/ultramontanismex00gwi},
+   year = {1868},
+   type = {Book}
+}
+
+@misc{RN944,
+   author = {L., G. F. A.},
+   title = {ISTRUZZIONE Ai Principi della manier con la quale si governano li Padri Gesuiti fatta da Persona Religiosa, e totalmente spassionata},
+   publisher = {The Newberry Library},
+   volume = {Newberry VAULT Case},
+   number = {1-27},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@book{RN314,
+   author = {Lucius, Ludwig and Cambilhom, Johann and Zahorowski, Hieronim},
+   title = {Historia jesuitica ; de jesuitarum ordinis origine, nomine, regulis, officiis, votis... ac facinoribus, tam communiter quam singulariter, in quatuor libros tributa... per M. Ludovicum Lucium},
+   publisher = {J. J. Genathii},
+   address = {Basileae},
+   note = {Ce libelle anonyme, introduit par L. Luz dans l'"Historia jesuitica", est dû à Hieronim Zahorowski, d'après C. Van Aken, "La Fable des "Monita secreta", p. 57. Cette attribution est confirmée par "Bibliografia literatury polskiej "Nowy Korbut", t. 3, p. 430, et par Janusz Tazbir, "Literatura antyjezuicka w Polsce, 1578-1625, antologia", Warszawa, 1963, p. 127, qui donne la traduction polonaise de l'édition originale de ce texte, publié anonymement en 1614 à Cracovie avec pour adresse et date fictives "Notobirgae, 1612". - Barbier qui confirme également cette attribution, orthographie le nom de l'auteur "Zaorowsky ou Zaorouski"},
+   pages = {In-4° , pièces limin., 686 , l'index et l'errata, planche, fig. au titre},
+   year = {1627},
+   type = {Book}
+}
+
+@book{RN2263,
+   author = {M' Gavin, William},
+   title = {Secret instructions of the Jesuits. Printed verbatim from the London copy of 1725. To which is prefixed an historical essay; with an appendix of notes, by the editor of the Protestant},
+   publisher = {Published by J. & T. Simpson},
+   address = {Princeton, N.J.},
+   note = {35028527
+Monita secreta Societatis Jesu. English.
+16 cm.
+First published under the title Monita privata Societatis Jesu, Notobrigae, 1612 (i.e. Cracow, 1614). cf. Wetzer und Welte's kirchenlexikon. 2. aufl. 1886-1901. v. 8, col. 1776.},
+   keywords = {Jesuits},
+   pages = {166 p.},
+   year = {1831},
+   type = {Book}
+}
+
+@book{RN2690,
+   author = {Oldenburger, Philipp Andreas },
+   title = {Homo politicus, hoc est Consiliarius novus officiarius & aulicus, secundum hodiernam praxin},
+   publisher = {[n.p.]},
+   address = {Cosmopoli [Geneva]},
+   url = {https://catalogue.bnf.fr/ark:/12148/cb438307700},
+   year = {1664},
+   type = {Book}
+}
+
+@book{RN1785,
+   author = {Oldenburger, Philipp Andreas and Nairn, James and Rapp, Christoph and Zahorowski, Hieronim},
+   title = {Homo politicus, hoc est : consiliarius novus, officiarius et aulicus, secundum hodiernam praxin},
+   publisher = {[n.p.]},
+   address = {Cosmopoli [Geneva]},
+   edition = {Editio secunda, auctior et emendatior : cui accesserunt monita privata Societatis Jesu},
+   note = {(OCoLC)1154017020
+(OCoLC)on1154017020
+auctore Pacifico a Lapide.
+21 cm (4to)
+Running title: Homo Politicvs.
+Variously attributed to P.A. Oldenburger and C. Rapp. - Cf. BM.
+Pacifico a Lapide is a pseudonym of Christoph Rapp.
+Fictitious imprint. Actual location varies. Published in Geneva, Switzerland.
+Les "Monita" ont e**galement paru isole**ment, et sont de**crits au nom de leur auteur H. Zahorowski. - Paru a** Gene**ve, d'apre**s le NUC
+Also available online.
+From the library of James Nairn},
+   keywords = {State, The.},
+   url = {https://babel.hathitrust.org/cgi/pt?id=gri.ark:/13960/t5bc52887&seq=5},
+   year = {1665},
+   type = {Book}
+}
+
+@book{RN2424,
+   author = {Rodrigues, Francisco S. J. Académico da Academia Portuguesa da História and Jesuits. Monita privata Societatis, Jesu},
+   title = {Os jesuitas e a Monita secreta},
+   publisher = {Tipographia Pontificia no Instituto Pio IX},
+   address = {Rome},
+   note = {[Main author]},
+   keywords = {Jesuits -- to date},
+   pages = {134 ; 20 cm.},
+   year = {1912},
+   type = {Book}
+}
+
+@book{RN1885,
+   author = {Saint-Hélier},
+   title = {Les "Monita secreta" des Jésuites devant l'histoire, par Saint-Hélier},
+   publisher = {Comité de défense des libertés d'association et d'enseignement},
+   address = {Paris},
+   pages = {In-16, 22},
+   year = {1901},
+   type = {Book}
+}
+
+@book{RN2274,
+   author = {Scheffer, Arnold},
+   title = {Beknopt overzigt van de algemeene geschiedenis van het Genootschap van Jezus : gevolgd van de Monita secreta},
+   publisher = {Wed. J. Allart},
+   address = {Delft},
+   note = {tmp96028379
+Arnold Scheffer ; uit het Fransch vert.
+136 p.},
+   year = {1825},
+   type = {Book}
+}
+
+@book{RN231,
+   author = {Zahorowski, Hieronim},
+   title = {Monita Privata Societatis Jesu},
+   note = {https://stabikat.de/DB=1/SET=1/TTL=31/SHW?FRST=38},
+   url = {http://resolver.staatsbibliothek-berlin.de/SBB0001CBE900000000},
+   year = {1612},
+   type = {Book}
+}
+
+@misc{RN2548,
+   author = {Zahorowski, Hieronim},
+   title = {Monita Privata Societatis Jesu},
+   pages = {8 Bl},
+   note = {urn:nbn:de:gbv:23-drucke/tq-975-2s8
+VD17 23:252635B
+o.s, a,es atic n-a- C 1657R fei
+(DE-627)594061520
+(DE-576)9594061529
+(DE-599)GBV594061520
+(OCoLC)836810051
+[Hieronim Zahorowski]
+Digitalisierungsvorlage: Original
+4°
+Verf. ermittelt in: Backer-Sommervogel, T. 11, Sp. 344, Nr. 2954; Weller
+Bibliogr. Nachweis: Gołuszka, M. Polonica P 3196
+Nach Backer-Sommervogel vermutl. in Paris erschienen
+Online-Ausg. Wolfenbüttel Herzog August Bibliothek 2008
+HAB Wolfenbüttel M: Tq 975 (2)
+Nutzungsrecht: Herzog August Bibliothek Wolfenbüttel
+kostenfrei},
+   keywords = {Streitschrift:theol.
+Ordensliteratur:Jesuiten},
+   url = {http://diglib.hab.de/drucke/tq-975-2s/start.htm},
+   url = {http://nbn-resolving.de/urn:nbn:de:gbv:23-drucke/tq-975-2s8},
+   year = {1657},
+   type = {Electronic Book}
+}
+
+@book{RN1840,
+   author = {Zahorowski, Hieronim},
+   title = {Advis secrets de la Société de Jésus},
+   address = {(S. l.,)},
+   pages = {In-12, 108},
+   year = {1668},
+   type = {Book}
+}
+
+@book{RN1800,
+   author = {Zahorowski, Hieronim},
+   title = {Secreta monita Societatis Jesu},
+   publisher = {chez J. L. de Lorme},
+   address = {À Amsterdam},
+   note = {Texte latin en car. ital. et traduction française en car. rom., sur 2 p. en regard. - La traduction française est anonyme},
+   pages = {In-8° , 90},
+   year = {1702},
+   type = {Book}
+}
+
+@book{RN1827,
+   author = {Zahorowski, Hieronim},
+   title = {Supplémens des Mémoires pour l'histoire des sciences et des beaux arts},
+   address = {À Amsterdam},
+   note = {Même traduction que précédemment},
+   pages = {In-8°},
+   year = {1702},
+   type = {Book}
+}
+
+@book{RN1841,
+   author = {Zahorowski, Hieronim},
+   title = {Ordres monastiques. Histoire... Tome cinquième. [Compagnie de Jésus. Pères missionnaires ou Lazaristes.]},
+   address = {Berlin},
+   note = {D'après C. Van Acken, Barbier et de Backer, la traduction pourrait être de l'abbé Musson, l'auteur même des "Ordres monastiques"},
+   pages = {In-8°},
+   year = {1751},
+   type = {Book}
+}
+
+@book{RN1812,
+   author = {Zahorowski, Hieronim},
+   title = {Secreta Monita; Ou Advis Secrets De La Société De Jesus},
+   address = {Paderborne},
+   note = {VD17 3614:706875A
+nsre e.e& ess, tata 3 1661R fei
+(DE-627)774961112
+(DE-576)9774961110
+(DE-599)BVBBV001537651
+(OCoLC)1331554993
+(DE-604)BV001537651
+[Hieronim Zahorowski]
+Monita secreta
+12
+Mutmaßl. Verf. ermittelt in: Backer-Sommervogel, Bd. 11, Sp. 345, Nr. 2960
+Vorlageform des Erscheinungsvermerks: A Paderborne. MDCLXI. - Erscheinungsort und -jahr ermittelt in: Pavone
+Bibliogr. Nachweis: Pavone, Sabina: Le astuzie dei gesuiti, S. 293
+// Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Jes. 609 kostenfrei},
+   keywords = {Jesuits - Controversial literature
+Streitschrift:theol.
+Ordensliteratur:Jesuiten},
+   pages = {191 S.},
+   url = {http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10568700-8},
+   year = {1761},
+   type = {Book}
+}
+
+@book{RN1776,
+   author = {Zahorowski, Hieronim},
+   title = {The Secreta Monita, or, the Jesuits' private instructions to their emissaries : found in manuscript in a Jesuit's closet, after his death},
+   publisher = {London, priinted [sic] for Benjamin Took, 1669. Dublin, re-printed by Richard Moore Tims},
+   address = {[Dublin]},
+   note = {(UkLCURL)r10014079331
+(UkCU)3238518-cambrdgedb
+Monita Secreta Societatis Jesu. English
+22 cm.
+In fact, a satire against the Jesuits.
+Principal authorship of the Monita secreta societatis Jesu attributed to Hieronim Zahorowski. Cf. Reusch, C. Index der verbotenen Bücher, 1885, v. 2, p. 280-281 ; Encyklopedyja Powszechna.},
+   keywords = {Jesuits},
+   pages = {35, [1] p.},
+   year = {1824},
+   type = {Book}
+}
+
+@book{RN2561,
+   author = {Zahorowski, Hieronim},
+   title = {Instructions secrètes des Jésuites},
+   publisher = {Dentu, Edouard},
+   address = {Paris},
+   abstract = {Instructions secrètes des Jésuites.-book},
+   url = {https://katalogi.uj.edu.pl/discovery/fulldisplay/alma991016574557805067/48OMNIS_UJA:uja},
+   year = {1868},
+   type = {Book}
+}
+
+@book{RN1754,
+   author = {Zahorowski, Hieronim},
+   title = {Monita Secreta, of de geheime instructiën die door de Jesuïeten in stilte worden nageleefd},
+   publisher = {A.J. Bronswijk
+Gedrukt bij W. J. de Roever Kröber},
+   address = {Oostburg},
+   note = {2021657189
+Monita secreta Societatis Jesu. Dutch
+17 cm.
+The original 1614 edition is attributed to Hieronymus Zaorowski.
+Later published under different titles.
+Forms part of: Dutch pamphlet collection, 1568-1900 (Library of Congress).
+A digital reproduction of the copy from the National Library of the Netherlands is available from Google Books},
+   keywords = {Jesuits
+Netherlands History 19th century Pamphlets.},
+   pages = {56 pages},
+   url = {http://books.google.com/books?vid=KBNL:KBNL03000036585},
+   year = {1868},
+   type = {Book}
+}
+
+@book{RN1790,
+   author = {Zahorowski, Hieronim},
+   title = {Les Secrets des Jésuites. "Monita secreta"},
+   publisher = {E. Cornély},
+   address = {Paris},
+   note = {Texte latin et traduction française sur 2 p. en regard},
+   keywords = {Compagnie de Jésus},
+   pages = {In-8°, 80},
+   year = {1901},
+   type = {Book}
+}
+
+@book{RN1803,
+   author = {Zahorowski, Hieronim},
+   title = {Apokalypse als Hoffnungstheologie. Anmerkungen zu Ernst Blochs "Prinzip Hoffnung"},
+   note = {(DE-627)1650007736
+(DE-576)518668843
+(DE-599)BSZ518668843
+Una Sancta 43(1988), Seite 93-100
+volume:43 year:1988 pages:93-100},
+   keywords = {Apokalyptik
+Hoffnung},
+   year = {1988},
+   type = {Book}
+}
+
+@book{RN1767,
+   author = {Zahorowski, Hieronim},
+   title = {Aurea monita religiosissimae societatis Jesu in gratiam politicorum & omnium qui Jesum amant, pro studio edita},
+   publisher = {typis Eusebij Agathandri Veronensis},
+   address = {Placentiae},
+   note = {isiae o-o- ae.m- topa (C) 1612 A fei
+à Theophilo Eulalio catholico Bohemo
+4*
+Autor obtingut de BmL
+Data d'impr. obtinguda del colofó: Turnatij anno 1612
+El peu d'impr. sembla fals
+Signatures: A-D4, E2
+Caplletra ornada},
+   keywords = {Jesuïtes},
+   pages = {36 p.},
+   year = {[1612]},
+   type = {Book}
+}
+
+@misc{RN2563,
+   author = {Zahorowski, Hieronim},
+   title = {Singulares y secretas admoniciones para particulares personas de nuestra Compañía: [Monita secreta de la Compañia de Jesús]},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {144r-158r},
+   url = {https://www.worldcat.org/title/papeles-varios-contra-jesuitas/oclc/1055857226&referer=brief_results},
+   url = {http://catalogo.bne.es/uhtbin/cgisirsi/x/0/0/5/?searchdata1=(ocolc)1055857226},
+   year = {[c. 1764]},
+   type = {Manuscript}
+}
+
+@book{RN1847,
+   author = {Zahorowski, Hieronim and Cobbin, Ingram},
+   title = {The secret instructions of the Jesuits : from the London edition, printed for John Walthoe Jr., over against the Royal Exchange in Cornhill, M.DCC.XXIII},
+   publisher = {Truth Seeker Company},
+   address = {New York},
+   note = {Monita secreta Societatis Jesu. English.
+19 cm.
+First published Cracow, 1614 as the purported private admonitions of the fifth General of the Society of Jesus, Claudio Acquaviva. Church authorities attributed this forgery to Hieronim Zahorowski who had been expelled from the Society in 1613.
+The Menace Publishing Company issued an anti-Catholic weekly, 1911-1919.
+The appendix, Short account of the Inquisition, p. 43-48, although claiming to be quoted from the account of one Col. Lemonowski, a commander in the Napoleonic army, actually is Cobbin's fiction inserted in his 19th century editions of Foxe's Martyrs.
+In grey paper cover with title, vignette, and publisher printed on front.
+Short account of the Inquisition.},
+   keywords = {Jesuits
+Catholic Church
+Inquisition Spain Controversial literature.},
+   pages = {72 p.},
+   url = {https://digital.library.manoa.hawaii.edu/items/show/3781},
+   year = {[c. 1920]},
+   type = {Book}
+}
+
+@misc{RN1764,
+   author = {Zahorowski, Hieronim and Gale (Firm)},
+   title = {Secreta monita Societatis Jesu = The secret instructions of the Jesuits},
+   publisher = {printed for J. W. and sold by H. Whitridge,},
+   pages = {1 electronic text},
+   note = {Monita secreta Societatis Jesu. Latin and English
+.
+Principal authorship generally attributed to Hieronim Zahorowski.
+Dedication signed: John Walthoe, junr.
+With a half-title.
+Parallel Latin and English texts.
+Reproduction of original from the British Library.
+Electronic reproduction. Farmington Hills, Mich. : Thomson Gale, 2003. Mode of access: World Wide Web. System requirements: Internet Explorer or other browser (latest version recommended)
+Eighteenth Century Collections Online},
+   keywords = {Electronic books.},
+   url = {Available from Eighteenth Century Collections Online. Online version available for university members only. This requires an institutional login off-campus http://galenet.galegroup.com/servlet/ECCO?c=1&stp=Author&ste=11&af=BN&ae=T223124&tiPG=1&dd=0&dc=flc&docNum=CW122689412&vrsn=1.0&srchtp=a&d4=0.33&n=10&SU=0LRF&locID=abdn},
+   year = {1759},
+   type = {Electronic Book}
+}
+
+@book{RN1802,
+   author = {Zahorowski, Hieronim and Lapide, Pinchas},
+   title = {Der Mut des Tapferen. Gedanken eines Juden zu Jesu Tod},
+   note = {(DE-627)831442913
+(DE-576)518999971
+(DE-599)GBV831442913
+Lutherische Monatshefte 35(1996), 5, Seite 35
+volume:35 year:1996 number:5 pages:35},
+   keywords = {Jesus Christus},
+   year = {1996},
+   type = {Book}
+}
+
+@book{RN2695,
+   author = {[Acquaviva, Claudio]  and [Zahorowski, Hieronim]},
+   title = {Mónita secreta de los jesuitas o instrucciones reservadas de los padres de la Compañía de Jesús / compuesta por el padre Claudio Aguaviva ; traducida de la edición portuguesa de 1827},
+   publisher = {[Imp. de Miguel de Burgos]},
+   address = {[Madrid]},
+   url = {http://bdh.bne.es/bnesearch/detalle/bdh0000117297},
+   year = {[c. 1827]},
+   type = {Book}
+}
+
+@book{RN2258,
+   author = {[Acquaviva, Claudio] and [Zahorowski, Hieronim]},
+   title = {Monita secreta; instrucções secretas dos Jesuitas},
+   publisher = {Nova Livraria Internacional},
+   address = {Lisbon},
+   note = {ltf90011871
+Monita secreta Societatis Jesu. Portuguese. [from old catalog]
+Prefaciadas por J. Carrilho Videira.},
+   pages = {68 p.},
+   year = {1881},
+   type = {Book}
+}
+
+@book{RN2708,
+   author = {[Acquaviva, Claudio] and [Zahorowski, Hieronim]},
+   title = {Monita secreta : (instrucções secretas dos jesuitas)},
+   publisher = {Impr. Africana},
+   address = {Lisbon},
+   url = {https://search.worldcat.org/title/320773603},
+   year = {[1901?]},
+   type = {Book}
+}
+
+@misc{RN1265,
+   author = {[Arias Montano, Benito] and [Zahorowski, Hieronim]},
+   title = {Instrucción secreta [de los jesuitas] para el gobierno de los señores},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {123-138},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000144139&page=1},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@book{RN2550,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Jesu},
+   address = {S.l.},
+   note = {(DE-627)1120098025
+(DE-576)050098020
+(DE-599)BSZ050098020
+(OCoLC)166125928
+[Hieronymus Zahorowski]},
+   pages = {24 S.},
+   year = {1617},
+   type = {Book}
+}
+
+@book{RN328,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu},
+   publisher = {s.n.},
+   address = {S.l.},
+   volume = {Anatomia Societatis Jesu : seu probatio spiritus Iesvitarvm. Item, Arcana imperii Iesvitici cvm instrvctione secretissima pro svperioribvs eivsdem et deliciarum Jesuiticarum specimina; tandem divina oracula de Societatis exitu. Ad excitandam regvm et principvm catholicorvm attentionem vtilissima},
+   note = {(Aleph)001844811BCL01
+(OCoLC)ocm53381579
+Monita secreta Societatis Jesu. 1633.
+Probatio spiritus Jesuitarum
+21 cm. (4to)
+Collation: 4to: A-N⁴ [
+Initials; head- and tail-pieces.
+Manuscript marginalia
+Principal authorship of the Monita secreta Societatis Jesu attributed to Hieronim Zahorowski.
+With: Historia Jesuitica... / per M. Ludovicum Lucium. Basileae : typis Joh. Jacobi GenathI, 1627. -- [et al.]
+Arcana imperii Jesuitici -- Instructione secreta pro superioribus Societatis Jesu -- Deliciarum Jesuticarum specimina -- Divina oracula de exitu Societatis.},
+   keywords = {Jesuits Controversial literature},
+   pages = {103, 1 p.},
+   url = {https://books.google.pl/books?id=o19YAAAAcAAJ&printsec=frontcover#v=onepage&q&f=false},
+   year = {1633},
+   type = {Book}
+}
+
+@book{RN1444,
+   author = {[Zahorowski, Hieronim]},
+   title = {Avisos secretos  à los bien entendidos},
+   publisher = {[n.p.]},
+   address = {Sevilla},
+   year = {1634},
+   type = {Book}
+}
+
+@book{RN1445,
+   author = {[Zahorowski, Hieronim]},
+   title = {Singulares y secretas admoniciones para particulares personas de nuestra Compañia, traducidas de latin en romance},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   year = {1634},
+   type = {Book}
+}
+
+@book{RN2659,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructio secreta pro superioribus Societatis Jesu},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   volume = {Arcana Societatis Jesu Publico bono vulgata},
+   url = {https://www.myendnoteweb.com/EndNoteWeb.html},
+   year = {1635},
+   type = {Book}
+}
+
+@book{RN1933,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta Monita, ou advis secrets de la Societe de Jesu},
+   publisher = {n.p.},
+   address = {Paderborne},
+   note = {Monita secreta Societatis Jesu.
+19 cm.
+Signatures: A-H*£*ø. First and last leaf sewed with first and last quire leaving flap.
+First published under title: Monita privata Societatis Jesus, Notobrigae 1612 (i.e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon. 2 augl. 1886-1901. v. 8 col 1776.
+Later editions under titles : Monita secreta, secreta monita, Aurea monita, Arcana monita, Instructio secreta, etc.
+Authorship ascribed to Zahorowski, Hieronim.},
+   keywords = {Jesuits},
+   pages = {191 pages},
+   url = {https://katalogi.bn.org.pl/permalink/48OMNIS_NLOP/2nrd9p/alma991052749374105066},
+   year = {1641},
+   type = {Book}
+}
+
+@book{RN2718,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructio secreta pro Superioribus Societatis Jesu},
+   volume = {Anatomia Societatis Jesu [Livre] : seu Probatio spiritus jesuitarum. Item arcana imperii iesuitici cum Instructione pro superioribus eiusdem. Et Deliciarum jesuiticarum specimina : tandem Divina oracula de Societatis exitu..},
+   url = {https://catalogue.bm-lyon.fr/ark:/75584/pf0001386158.locale=en},
+   year = {1643},
+   type = {Book}
+}
+
+@book{RN334,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Iesu},
+   publisher = {s.n.},
+   address = {S.l.},
+   note = {(OCoLC)ocn892489113
+20 cm. (4to)
+A spurious work that attempts to defame the Society of Jesus, attributed to Hieronim Zahorowski, a Polish former Jesuit.
+Signatures: A-B⁴.
+Burns Library copy: in ms. on t.p.: R. ZO. A. 57. N. 4.},
+   keywords = {Jesuits
+Annotations (Provenance)},
+   pages = {16 p.},
+   year = {1657},
+   type = {Book}
+}
+
+@misc{RN2666,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Iesu},
+   pages = {149r-156v},
+   note = {A c. 1r, precedente ai "Monita" (cc. 2r-24v), è rozzamente disegnata a penna e chiaroscurata la figura d'un gesuita, che si pone l'indice della mano sinistra sulla bocca e con la destra tiene un libro aperto, sul quale si leggono le parole: "Monita Privata Societatis Iesu". A sinistra è una banderuola con la scritta tratta da Matteo 17, 9: "Nemini dixeritis". A c. 25r, che precede i "Damna" (cc. 26r-44v), è effigiato allo stesso modo un gesuita che sostiene con le due mani un cartello con la scritta: "Damna Quae insurgunt in Ecclesia Dei Ex Politica in supradictis Monitis insinuata". Su d'una banderuola a sinistra si legge: "Nihil occultum Quod non sciatur". A c. 45r, che introduce l'ultimo testo, i "Remedia" (cc. 46r-53v), compare la figura di un gesuita dritto davanti a una tavola con drappo, sulla quale posano coppe e vasi. Il gesuita ha in mano un vaso, e in alto a sinistra su d'un quadro appeso alla parete è scritto il proverbio latino: "Extremis Morbis Extrema Remedia. Ferro e Fuoco". Finalini a penna},
+   url = {https://manus.iccu.sbn.it/cnmd/0000067051},
+   year = {1657},
+   type = {Manuscript}
+}
+
+@misc{RN2676,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Iesu edita anno 1657mo},
+   pages = {78-83},
+   year = {1657},
+   type = {Manuscript}
+}
+
+@misc{RN2710,
+   author = {[Zahorowski, Hieronim]},
+   title = {Moniti privati della compagnia de' giesviti},
+   number = {93},
+   note = {Manuscript on the Jesuits, neatly written in an italic script. Title reads in full: Forma del governo giesvitico, con vna instrvttione et avviso a' potentati del mondo come si governano i giesviti per ridvrre la loro compagnia ad vna perfetta monarchia. The text is followed by another section in the same script, with title Moniti privati della compagnia de' giesviti (leaves 24-47). Following this manuscript are several others in other hands: a section beginning Io senno humano essaminai (leaves 49-56), said to be in the hand of Fra Paolo Sarpi; Venetian documents relating to monetary loans (leaves 57 verso-59 verso); and Opinione del F. Paulo Servita [i.e. Paolo Sarpi] ... inqual modo debba governarsi la Republica di Venezia internamento et esternamente per hauere perpetuo Dominio (leaves 60-93). The Sarpi treatises appear to be in his own hand, but were probably not authored by him. The volume is bound in vellum with endpapers decorated in a floral pattern.},
+   url = {https://catalog.library.cornell.edu/catalog/5843822},
+   year = {1660},
+   type = {Manuscript}
+}
+
+@book{RN2686,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta Monita; Ou Advis Secrets De La Société De Jesus},
+   address = {Paderborne},
+   url = {https://www.estreicher.uj.edu.pl/staropolska/baza/wpis/?sort=nazwisko_imie&order=1&id=19855&offset=125970&index=3},
+   year = {1661},
+   type = {Book}
+}
+
+@book{RN2426,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Jesu},
+   publisher = {s.n},
+   address = {S.l},
+   note = {[from old catalogue]
+[Main author]},
+   pages = {; cm.},
+   year = {1662},
+   type = {Book}
+}
+
+@misc{RN2577,
+   author = {[Zahorowski, Hieronim]},
+   title = {Moniti},
+   publisher = {The Newberry Library},
+   volume = {Newberry VAULT Case},
+   number = {38-74},
+   url = {https://italian.newberry.t-pen.org/www/record.html?id=https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_065/manifest},
+   year = {1665},
+   type = {Manuscript}
+}
+
+@misc{RN2545,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata ejusdem Societatis},
+   volume = {Jesuitarum Privilegia, Disciplina, Doctrina, Magistri , Discipuli , Religio , Politica negotia , Opiniones , Apophthegmata , Miracula & Mors ] â Pio Viro Septem epistolis comprehensa},
+   note = {(DE-627)592881210
+(DE-576)9592881219
+(DE-599)GBV592881210
+[Hieronymus Zahorowski]
+Jesu
+Digitalisierungsvorlage: Original
+Online-Ausg. 2008 dünnhaupt digital
+HAB Wolfenbüttel M: Tq 975 (1)
+Nutzungsrecht: Herzog August Bibliothek Wolfenbüttel
+Jesuitarum Privilegia, Disciplina, Doctrina, Magistri, Discipuli, Religio, Politica negotia, Opiniones, Apophthegmata, Miracula & Mors (1666), 1
+year:1666 number:1
+kostenfrei},
+   url = {http://diglib.hab.de/drucke/tq-975-1s/start.htm?image=00069},
+   year = {1666},
+   type = {Electronic Book}
+}
+
+@book{RN1778,
+   author = {[Zahorowski, Hieronim]},
+   title = {Forma del gouerno giesuitico con vna instruttione & auuiso a' potentati del modo con il quale si gouernano li Giesuiti per ridurre la loro Compagnia ad vna perfetta monarchia [Monita secreta]},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   note = {12ð (15 cm)
+Descripci* completada feta a partir de l'ICCU
+Autor: Hieronim Zahorowski--Worldcat
+Signatures: N-Z12, Aa-Ii12
+Cont*: Diario e lettera sopra gli affari correnti di don Giouanni d'Austria : con vn ritratto della sua vita, cio*, nascita, qualit*, costumi, attioni e gouerni},
+   keywords = {Joan Josep, d'°ustria ( 1629-1679).)
+Jesu*tes- Historia- S.XVII.},
+   pages = {101, 42, 48, 60, 36, 72, 120 p.},
+   url = {https://books.google.pl/books/about/Forma_del_Governo_Giesuitico_con_vna_ins.html?id=1G7DMnEa88QC&redir_esc=y},
+   year = {1669},
+   type = {Book}
+}
+
+@misc{RN1924,
+   author = {[Zahorowski, Hieronim]},
+   title = {The private instructions of that society to their emissaries},
+   publisher = {Printed for Benjamin Tooke ...,},
+   volume = {The Jesuites intrigues with the private instructions of that society to their emissaries : the first, translated out of a book privately printed at Paris : the second, lately found in manuscript in a Jesuites closet, after his death : both sent with a letter from a gentleman at Paris to his friend in London},
+   pages = {14 , 62 p.},
+   note = {(OCoLC)13165371
+CL0037000012 ProQuest Information and Learning. 300 N. Zeeb Rd., Ann Arbor, MI 48106
+[electronic resource] :
+Original title for "The Jesuites intrigues" undetermined. Second part of work is a translation of: Monita Secreta Societatis Jesu.
+Translated by Henry Compton. Cf. DNB.
+Reproduction of original in Cambridge University Library.
+Electronic reproduction. Ann Arbor, Mich. : UMI, 1999- (Early English books online) Digital version of: (Early English books, 1641-1700 ; 423:4)
+Early English books online},
+   keywords = {Jesuits},
+   url = {https://search.proquest.com/docview/2240870785?accountid=9703},
+   year = {1669},
+   type = {Electronic Book}
+}
+
+@book{RN232,
+   author = {[Zahorowski, Hieronim]},
+   title = {Aurea Monita Religiosissimae Societatis Jesu},
+   address = {Piacenza [false]},
+   url = {https://stabikat.de/DB=1/SET=1/TTL=38/SHW?FRST=37},
+   url = {https://books.google.co.uk/books?id=375jAAAAcAAJ&pg=PP5&hl=de&source=gbs_selected_pages&cad=2#v=onepage&q&f=fals},
+   year = {1670},
+   type = {Book}
+}
+
+@misc{RN1446,
+   author = {[Zahorowski, Hieronim]},
+   title = {Forma del governo giesuitico con una istruttione et avviso a' potentati del modo con il quale si governano li Giesuiti per ridurre la loro Compagnia ad una perfetta monarchia},
+   publisher = {Turchetto, Camillo},
+   volume = {Li segreti di stato dei principi dell'Europa, rivelati da varij Confessori politici per lo beneficio comune di tutti quelli che maneggiano affari publici, e per la sodisfatione de' piu curiosi},
+   url = {https://books.google.pl/books?id=QVpBAAAAcAAJ&printsec=frontcover#v=onepage&q&f=false},
+   year = {1671},
+   type = {Generic}
+}
+
+@book{RN1820,
+   author = {[Zahorowski, Hieronim]},
+   title = {Le Cabinet Jesuitique Contenant Plusieurs Pieces Curieuses Des R. Peres Jesuites; avec Un Recueil des Mysteres de L'Eglise Romaine},
+   publisher = {Le Blanc},
+   address = {Cologne},
+   note = {VD17 12:114665Q
+esla esis res? tipr 3 1674A fei
+(DE-627)09225926X
+(DE-576)9092259268
+(DE-599)GBVVDS001063235
+(OCoLC)181869031
+(VD17)001063235
+12°
+Der Haupttext "Les Secrets des Jesuites" ist die Übers. eines Werkes, das gewöhnlich Hieronim Zahorowski zugeschrieben wird: Monita secreta
+Schlüsselseiten aus dem Exemplar der BSB München: Jes. 132
+Vorlageform des Erscheinungsvermerks: A Cologne, Chez Jean le Blanc, 1674. - Erscheinungsvermerk fingiert; vgl. BL (German books) M1354 / M1355: gedr. in Amsterdam?
+Enth. u.a.: Aphorismes, Ou Sommaires De La Doctrine Des Jesuites, Et de quelques autres, leurs Docteurs. - Legende Veritable De Jean Le Blanc
+// 2011 digitalisiert von: Bayerische Staatsbibliothek. Exemplar mit der Signatur: München, Bayerische Staatsbibliothek -- Jes. 132 VD17-Nummer 2019 maschinell ergänzt kostenfrei},
+   keywords = {Streitschrift:theol.
+Ordensliteratur:Jesuiten},
+   pages = {1 Bl., 188 S.},
+   url = {http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10567630-4},
+   year = {1674},
+   type = {Book}
+}
+
+@book{RN2687,
+   author = {[Zahorowski, Hieronim]},
+   title = {Le cabinet jesuitique [Texte imprimé], contenant plusieurs pieces tres curieuses des R. Peres jesuites ; avec un recueil des mysteres de l'Eglise romaine ; le tout augmenté dans cette seconde edition & enrichi de figures en taille douce},
+   publisher = {Jean Le Blanc},
+   address = {Cologne},
+   url = {http://ark.bnf.fr/ark:/12148/cb31679864m},
+   year = {1678},
+   type = {Book}
+}
+
+@book{RN1782,
+   author = {[Zahorowski, Hieronim]},
+   title = {Le cabinet jesuitique : contenant plusieurs pieces tres curieuses des r. peres Jesuites : avec un recueil des mysteres de l'Eglise romaine},
+   publisher = {Chez Jean le Blanc},
+   address = {Cologne},
+   note = {ill. ; 16 cm.
+Title vignette (sphe**re armilliare).
+"Les secrets" trans. from "Monita secreta."
+"Advis secrets" trans. from the Latin of J. Zaorowski.
+Errors in paging: 210-211, 214-215, 218-219, and 223-224 misnumbered 206-207, 210-211, 214-215, and 218-219 respectively, but pages are correctly imposed.
+Includes bibliographical references.
+Les secrets des Jesuites, traduits de l'italien -- Advis secrets de la Societe** de Jesus -- Aphorismes, ou Sommaire de la doctrines des Jesuites -- Legende veritable de Jean Le Blanc -- Onguant pour la brulere, ou Le secret.},
+   keywords = {Jesuits
+Jesuits.
+Controversial literature.
+Early works.},
+   pages = {308 p.},
+   year = {1679},
+   type = {Book}
+}
+
+@misc{RN2302,
+   author = {[Zahorowski, Hieronim]},
+   title = {The cabinet of the Jesuits secrets opened in which there are many things relating to the church and clergy of England : as also the ways by which they encrease the number and wealth of their society on the ruines of kingdoms and families : in part began by Dr. Oats from an Italian copy, but now more largely discovered from a French copy printed at Colon, 1678},
+   publisher = {Printed for Jonathan Robinson and George Wells ...},
+   pages = {[4], 44 p.},
+   note = {Monita secreta Societatis Jesu. English
+[electronic resource] :
+made English by a person of quality.
+Principal authorship of the Monita secreta societatis Jesu attributed to Hieronim Zahorowski. Cf. Reusch, C. Index der verbotenen B©*cher, 1885, v. 2, p. 280-281 ; Encyklopedyja Powszechna.
+Reproduction of original in Union Theological Seminary Library, New York.
+Translation of two articles from Le cabinet jesuitique (p. 1-90): Les secrets des jesuites, and Advis secrets de la Societ©* de Jesus.
+Available electronically as part of Early English books online.
+Early English books online
+Access this e-book. *McMaster only},
+   keywords = {Jesuits},
+   url = {https://mcmaster.primo.exlibrisgroup.com/permalink/01OCUL_MU/deno1h/alma991018919569707371},
+   year = {1679},
+   type = {Electronic Book}
+}
+
+@book{RN2716,
+   author = {[Zahorowski, Hieronim]},
+   title = {Le Cabinet Jesuitique, contenant plusieurs Pieces tres curieuses des R. Peres Jesuites: avec un Recueil des Mysteres de l'Eglise Romaine: le tout augmenté dans cette 2. Edition},
+   publisher = {J.le Blanc},
+   address = {Cologne},
+   url = {https://www.memoriademadrid.es/buscador.php?accion=VerFicha&id=311727},
+   year = {1682},
+   type = {Book}
+}
+
+@book{RN1448,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta : Instrucciones secretas que deven guardar todos los religiosos de la Compañía de Jesús.},
+   url = {http://dx.doi.org/},
+   year = {1701},
+   type = {Book}
+}
+
+@book{RN1449,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions Secretes Des Jesuites: Suivant l'original},
+   volume = {Cologne},
+   url = {https://www.worldcat.org/title/729984986},
+   year = {1704},
+   type = {Book}
+}
+
+@misc{RN1819,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu},
+   pages = {11 Bl., 76 S.},
+   note = {urn:nbn:de:bsz:14-db-id3383812797
+VD18 11645199
+(DE-627)1408381273
+(DE-576)338381279
+(DE-599)BSZ338381279
+(OCoLC)712389845
+tanquam munusculum offertur atque traditur à Benedicto Gratioso. [Mutmaßl. Verf.: Hieronim Zahorowski]
+12o
+Mutmaßl. Verf. erm. - Erscheinungsort fingiert, erm. Weller
+Open Access
+Online-Ausg. Dresden SLUB 2011 Online-Ressource VD18 digital Drucke des 18. Jahrhunderts
+SLUB Dresden 3.A.4888
+Public Domain Mark 1.0
+kostenfrei},
+   url = {http://digital.slub-dresden.de/id338381279},
+   year = {1717},
+   type = {Electronic Book}
+}
+
+@book{RN2683,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les intrigues secrettes des Jésuites, traduites du Monita secreta ; où l'on a joint l'Extrait de la Faculté de théologie de Paris de l'an 1554 et la Prophétie de Sainte Hildegarde, morte en 1181},
+   address = {[Lieu de publication non identifi??] or:  Turin [ie Paris?] (www.martayanlan.com)},
+   pages = {66},
+   url = {https://books.google.pl/books/about/Les_intrigues_secrettes_des_J%C3%A9suites_tr.html?id=zbUozgEACAAJ&redir_esc=y},
+   url = {https://www.martayanlan.com/pages/books/4988/jesuits/les-intrigues-secrettes-des-jesuites-traduites-du-monita-secreta-ou-l-on-a-joint-l-extrait-de-la?soldItem=true},
+   year = {1718},
+   type = {Book}
+}
+
+@book{RN2679,
+   author = {[Zahorowski, Hieronim]},
+   title = {Geheime lessen van 't Genootschap der Jezuïten, uit het Latyn en Engelsch (Te Londen 1723. gedrukt) verduitscht},
+   publisher = {Johannes Van Eik},
+   address = {Rotterdam},
+   pages = {[12], 72, [6] p},
+   url = {https://books.google.com/books/about/Geheime_lessen_van_t_Genootschap_der_Jez.html?id=LwgbkKg8w2YC},
+   year = {1723},
+   type = {Book}
+}
+
+@misc{RN1772,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita Societatis Jesu. = The secret instructions of the Jesuits},
+   publisher = {John Walthoe, jun.,},
+   pages = {online resource (vi, 6 ,127, 1 ,12p.)},
+   note = {Monita secreta Societatis Jesu. Latin and English
+Principal authorship generally attributed to Hieronim Zahorowski.
+Dedication signed: John Walthoe, jun.
+Parallel texts, Latin and English.
+With six final advertisement leaves.
+Reproduction of original from the British Library.
+Electronic reproduction. Farmington Hills, Mich. : Thomson Gale, 2003. Available via the World Wide Web. Access limited by licensing agreements},
+   keywords = {Electronic books.},
+   url = {http://galenet.galegroup.com/servlet/ECCO?c=1&stp=Author&ste=11&af=BN&ae=T093320&tiPG=1&dd=0&dc=flc&docNum=CW118677749&vrsn=1.0&srchtp=a&d4=0.33&n=10&SU=0LRF&locID=ubcolumbia Full text online852},
+   year = {1723},
+   type = {Electronic Book}
+}
+
+@book{RN2680,
+   author = {[Zahorowski, Hieronim]},
+   title = {De ontmaskerde Jesuit, of De geheime onderrechtingen en voorschriften dezer Societeit, waer by een verhael van de verbanninge der Jesuiten uit Vrankrijk, en van hare herstelling Nevens een klaer vertoog van de gevaerlijke staetkunde dezer Paters voor alle Rijken ene Staten. Voorzien met eene Opdragt aan den tegenwoordigenn Paus Benedictus de XIII},
+   pages = {129},
+   url = {https://books.google.com/books/about/De_ontmaskerde_Jesuit_of_De_geheime_onde.html?hl=pl&id=sPVfAAAAcAAJ},
+   year = {1727},
+   type = {Book}
+}
+
+@book{RN125,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les instructions secrets des Jesuites traduites de leurs Secreta Monita},
+   publisher = {chez les heritiers de Pierre Marteau},
+   address = {Cologne},
+   abstract = {Zaw. na s. 1-59 utwór aut. Hieronima Zahorowskiego "Les instructions secrets des Jesuites traduites de leurs Secreta Monita".},
+   url = {https://books.google.it/books?id=sNLNGW3QvnEC&printsec=frontcover&hl=pl#v=onepage&q&f=false},
+   year = {1727},
+   type = {Book}
+}
+
+@book{RN2681,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les Intrigues secrétes des Jésuites, traduites du "Monita secreta" ; ou l'on a joint l'extrait de la Faculté  de théologie de Paris de l'an 1554, et la prophétie de sainte Hildegarde, morte en 1181},
+   address = {[Erscheinungsort nicht ermittelbar]},
+   url = {http://dx.doi.org/},
+   year = {1729},
+   type = {Book}
+}
+
+@book{RN2587,
+   author = {[Zahorowski, Hieronim]},
+   title = {Verfassende die geheime Instructiones der Jesuiten, zu Beförderung ihres zeitlichen Interesse},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   volume = {Die Sitten-Lehre Und Politique Der Jesuiten},
+   url = {https://books.google.pl/books?id=ZR9oAAAAcAAJ&printsec=frontcover&hl=pl#v=onepage&q&f=false},
+   year = {1740},
+   type = {Book}
+}
+
+@misc{RN1815,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita Societatis Jesu = The secret instructions of the Jesuits},
+   publisher = {printed for J. Walthoe, over against the Royal-Exchange in Cornhill; and sold by M. Cooper, in Pater-Noster-Row},
+   pages = {Online-Ressource (139, 5 p)},
+   note = {(DE-627)552281360
+(DE-576)9552281369
+(DE-599)GBVNLM006733670
+(OCoLC)731625247
+(DE-601)NLM006733670
+The secret instructions of the Jesuits
+12°
+Dedication signed: John Walthoe, junr
+English Short Title Catalog, T93319
+Parallel Latin and English texts
+Principal authorship generally attributed to Hieronim Zahorowski
+Reproduction of original from British Library
+Electronic reproduction; Available via the World Wide Web
+Online-Ausg. Farmington Hills, Mich Cengage Gale 2009 Eighteenth Century Collections Online Electronic reproduction; Available via the World Wide Web
+Full text online Deutschlandweit zugänglich},
+   keywords = {Jesuits},
+   url = {http://nl.sub.uni-goettingen.de/id/0945100500?origin=/collection/nlh-ecc},
+   year = {1746},
+   type = {Electronic Book}
+}
+
+@book{RN1450,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita de los Padres de la C[ompa ñ]ía de Jesus},
+   publisher = {[n.p.]},
+   address = {Madrid},
+   url = {https://archivesetmanuscrits.bnf.fr/ark:/12148/cc806991/cd0e178},
+   year = {1754},
+   type = {Book}
+}
+
+@misc{RN2591,
+   author = {[Zahorowski, Hieronim]},
+   title = {Segredos particulares dos P[adres] Jezuitas ou Monstra secreta Societatis Jezus},
+   publisher = {Biblioteca Nacional de Portugal},
+   url = {https://www.manuscriptorium.com/apps/index.php?direct=record&pid=BNDPL_-BNDPL_COD_9822____44BO9ME-pt#search},
+   year = {1759},
+   type = {Manuscript}
+}
+
+@book{RN2594,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu},
+   publisher = {Tancredi e Francescantonio Pache e Figlio Zaccheri de Strozza griffi},
+   address = {Ortignano},
+   volume = {I lupi smascherati [Texte imprimé]. Nella confutazione, e traduzione del libro intitolato : "Monita secreta societatis Jesu". In virtu de quali giunsero i Gesuiti all'orrido ed esecrabile assassinio di Sua Sagra Reale Maesta fedelissima Don Giuseppe I. Re di Portogallo &c. &c. &c. Con un appendice de documenti rari ed inediti},
+   note = {An Italian translation of the Monita preceded by an anti-Jesuit commentary about them ( cf. 'I Lupi smascherati').},
+   url = {https://catalogue.bnf.fr/ark:/12148/cb39339189s},
+   year = {1761},
+   type = {Book}
+}
+
+@book{RN1811,
+   author = {[Zahorowski, Hieronim]},
+   title = {Privaterinnerungen der Gesellschaft Jesu},
+   address = {S.l.},
+   note = {VD18 11780436-006
+(DE-627)1120097509
+(DE-576)050097504
+(DE-599)BSZ050097504
+(OCoLC)311938323
+[Hieronymus Zahorowski]
+Aus d. Lat. übers},
+   pages = {37 S.},
+   url = {https://mdz-nbn-resolving.de/details:bsb11436771},
+   year = {1762},
+   type = {Book}
+}
+
+@book{RN2705,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Soc. Jesu},
+   publisher = {nella stamperia del disinganno [i.e. Agnelli]},
+   address = {Aletopoli [i.e. Lugano]},
+   series = {I Lupi smascherati nell'appendice alle riflessioini del portoghese : nella traduzionre, e confutazione del libro intitolato Monita secreta Soc. Jesu : ed in altre aggiunte, e documenti rari, ed inediti.},
+   url = {https://www.e-rara.ch/lg1/content/titleinfo/4404511},
+   year = {1764},
+   type = {Book}
+}
+
+@misc{RN2677,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Iesu, to jest rady tajemne Towarzystwa Jezusowego z Łacińskiego na portugalski, włoski, francuski, niemiecki etc. teraz zaś y na polski język przetłumaczone A.D. MDCCLXVII},
+   pages = {48},
+   url = {https://fbc.pionier.net.pl/details/nnnxm3V},
+   year = {1767},
+   type = {Manuscript}
+}
+
+@misc{RN1456,
+   author = {[Zahorowski, Hieronim]},
+   title = {Collecção Corioza de varias noticias},
+   abstract = {Volume contains a collection of notices, memorias, registers, orations, and copies of letters sent by the papacy and cardinals; a copy of Benedict XIV's encyclical "Ad omnes," published in 1751, which was printed in Lisbon; and an ecclesiastical history of Europe that pays especial attention to various schisms. Volume two contains a discourse on the legal history of the missions to the Americas; a response to Jayme de Mello, Duke of Cadaval, regarding the precedence of Gabriel, Duke of Aveiro; a collection of warnings, decisions, and representations of the Duke of Lafões, a response to those representations from João Francisco António, a heroic epic, an apologia from the Duke of Lafões, narratives, including an account of solemnities associated with the marriage of Joaõ Manuel of Portugal and Juana of Austria and the foundation of the Monastery of the Mónicas; articles of peace between the ambassador of Portugal and the republic of Holland; the will of Maria Anna of Austria; instructions and a treatise on the Jesuits; a play in verse, the Brincatio poetica; and an account of a plague in Portugal in 1562. Two title pages on volume 2, the first of which reads: "Collecçaõ de varios papeis que constão do seu indece. Lisboa, anno de 1776."},
+   url = {http://dx.doi.org/},
+   year = {1776},
+   type = {Manuscript}
+}
+
+@book{RN1810,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita Secreta Patrvm Societatis Iesu : nunc primum typis expressa},
+   address = {Rome},
+   note = {(DE-627)109999036X
+(DE-576)02999036X
+(DE-599)BSZ02999036X
+(OCoLC)66917682
+[auct. Hieronim Zaorowski]
+Ansetzungssachtitel Monita Secreta Patrum Societatis Iesu
+Jesu
+8o
+Vorlageform des Erscheinungsvermerks: ROMAE M D CCLXXXII.},
+   pages = {72},
+   url = {https://opac.ub.uni-muenchen.de/TouchPoint/perma.do?q=+0%3D%221492372%22+IN+%5B2%5D&v=sunrise&l=de},
+   year = {1782},
+   type = {Book}
+}
+
+@book{RN2434,
+   author = {[Zahorowski, Hieronim]},
+   title = {Vorläufige Darstellung des heutigen Jesuitismus, der Rosenkreuzerey, Proselytenmacherey und Religionsvereinigung
+Privata Monita und Secreta Monita Societatis Jesu},
+   publisher = {[Hermann]},
+   address = {[Frankfurt am Main]},
+   note = {[Main author]
+In : Jesuitism. Vorläufige Darstellung des heutigen Jesuitismus, etc. pt. 2. 1786. 8º.},
+   url = {https://openlibrary.org/books/OL24489865M/Vorl%C3%A4ufige_Darstellung_des_heutigen_Jesuitismus_der_Rosenkreuzerey_Proselytenmacherey_und_Religionsv},
+   year = {1786},
+   type = {Book}
+}
+
+@book{RN398,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della Compagnia di Gesù : con aggiunte importanti},
+   publisher = {Tipografia Della Propaganda},
+   address = {Rome},
+   url = {https://www.worldcat.org/title/993323442},
+   year = {1800},
+   type = {Book}
+}
+
+@book{RN2596,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della Compagnia di Gesù con importanti aggiunte},
+   publisher = {Tipografia Della Propaganda},
+   address = {Rome},
+   pages = {237},
+   url = {https://katalog.ub.uni-koeln.de/portal/databases/id/uni/titles/id/991021163119706476.html?l=en},
+   year = {1814},
+   type = {Book}
+}
+
+@book{RN2700,
+   author = {[Zahorowski, Hieronim]},
+   title = {Geheime Vorschriften für Jesuiten},
+   address = {Vienna},
+   volume = {Die Gesellschaft Jesu als universell-historische Erscheinung: Mit vorausgehenden Betrachtungen über Religion, Volksbildung, Hierarchie und Reformation nebst einer Uebersetzung der geheimen Vorschriften des Ordens},
+   url = {https://katalog.ub.uni-leipzig.de/Record/0-1795134690},
+   year = {1815},
+   type = {Book}
+}
+
+@book{RN2377,
+   author = {[Zahorowski, Hieronim]},
+   title = {Constitución secreta de los Jesuitas},
+   publisher = {Imprenta de Ontiveros},
+   address = {Mexico},
+   note = {(CUY)UCB-b106912148-01ucs_ber
+(OCoLC)16403683
+(OCoLC)ocm16403683
+(EXLNZ-01UCS_NETWORK)9913520264906531
+Monita secreta Societatis Jesu. Spanish.
+14 cm
+Caption title.},
+   keywords = {Jesuits
+Jesuits.
+Controversial literature.},
+   pages = {68 pages},
+   year = {1823},
+   type = {Book}
+}
+
+@book{RN2597,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des Jésuites, ou Monita Secreta Societatis Jesu},
+   publisher = {Ponthieu},
+   address = {Paris},
+   url = {https://books.google.com/books/about/Instructions_secrètes_des_Jésuites_ou.html?hl=pl&id=M_ZiAAAAcAAJ},
+   year = {1824},
+   type = {Book}
+}
+
+@book{RN2413,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita Societatis Jesu: The secret instructions of the Jesuits : with an appendix},
+   publisher = {Printed for L.B. Seeley and Son, Fleet Street},
+   address = {London},
+   series = {Reformation bookshelf},
+   note = {Latin and English on opposite pages.
+Originally published under title Monita privata Societatis Jesu, Notobrigae, 1612 (that is Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon. 2. aufl. 1886-1901. volume 8, column 1776.},
+   keywords = {Jesuits -- Controversial literature.
+Jesuits.},
+   pages = {xxvii, 132 pages ; 19 cm.},
+   year = {1824},
+   type = {Book}
+}
+
+@book{RN2533,
+   author = {[Zahorowski, Hieronim]},
+   title = {Die Monita Secreta Societas Jesu, oder: die geheimen Verhaltungsbefehle der Jesuiten, ein Lügen-Machwerk, kurz bewiesen},
+   publisher = {Mayer},
+   address = {Aachen},
+   note = {(DE-627)1554051088
+(DE-576)484051083
+(DE-599)BSZ484051083
+von L. A. Nellessen
+Sammelband},
+   pages = {13 S.},
+   year = {1825},
+   type = {Book}
+}
+
+@book{RN2598,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des Jésuites, ou Monita secreta Societatis Jesu},
+   publisher = {Tircher,         J. B.},
+   address = {Bruxelles},
+   url = {https://www.worldcat.org/title/993825801},
+   year = {1825},
+   type = {Book}
+}
+
+@book{RN261,
+   author = {[Zahorowski, Hieronim]},
+   title = {Geheime Verhaltungsbefehle der Jesuiten oder Monita secreta Societatis Jesu.},
+   publisher = {J. La Ruelle, Sohn},
+   address = {Aachen},
+   url = {http://katalog.nukat.edu.pl/lib/item?id=chamo:4725190&theme=nukat},
+   year = {1826},
+   type = {Book}
+}
+
+@book{RN2599,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des Jésuites ... 2e édition},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   url = {https://www.worldcat.org/title/458056647},
+   year = {1826},
+   type = {Book}
+}
+
+@book{RN1822,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des jésuites : suivies du Rapport de M. Portalis : et du projet d'arrêt du Conseil d'état, sur les ecclésiastiques qui s'établissent en France sous le titre de Pères de la foi, sous le nom de Sacré coeur de Jésus, et autres semblables},
+   publisher = {Ponthieu},
+   address = {Paris},
+   note = {Monita secreta Societatis Jesu. French.
+11 cm.},
+   keywords = {Jesuits},
+   pages = {78 p.},
+   year = {1826},
+   type = {Book}
+}
+
+@book{RN2660,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu. Instructions secrètes de la Société de Jésus},
+   publisher = {Melle Carié de La Charie},
+   address = {Paris},
+   volume = {Documents historiques, critiques, apologétiques, concernant la Compagnie de Jésus},
+   url = {https://www.worldcat.org/title/465989888},
+   year = {1827–1830},
+   type = {Book}
+}
+
+@book{RN275,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta societatis Jesu. Instructions secrètes de la Société de Jésus},
+   publisher = {Melle Carié de la Charie},
+   address = {Paris},
+   url = {https://catalogue.bnf.fr/ark:/12148/cb33805259k},
+   year = {1828},
+   type = {Book}
+}
+
+@book{RN2466,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita Societatis Jesu = Secret instructions of the Jesuits : printed verbatim from the London copy of 1725},
+   publisher = {J. & T. Simpson},
+   address = {Princeton, N.J.},
+   note = {Monita secreta Societatis Jesu.
+to which is prefixed an historical essay, with an appendix of notes, by the editor of the Protestant.
+16 cm},
+   keywords = {Jesuits
+Controversial literature.},
+   pages = {232 pages},
+   year = {1831},
+   type = {Book}
+}
+
+@book{RN2601,
+   author = {[Zahorowski, Hieronim]},
+   title = {Mónita o instrucciones secretas de los jesuitas : seguidas del informe de M. Portalis y del proyecto de Decreto del Consejo de Estado sobre los eclesiásticos establecidos en Francia bajo el título de Padres de la Fe, del Sagrado Corazón de Jesús y otros semejantes},
+   publisher = {Imp. de J. Verdaguer},
+   address = {Barcelona},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000105796&page=1},
+   year = {1835},
+   type = {Book}
+}
+
+@book{RN2015,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta Monita Societatis Jesu. The Secret Counsels of the Society of Jesus, in Latin and English},
+   publisher = {EDWARD J. COALE & CO.},
+   address = {Baltimore},
+   note = {Breckinridge, Robert J. (Robert Jefferson)
+Title from content provider.},
+   pages = {1 online resource},
+   url = {https://www.gutenberg.org/ebooks/59382},
+   year = {1835},
+   type = {Book}
+}
+
+@book{RN2602,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les instructions secrètes des Jésuites ou Monita Secreta Societatis Jesus},
+   publisher = {Staempfli, C.},
+   address = {Berne},
+   volume = {Les Jésuites condamnés par leurs maximes et par leurs actions},
+   url = {https://books.google.com/books/about/Les_Jésuites_condamnés_par_leurs_maxim.html?hl=pl&id=c_-e9MfHq6QC},
+   year = {1838},
+   type = {Book}
+}
+
+@book{RN2261,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secret instructions of the Jesuits, faithfully translated from the Latin of an old, genuine London copy},
+   publisher = {C. K. Moore},
+   address = {New York,},
+   note = {35028528
+Monita secreta Societatis Jesu.
+faithfully translated from the Latin of an old genuine London copy. With an historical sketch &c. &c. By W. C. Brownlee ...
+front. 15 cm.
+First published under title Monita privata Societatis Jesu, Notobrigae, 1612 (i. e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon. 2 aufl. 1886-1901. v. 8, col. 1776.
+Publisher's advertisement: 3 p. (at end)
+Also available in digital form.},
+   keywords = {Monita secreta Societatis Jesu.
+Jesuits
+Anti-Catholicism United States Sources.},
+   pages = {104, (3) p.},
+   url = {http://hdl.loc.gov/loc.gdc/scd0001.00015033368},
+   year = {1841},
+   type = {Book}
+}
+
+@misc{RN2348,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secret instructions of the Jesuits : with an appendix containing a short historical account of the Society of the Jesuits, their maxims, the Jesuits' oath, etc., etc},
+   publisher = {F.C. Wilson,},
+   pages = {1 online resource (72, 2 pages)},
+   note = {Monita secreta Societatis Jesu.
+First published under title Monita privata Societatis Jesu, Notobriage, 1612 (i.e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon. 2 aufl. 1886-1901. v. 8, col. 1776.
+Publisher's advertising: 2 p., 2nd count.
+Reproduction of the original from the American Antiquarian Society.
+Sabin no. 78748.
+Religion.
+2009A549300.
+Electronic reproduction. Farmington Hills, Mich. : Gale, 2009. Available via the World Wide Web. Access limited by licensing agreements.
+Sabin Americana, History & Culture, 1500-1926.},
+   keywords = {Jesuits},
+   url = {http://galenet.galegroup.com/servlet/Sabin?af=RN&ae=CY108421570&srchtp=a&ste=14&q=sfu_z39},
+   year = {1844},
+   type = {Electronic Book}
+}
+
+@book{RN2603,
+   author = {[Zahorowski, Hieronim]},
+   title = {El Jesuita sagaz [Texto impreso] : o consejos secretos que da un jesuita a los hermanos de la Compañia a fin de que esta llegue a dominar el orbe entero},
+   publisher = {Egaña y compañia},
+   address = {Vitoria},
+   url = {https://www.worldcat.org/title/1327684930},
+   year = {1845},
+   type = {Book}
+}
+
+@book{RN1807,
+   author = {[Zahorowski, Hieronim]},
+   title = {Geheime Verhaltungsbefehle der Jesuiten},
+   address = {Belle-Vue bei Constanz},
+   note = {(DE-627)1099991323
+(DE-576)029991323
+(DE-599)BSZ029991323
+(OCoLC)180075179
+[von Hieronim Zaorowsky]
+Verhaltensbefehle},
+   pages = {VIII, 64 S.},
+   year = {1845},
+   type = {Book}
+}
+
+@book{RN2604,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes de la Société des Jésuites},
+   publisher = {[n.p.]},
+   address = {Paris},
+   volume = {Le jésuitisme vaincu et anéanti par le socialisme, ou, Les constitutions des jésuites et leurs instructions secrètes en parallèle avec un projet d'Organisation du Travail},
+   url = {https://books.google.com/books/about/Le_jésuitisme_vaincu_et_anéanti_par_le.html?hl=pl&id=baxKAAAAMAAJ},
+   year = {1845},
+   type = {Book}
+}
+
+@book{RN2605,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des Jésuites, ou "Monita secreta Societatis Jesu", précédées de l'histoire et de la morale des Jésuites depuis la fondation de leur Société jusqu'à nos jours},
+   publisher = {Groubental, Ch.},
+   address = {Blois},
+   url = {https://books.google.pl/books?id=WwteE4iL1hsC&pg=PP9&dq=Instructions+secre%CC%80tes+des+Je%CC%81suites,+ou+%22Monita+secreta+Societatis+Jesu%22,+pre%CC%81ce%CC%81de%CC%81es+de+l%27histoire+et+de+la+morale+des+Je%CC%81suites+depuis+la+fondation+de+leur+Socie%CC%81te%CC%81+jusqu%27a%CC%80+nos+jours&hl=pl&sa=X&ved=2ahUKEwjus4qthaz8AhWGxIsKHakKBYMQ6AF6BAgNEAI#v=onepage&q=Instructions%20secre%CC%80tes%20des%20Je%CC%81suites%2C%20ou%20%22Monita%20secreta%20Societatis%20Jesu%22%2C%20pre%CC%81ce%CC%81de%CC%81es%20de%20l'histoire%20et%20de%20la%20morale%20des%20Je%CC%81suites%20depuis%20la%20fondation%20de%20leur%20Socie%CC%81te%CC%81%20jusqu'a%CC%80%20nos%20jours&f=false},
+   year = {1845},
+   type = {Book}
+}
+
+@book{RN2606,
+   author = {[Zahorowski, Hieronim]},
+   title = {Los Jesuitas juzgados por si mismos, ó Constituciones publicas [purporting to be a translation of "Compte rendu des Constitutions des Jésuites" by L.R. de Caradeuc de la Chalotais]. É Instrucciones secretas, Monita secreta de los mismos [or rather, by J. Zaorowski]. Por un eclesiàstico liberal y amante de su religion y de su patria},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   url = {https://www.worldcat.org/title/560537011},
+   year = {1845},
+   type = {Book}
+}
+
+@book{RN2608,
+   author = {[Zahorowski, Hieronim]},
+   title = {Admoestações secretas da Companhia de Jesus},
+   publisher = {literario das Fontainhas},
+   address = {Nova Goa},
+   year = {1846},
+   type = {Book}
+}
+
+@book{RN2609,
+   author = {[Zahorowski, Hieronim]},
+   title = {I gesuiti smascherati},
+   publisher = {[n.p.]},
+   address = {Lucerna},
+   url = {https://books.google.com/books/about/I_gesuiti_smascherati.html?hl=pl&id=wkzVK6nN8z8C},
+   year = {1846},
+   type = {Book}
+}
+
+@book{RN2610,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des Jésuites},
+   publisher = {Martinon},
+   address = {Paris},
+   volume = {Almanach des Jésuites: contenant un crime ou une sottise pour chaque jour de l'année},
+   url = {https://books.google.com/books/about/Almanach_des_Jésuites.html?hl=pl&id=RJr3mQEACAAJ},
+   year = {1847},
+   type = {Book}
+}
+
+@book{RN324,
+   author = {[Zahorowski, Hieronim]},
+   title = {The secret oath and a fresh translation of the secret instructions of the order of the Jesuits : with a slight sketch of the society, its principles from their own accredited standard works, their actions on the testimony of Roman Catholic authorities, and their strenuous exertions at this moment to overturn every constituted authority throughout the empire of Great Britain to establish their own sovereignty},
+   publisher = {Simpkin, Marshall, and Co.},
+   address = {London},
+   note = {(Aleph)002247764BCL01
+(OCoLC)ocm72561826
+Monita secreta Societatis Jesu. English
+12 cm.
+Authorship attributed to Hieronim Zahorowski. Cf. NUC pre-1956 imprints.},
+   keywords = {Jesuits
+Jesuits History.},
+   pages = {45, 1 p.},
+   year = {1847},
+   type = {Book}
+}
+
+@book{RN1806,
+   author = {[Zahorowski, Hieronim]},
+   title = {Die geheimen Instruktionen der Jesuiten nach dem lateinischen Original},
+   publisher = {Scheitlin und Zollikofer},
+   address = {St. Gallen},
+   note = {(DE-627)143928766X
+(DE-576)369287665
+(DE-599)BSZ369287665
+(OCoLC)742577509
+dt. von Z.
+In Fraktur},
+   pages = {71 S.},
+   year = {1848},
+   type = {Book}
+}
+
+@book{RN2611,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della Compagnia di Gesù},
+   publisher = {Gattei, Lorenzo},
+   address = {Venice},
+   url = {https://books.google.pl/books?id=CIxkAAAAcAAJ&pg=PA16&dq=Istruzioni+Secrete+Della+Compagnia+%5C&hl=pl&sa=X&ved=2ahUKEwi5zIC3jKn8AhWEyYsKHdeLB5UQ6AF6BAgFEAI#v=onepage&q=Istruzioni%20Secrete%20Della%20Compagnia%20%5C&f=false},
+   year = {1848},
+   type = {Book}
+}
+
+@book{RN2393,
+   author = {[Zahorowski, Hieronim]},
+   title = {The secreta monita of the Jesuits; being the private rules of the Lion's Provider},
+   address = {London},
+   note = {(RLG)e00001136347
+(UkLCURL)mrc07859418
+(UkCU)3632019-cambrdgedb
+edited by H.M. W(----r).
+8vo.},
+   keywords = {Jesuits Controversial literature.},
+   pages = {36 p.},
+   year = {1850},
+   type = {Book}
+}
+
+@book{RN2395,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita Societatis Jesu = The secret instructions of the Jesuits, with extracts from some of the chief authorities of the order exhibiting the rules by which their conduct is guided},
+   publisher = {Seeleys},
+   address = {London},
+   edition = {2nd},
+   note = {(UkCU)4939181-cambrdgedb
+Secret instructions of the Jesuits
+14 cm.},
+   keywords = {Jesuits},
+   pages = {48 p.},
+   year = {1851},
+   type = {Book}
+}
+
+@book{RN2699,
+   author = {[Zahorowski, Hieronim]},
+   title = {Die geheimen Instructionen für die Gesellschaft Jesu, oder: Die Staat und Kirche bedrohenden Pläne des Jesuitenordens: der Gegenwart zur ernsten Erwägung vorgeführt im lateinischen Urtexte und deutscher Uebersetzung},
+   publisher = {Hennings und Hopf},
+   address = {Erfurt},
+   url = {https://books.google.pl/books?id=PQhVAAAAcAAJ},
+   year = {1853},
+   type = {Book}
+}
+
+@book{RN2394,
+   author = {[Zahorowski, Hieronim]},
+   title = {Die geheimen Vorschriften der Jesuiten (Monita secreta Soc. Jesu). : Ein altes Lügenwerk, jetzt in Norddeutschland neu aufgestell},
+   address = {Düsseldorf},
+   note = {(MH)MHAOH74663HU
+(RLG)MAHGAOH74663-B
+(CStRLIN)MAHGAOH74663-B
+(UkCU)3632020-cambrdgedb
+[12mo]},
+   pages = {52 p.},
+   year = {1853},
+   type = {Book}
+}
+
+@book{RN2612,
+   author = {[Zahorowski, Hieronim]},
+   title = {Los Jesuitas juzgados por los padres de Familia y la prensa liberal y religiosa o sea contestación a los nuevos ataques de sus adversarios en México},
+   publisher = {[n.p.]},
+   address = {México},
+   url = {https://www.worldcat.org/title/432349088},
+   year = {1855},
+   type = {Book}
+}
+
+@misc{RN2457,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secret instructions of the Jesuits faithfully translated from the Latin of an old genuine London copy, with an historical sketch &c. &c},
+   publisher = {American and Foreign Christian Union},
+   pages = {1 online resource (143 p.)},
+   note = {(ATLA)P000012500
+Monita secreta Societatis Jesu.
+[electronic resource] :
+by W. C. Brownlee.
+ill. ; 16 cm.
+Latin and English on opposite pages.
+Original in the Garrett-Evangelical Theological Seminary Library.
+NUC pre-1956 number of original : NM 0704545},
+   keywords = {Jesuits},
+   url = {http://proxy.library.nd.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=h7h&bquery=(HJ+5HZ1)&type=1&site=ehost-live},
+   year = {1857},
+   type = {Electronic Book}
+}
+
+@book{RN2327,
+   author = {[Zahorowski, Hieronim]},
+   title = {The Secreta Monita of the Jesuits; being the private rules of the lion's provider},
+   publisher = {W. Love},
+   address = {Glasgow},
+   note = {Monita Privata Societatis Jesu.
+edited by H.M.W. Revised ... with an appendix, etc. [Translated from the Latin of Jerome Zaorowsky.]
+8vo.},
+   pages = {64 p.},
+   year = {1858},
+   type = {Book}
+}
+
+@book{RN2613,
+   author = {[Zahorowski, Hieronim]},
+   title = {I Gesuiti smascherati colle loro istruzioni segrete},
+   publisher = {Stamperia sopras le Logge del Grano},
+   address = {Florence},
+   url = {https://books.google.com/books/about/I_Gesuiti_smascherati_colle_loro_istruzi.html?hl=fr&id=de81AQAAMAAJ},
+   year = {1859},
+   type = {Book}
+}
+
+@book{RN2614,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monitoria secreta ou Instrucções secretas dos Padres da Companhia de Jesus},
+   publisher = {Typographia do Panorama},
+   address = {Lisboa},
+   url = {https://search.library.ucla.edu/permalink/01UCS_LAL/trta7g/alma9942334343606533},
+   year = {1859},
+   type = {Book}
+}
+
+@book{RN1457,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della compagnia di Gesù},
+   publisher = {Tipografia Della Propaganda},
+   address = {Rome},
+   url = {https://books.google.com/books/about/Istruzioni_secrete_della_compagnia_di_Ge.html?hl=pl&id=98M-AAAAcAAJ},
+   year = {1860},
+   type = {Book}
+}
+
+@book{RN2615,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita societatis Jesu = Apokrypha parangelmata tou Tagmatos tōn Iēsouitōn},
+   publisher = {Ek tou Typographeiou Ch. N. Philadelpheōs},
+   address = {Athens},
+   note = {Latin text and Modern Greek translation on opposite pages.},
+   url = {https://catalog.princeton.edu/catalog?q=oclc_s%3A10427921},
+   year = {1860},
+   type = {Book}
+}
+
+@book{RN2417,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu = : Instructions secrètes des Jésuites : suivies de pièces justificatives},
+   publisher = {E. Dentu, Libraire-Éditeur},
+   address = {Paris},
+   note = {Latin text with parallel French translation.},
+   keywords = {Jesuits -- Controversial literature.},
+   pages = {120 pages ; 19 cm},
+   year = {1861},
+   type = {Book}
+}
+
+@book{RN2618,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu instructions secrètes des Jésuites, suivies de pièces justificatives},
+   publisher = {Dentu, E.},
+   address = {Paris},
+   url = {https://babel.hathitrust.org/cgi/pt?id=hvd.hwras2&view=1up&seq=9},
+   year = {1862},
+   type = {Book}
+}
+
+@book{RN2619,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu = Instructions secrètes des Jésuites},
+   publisher = {Déntu, E.},
+   address = {Paris},
+   url = {https://books.google.pl/books?id=NS6EvwEACAAJ&dq=instructions+secretes+des+jesuites+1863+sauvestre&hl=pl&sa=X&ved=2ahUKEwj84taw7cj8AhVEiP0HHV3jCaEQ6AF6BAgBEAE},
+   year = {1863},
+   type = {Book}
+}
+
+@book{RN293,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu. Instructions secrètes des Jésuites. Nouvelle édition, précédée d'une introduction par Charles Sauvestre},
+   publisher = {E. Dentu},
+   address = {Paris},
+   keywords = {Compagnie de Jésus},
+   pages = {In-18},
+   year = {1865},
+   type = {Book}
+}
+
+@book{RN2623,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta Monita Societatis Jesu},
+   publisher = {Agenzia Libraria Savallo–Libreria della Novitá},
+   address = {Milan; Florence},
+   volume = {I gesuiti giudicati da sè medesimi: documenti e fatti concernenti la Compagnia di Gesu},
+   url = {https://books.google.pl/books?id=yAjFeut5wlIC&printsec=frontcover&hl=pl#v=onepage&q&f=false},
+   year = {1865},
+   type = {Book}
+}
+
+@book{RN2625,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les "monita secreta", ou: Les instructions secrètes des jésuites: lettre à M. Lenaerts à Anvers},
+   publisher = {Goemaere},
+   address = {Bruxelles},
+   url = {https://www.worldcat.org/title/902055866?fbclid=IwAR0iZej8xY56M8fKwq8QkbpnH-35eNI8KEEZe-QkxLk0-Yd897r72eCKGIQ},
+   year = {1868},
+   type = {Book}
+}
+
+@book{RN2626,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu Instrucciones secretas de los Jesuitas. Su codigo. El juramento de los padres de la fe. Sus palabras de reconocimiento ..},
+   publisher = {Déntu, E.},
+   address = {Paris},
+   url = {https://www.worldcat.org/title/613215925},
+   year = {1869},
+   type = {Book}
+}
+
+@book{RN2374,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu. Instrucciones secretas de los Jesuitas. Su codigo. El juramento de los padres de la fe. Sus palabras de reconocimiento},
+   publisher = {E. Dentu},
+   address = {Paris,},
+   note = {(CUY)UCB-b124090710-01ucs_ber
+(OCoLC)29220671
+(OCoLC)ocm29220671
+(EXLNZ-01UCS_NETWORK)9913628699506531
+17 cm},
+   keywords = {Jesuits
+Jesuits.
+Controversial literature.},
+   pages = {1 preliminary leaf, v -xv, 16 -158 pages},
+   year = {1869},
+   type = {Book}
+}
+
+@book{RN2627,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu; instructions secrètes des Jésuites},
+   publisher = {Déntu, E.},
+   address = {Paris},
+   url = {https://www.worldcat.org/title/57691505},
+   year = {1870},
+   type = {Book}
+}
+
+@book{RN2628,
+   author = {[Zahorowski, Hieronim]},
+   title = {Mónita ó instrucciones secretas de los Jesuitas},
+   publisher = {Codin, J.},
+   address = {Barcelona},
+   url = {https://www.worldcat.org/title/793694609},
+   year = {1870},
+   type = {Book}
+}
+
+@book{RN2629,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instrucciones secretas o Monita de los jesuitas},
+   publisher = {Béraud, Auguste},
+   address = {México},
+   volume = {Consejos de Satanas a los jesuitas con un preludio por el Señor de Belzebuth ; sátira ilustr. con el verdadero retrato del autor, sazonada al estilo del país, adornada con las instrucciones secretas o Monita de los jesuitas y decidada á Monseñor de Labastida, arzobispo de México},
+   url = {https://www.worldcat.org/title/247544258},
+   year = {1874},
+   type = {Book}
+}
+
+@book{RN2630,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta o Instrucciones reservadas de la llamada Compañía de Jesús El jesuita de sotana corta ; La beata},
+   publisher = {Imp. y Librería de A. Prado},
+   address = {Buenos Aires},
+   url = {https://www.worldcat.org/title/733436644},
+   year = {1875},
+   type = {Book}
+}
+
+@book{RN268,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu". Instructions secrètes des Jésuites. Nouvelle édition, précédée d'une introduction par Charles Sauvestre},
+   year = {1879},
+   type = {Book}
+}
+
+@book{RN2631,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita Secreta Societatis Jesu. Instructions secrètes des Jésuites. Treizième édition ... augmentée, contenant le dénombrement des Jésuites en France par Département},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   url = {https://www.worldcat.org/title/560540869?fbclid=IwAR3gwK2BXMJrlcsdBEB6fv7MXUbcZjYsys1SVNQJyr9C-HS_YznVxg9oNQM},
+   year = {1879},
+   type = {Book}
+}
+
+@book{RN2633,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta societatis Jesu = Instructions secrètes des jésuites, précédées d'une introduction et de notes curieuses},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   url = {https://www.worldcat.org/title/715177492?fbclid=IwAR1TyUL-RePJn9jcZe7phgi3CEcGQ4GxBUAwF68eRxFIFMDw4-kE1DP-h8k},
+   year = {1880},
+   type = {Book}
+}
+
+@book{RN2632,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta. Instructions secrètes des Jésuites, d'après l'édition déposée à la Bibliothèque de l'Arsenal},
+   publisher = {Strauss},
+   address = {Paris},
+   url = {https://www.worldcat.org/title/459214230},
+   year = {1880},
+   type = {Book}
+}
+
+@book{RN2430,
+   author = {[Zahorowski, Hieronim]},
+   title = {The secret oath, and a fresh translation [from the French edition of Jerome Zaorowsky's "Monita Privata"] of the secret instructions of the Order of the Jesuits, with a slight sketch of the society, etc},
+   address = {London},
+   note = {[Appendix.]
+[Main author]},
+   pages = {61 ; 8vo.},
+   year = {1880},
+   type = {Book}
+}
+
+@book{RN2634,
+   author = {[Zahorowski, Hieronim]},
+   title = {La fable de monita secreta, ou: Instructions secrètes des jésuites},
+   publisher = {Vromant},
+   address = {Bruxelles},
+   url = {https://www.worldcat.org/title/902312488?fbclid=IwAR2m5Ctmat479G6XED-5xWy0GvEbwFMGyWzs2lVOt_q5Z5ao-ufs3Fi0N_Q},
+   year = {1881},
+   type = {Book}
+}
+
+@book{RN2635,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita Secreta ó instrucciones reservadas de la Compañía de Jesús},
+   publisher = {Calle de Mendizabal},
+   address = {Madrid},
+   url = {https://www.google.pl/books/edition/Pobres_Jesuitas/VdgpAAAAYAAJ?hl=pl&gbpv=1},
+   year = {1881},
+   type = {Book}
+}
+
+@book{RN2636,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta, o instrucciones ocultas de los Jesuitas},
+   publisher = {Nova Livraria Internacional},
+   address = {Lisbon},
+   volume = {Pobres Jesuitas! : origem, doutrinas, maximas privilegios e vicissitudes da Companhia de Jesus desde a sua fundação até nossos dias},
+   url = {https://www.worldcat.org/title/42676764},
+   year = {1881},
+   type = {Book}
+}
+
+@book{RN2452,
+   author = {[Zahorowski, Hieronim]},
+   title = {Mónita secreta},
+   publisher = {Carlos Prince, Impresor y Editor-Librero},
+   address = {Lima},
+   volume = {Manifiesto de la francmasoneria del Perú},
+   note = {(OCoLC)68812803
+22 cm.
+Manifiesto de la francmasoneria del Perú -- Documentos históricos principales relativos a su expulsión -- Mónita secreta / Jesuits.},
+   keywords = {Jesuits Peru.},
+   pages = {98 p.},
+   url = {https://curiosity.lib.harvard.edu/latin-american-pamphlet-digital-collection/catalog/43-990031938180203941},
+   year = {1886},
+   type = {Book}
+}
+
+@book{RN2525,
+   author = {[Zahorowski, Hieronim]},
+   title = {Die geheimen Vorschriften (Monita secreta) und 31 Instruktionen der Novizen von und für Jesuiten; nebst Vorwort und Nachwort},
+   publisher = {Klein},
+   address = {Barmen},
+   note = {(DE-627)1465475850
+(DE-576)395475856
+(DE-599)BSZ395475856
+(OCoLC)1061241878
+aufs neue dem deutschen Volke zur Warnung mitget. von H. J. Graeber},
+   pages = {108 S.},
+   year = {1887},
+   type = {Book}
+}
+
+@book{RN2713,
+   author = {[Zahorowski, Hieronim]},
+   title = {Singulares y secretas admoniciones para particulares personas de nuestra compañia, traduzidas de Latin en Romance},
+   url = {http://www.deutsche-digitale-bibliothek.de/item/BW73N6S6LBBNWEOS3NC5IZL2S2RKC3EM},
+   year = {1887},
+   type = {Book}
+}
+
+@book{RN2524,
+   author = {[Zahorowski, Hieronim]},
+   title = {Die geheimen Vorschriften (monita secreta) und 31 Instruktionen der Novizen von und für Jesuiten nebst Vorwort und Nachwort; aufs neue dem deutschen Volke zur Warnung mitgeteilt},
+   address = {Barmen},
+   edition = {2 Aufl.},
+   note = {(DE-627)1125715073
+(DE-576)055715079
+(DE-599)BSZ055715079
+(OCoLC)248743044
+H. J. Graeber},
+   pages = {108 S.},
+   year = {1890},
+   type = {Book}
+}
+
+@book{RN2637,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta o Instrucciones reservadas de la Compañía de Jesús},
+   publisher = {Imprenta El Polígloto},
+   address = {New York},
+   url = {https://www.worldcat.org/title/1151572532},
+   year = {1890},
+   type = {Book}
+}
+
+@book{RN2638,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta : instructions secrètes des jésuites},
+   publisher = {Duprés, C.},
+   address = {Grenoble},
+   url = {https://www.worldcat.org/title/84955129},
+   year = {1893},
+   type = {Book}
+}
+
+@book{RN2639,
+   author = {[Zahorowski, Hieronim]},
+   title = {Instructions secrètes des jésuites ... ou Monita secreta ..},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   url = {https://www.worldcat.org/title/461238704},
+   year = {1894},
+   type = {Book}
+}
+
+@book{RN2640,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta. Instructions secrètes des Jésuites. Traduction nouvelle et commentaires par Pierre des Pilliers ... Seconde édition. Lat. & Fr},
+   publisher = {Des Pilliers, Pierre Marie Raphaël},
+   address = {[n.p.]},
+   url = {http://dx.doi.org/},
+   year = {1897},
+   type = {Book}
+}
+
+@book{RN2641,
+   author = {[Zahorowski, Hieronim]},
+   title = {Statuto della Società dei Massoni e regolamento secreto della Società dei Gesuiti al tribunale della pubblica opinione},
+   publisher = {Athius, G.},
+   address = {Allessandria},
+   url = {https://www.worldcat.org/title/797323808},
+   year = {1897},
+   type = {Book}
+}
+
+@book{RN2267,
+   author = {[Zahorowski, Hieronim]},
+   title = {Los secretos de los jesuítas (Monita secreta)},
+   publisher = {G. Battagliu},
+   address = {Barcelona,},
+   note = {35033477
+Monita secreta Societatis Jesu. Spanish. [from old catalog]
+19 cm.},
+   keywords = {Jesuits},
+   pages = {35 p.},
+   year = {1901},
+   type = {Book}
+}
+
+@book{RN2643,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta : extrait des Instruction secrètes pour les membres de la Compagnie de Jésus},
+   publisher = {[n.p.]},
+   address = {Angers},
+   volume = {Destruction des jésuites},
+   url = {https://www.worldcat.org/title/1284990263},
+   year = {1901},
+   type = {Book}
+}
+
+@book{RN1805,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta die geheimen Instruktionen der Jesuiten; lateinisch und deutsch = Monita secreta},
+   publisher = {Heimdall},
+   address = {Stuttgart},
+   note = {(DE-627)1357161670
+(DE-576)287161676
+(DE-599)BSZ287161676
+(OCoLC)316228484
+dt. Übers. von Julius Hochstetter. [Verf.: Hieronymus Zahorowski]
+Monita secreta
+Deutscher Text in Fraktur},
+   pages = {48 S.},
+   year = {1901},
+   type = {Book}
+}
+
+@book{RN1896,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta : die geheimen Instruktionen der Jesuiten vergleichen mit den Amtlichen Quellen des Ordens},
+   publisher = {Litterar. Institut von M. Huttler (M. Seitz)},
+   address = {Augsburg},
+   note = {37005891
+(OCoLC)2075733
+(Johannes Baptist),
+von Johannes B. Reiber, p. d. G.J. ; mit Genehmigung der Zuständigen Obrigkeit.
+22 cm.},
+   keywords = {Jesuits Controversial literature.
+Monita secreta Societatis Jesu.},
+   pages = {4 p. ℓ., 82 p.},
+   year = {1902},
+   type = {Book}
+}
+
+@book{RN2644,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni segrete della Compagnia di Gesu},
+   publisher = {Angora, A.},
+   address = {Nocera inferiore},
+   year = {1905},
+   type = {Book}
+}
+
+@book{RN2645,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les instructions secrètes des Jésuites : étude critique},
+   publisher = {Bloud},
+   address = {Paris},
+   url = {https://www.worldcat.org/title/53565747?fbclid=IwAR1G6TsXWdk5VihwwgGY_kTTUMejaX-DXZuBOiyPvhXnHvjCGvdT6FcW0XY},
+   year = {1907},
+   type = {Book}
+}
+
+@book{RN2646,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta; istruzioni secrete dei Gesuiti},
+   publisher = {Lib. Ed. Moderna [Galleria Mazzini]},
+   address = {Genoa},
+   url = {https://www.worldcat.org/title/83150891},
+   year = {1910},
+   type = {Book}
+}
+
+@book{RN2564,
+   author = {[Zahorowski, Hieronim]},
+   title = {Compagnia di gesu: Istruzioni segrete},
+   publisher = {[Arena, Enrico?]},
+   address = {[n.p.]},
+   year = {1915},
+   type = {Book}
+}
+
+@book{RN2517,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta - die geheimen Instruktionen der Jesuiten},
+   publisher = {Rohm},
+   address = {Lorch},
+   note = {(DE-627)1381940471
+(DE-576)311940471
+(DE-599)BSZ311940471
+(OCoLC)985545297
+deutsche Übers. von Julius Hochstetter
+Angebunden in: Jesuitenstreiche},
+   pages = {63 S.},
+   year = {1924},
+   type = {Book}
+}
+
+@book{RN1832,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les Instructions secrètes des Jésuites ("Monita secreta"), d'après le manuscrit authentique},
+   publisher = {impr. de L. Clercx},
+   address = {Paris},
+   note = {Extrait de "L'Acacia", nouv. série, nos 44-47, déc. 1927-mars 1928, où ce pamphlet est publié sous le titre : "Les Secrets des Jésuites"},
+   pages = {In-8° , 31},
+   url = {https://catalogue.bnf.fr/ark:/12148/cb31679867n},
+   year = {1927–1928},
+   type = {Book}
+}
+
+@book{RN1801,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della Compagnia di Gesù},
+   publisher = {M&B},
+   address = {Milan},
+   series = {I documenti},
+   note = {(DE-627)1615989498
+(DE-576)060273380
+(DE-599)BSZ060273380
+(OCoLC)36018141
+[Hieronim Zahorowski]
+20 cm},
+   keywords = {Quelle},
+   pages = {173 p.},
+   ISBN = {888608319X},
+   year = {1996},
+   type = {Book}
+}
+
+@book{RN2268,
+   author = {[Zahorowski, Hieronim]},
+   title = {Taĭnye nastavlenii︠a︡ dli︠a︡ rukovodstva v Obshchestve Iisusa},
+   publisher = {Russkiĭ Dvor},
+   address = {Moskva},
+   note = {97195576
+Monita secreta Societatis Jesu. Russian
+[predislovie I︠U︡.F. Samarina ; posleslovie P.V. Kalitina].
+ports. ; 18 cm.
+Includes bibliographical references.},
+   keywords = {Jesuits},
+   pages = {70 p.},
+   ISBN = {5887520078},
+   year = {1996},
+   type = {Book}
+}
+
+@book{RN2653,
+   author = {[Zahorowski, Hieronim]},
+   title = {AUREA MONITA RELIGIOSISSIMAE SOCIETATIS JESU :In gratiam Politicorum, & omnium qui JESUM amant, pro studio edita /à THEOPHILO EULALIO Catholico Bohemo},
+   publisher = {Agathander, Eusebius},
+   address = {Placentiae},
+   url = {https://www.manuscriptorium.com/apps/index.php?direct=record&pid=NKCR__-NKCR__65_E_004978_3DF3KQE-cs#search},
+   year = {n.d.},
+   type = {Book}
+}
+
+@misc{RN1430,
+   author = {[Zahorowski, Hieronim]},
+   title = {Discreto y general monitorio a los bien entendidos jesuitas, para ser venerados en reinos, provincias, repúblicas},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {1-66v},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000187388&page=1},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@book{RN306,
+   author = {[Zahorowski, Hieronim]},
+   title = {Forma del governo giesuitico con una instructione & avviso a' potentati, del modo , con il quale si governalo li Giesuiti, per riderre la loro Compagnia ad una perfetta monarchia},
+   note = {||||||||| zzyy
+in-12
+Signatures continues, trois paginations dans cet ouvrage qui est incomplet. Autres titres : "Lettera amfibologica e persuasiva di un Giesuita ad un cavaliero suo discepolo", "Riposta del cavaliere discepolo alla lettera persuasiva del Gesuita maestro"
+Traduction partielle des "Monita secreta", texte attribué à H. Zahorowski},
+   pages = {101-42-48 (sig. N-U12)},
+   year = {n.d.},
+   type = {Book}
+}
+
+@misc{RN1431,
+   author = {[Zahorowski, Hieronim]},
+   title = {Forma del governo giesuitico con una istruttione et avviso a' potentati del modo con il quale si governano li Giesuiti per ridurre la loro Compagnia ad una perfetta monarchia},
+   publisher = {Biblioteca comunale Augusta (Perugia)},
+   number = {1r-30v},
+   url = {https://manus.iccu.sbn.it/risultati-ricerca-manoscritti/-/manus-search/detail/791242?nomi_id_s=319443&},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@misc{RN1432,
+   author = {[Zahorowski, Hieronim]},
+   title = {Forma del governo giesuitico, con una breve instruttione a' potentati del modo che osservano questi padri per ridurre la loro Compagnia ad una perfetta monarchia},
+   publisher = {Biblioteca comunale Teresiana (Mantova)},
+   volume = {Manoscritti},
+   url = {https://manus.iccu.sbn.it/risultati-ricerca-manoscritti/-/manus-search/detail/638725},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@misc{RN2714,
+   author = {[Zahorowski, Hieronim]},
+   title = {ISTRUZIONE AI PRINCIPI DELLA MANIERA CON LA QUALE SI GOVERNANO I PADRI GESUITI FATTA DA PERSONA RELIGIOSA E TOTALMENTE SPASSIONATA},
+   publisher = {Uniwersytet Jagielloński},
+   url = {http://info.filg.uj.edu.pl/fibula/en/manuscripts/8089},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@misc{RN2569,
+   author = {[Zahorowski, Hieronim]},
+   title = {La monita secreta de los jesuytas},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {1-71},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000187037&page=1},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@misc{RN2570,
+   author = {[Zahorowski, Hieronim]},
+   title = {La Monita secreta, que dichos Padres observaban},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000042449&page=1},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@misc{RN2571,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {71-191},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000139717&page=1},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@misc{RN2672,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta},
+   url = {https://manus.iccu.sbn.it/cnmd/0000189151},
+   year = {n.d.},
+   type = {Manuscript}
+}
+
+@book{RN2386,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu = The secret instructions of the Jesuits ; also the four vows of the Jesuits, the Oath of Secrecy of 1680, and Tetzel's indulgence of 15th April, 1517},
+   publisher = {John Kensit},
+   address = {London},
+   note = {(UkCU)220600-depfacozdb
+Secret instructions of the Jesuits
+19 cm.},
+   keywords = {Jesuits},
+   pages = {47 p.},
+   url = {https://openlibrary.org/books/OL25098267M/The_secret_instructions_of_the_Jesuits_also_the_four_vows_of_the_Jesuits_the_oath_of_secrecy_of_1680},
+   year = {[187-?]},
+   type = {Book}
+}
+
+@book{RN2715,
+   author = {[Zahorowski, Hieronim]},
+   title = {Le Cabinet jesuitique, contenant plusieurs pieces tres curieuses des r. peres jesuites, avec un recueil des mysteres de l’Eglise Romaine},
+   publisher = {chez J. le Blanc},
+   address = {Cologne},
+   url = {https://catalog.lib.ku.edu/cgi-bin/Pwebrecon.cgi?bbid=3872822},
+   year = {[1663?]},
+   type = {Book}
+}
+
+@misc{RN1441,
+   author = {[Zahorowski, Hieronim]},
+   title = {Moniti},
+   publisher = {The Newberry Library},
+   volume = {Newberry VAULT Case},
+   number = {38-74},
+   url = {https://italian-paleography.library.utoronto.ca/islandora/object/italianpaleography%3AIP_065},
+   year = {[1665]},
+   type = {Manuscript}
+}
+
+@book{RN1458,
+   author = {[Zahorowski, Hieronim]},
+   title = {Moniti privati della Società de' Gesuiti},
+   publisher = {[n.p.]},
+   address = {[Torino]},
+   url = {https://books.google.com/books/about/Forma_del_governo_giesuitico_con_una_ins.html?hl=pl&id=oqpBAAAAcAAJ},
+   year = {[1667]},
+   type = {Book}
+}
+
+@book{RN2423,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta monita Societatis Jesu},
+   publisher = {J. Walthoe},
+   address = {London},
+   note = {Dedication signed: John Walthoe, junr.
+With a half-title.
+Parallel Latin and English texts.
+Electronic reproduction. Farmington Hills, Mich. : Cengage Gale, 2009. Available via the World Wide Web. Access limited by licensing agreements. s2009 miunns
+Reproduction of original from British Library.},
+   url = {http://hdl.library.upenn.edu/1017.12/168623},
+   year = {[1746]},
+   type = {Book}
+}
+
+@misc{RN1442,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secretas adminiciones de la Compañía de Jesús},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {295-305v},
+   url = {https://datos.bne.es/edicion/a4456401.html},
+   year = {[1770s-1780s]},
+   type = {Manuscript}
+}
+
+@book{RN2650,
+   author = {[Zahorowski, Hieronim]},
+   title = {Constitución secreta de los Jesuitas},
+   publisher = {[Imprenta de Ontiveros]},
+   address = {[Mexico]},
+   url = {https://www.worldcat.org/title/16403683},
+   year = {[1823]},
+   type = {Book}
+}
+
+@book{RN2651,
+   author = {[Zahorowski, Hieronim]},
+   title = {Secreta Monita Societatis Jesu},
+   publisher = {Tipografia della Propaganda},
+   address = {Rome},
+   volume = {Istruzioni Secrete Della Compagnia Di Gesù Con Importanti Aggiunte},
+   abstract = {:},
+   ISBN = {:},
+   year = {[1831]},
+   type = {Book}
+}
+
+@book{RN1935,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita Secreta Societatis Iesu: Secret instructions of the Jesuits : also the four vows of the Jesuits, the oath of secrecy of 1680, and Tetzel's indulgence of 15th April, 1517},
+   publisher = {John Kensit},
+   address = {London},
+   note = {Revision of a translation published in London in 1723 by John Walthoe},
+   keywords = {Jesuits},
+   pages = {1 online resource (47 pages)},
+   url = {https://archive.org/details/secretinstructio460lond},
+   year = {[c. 187-?]},
+   type = {Book}
+}
+
+@misc{RN1429,
+   author = {[Zahorowski, Hieronim]},
+   title = {Avisos discretos a los bien entendidos, para ser tenidos y reverenciados en Reinos, provincias, repúblicas, ciudades, villas y lugares},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {141r-149v},
+   url = {http://bdh.bne.es/bnesearch/detalle/bdh0000191556},
+   year = {[c. 1600-1699]},
+   type = {Manuscript}
+}
+
+@misc{RN2667,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societ(atis) Iesu},
+   pages = {108r–134r},
+   url = {https://manus.iccu.sbn.it/cnmd/0000294214},
+   year = {[c. 1601–1700]},
+   type = {Manuscript}
+}
+
+@misc{RN2693,
+   author = {[Zahorowski, Hieronim]},
+   title = {La Monita secreta de la Compañía de Jesús [Manuscrito]},
+   url = {http://bdh.bne.es/bnesearch/detalle/bdh0000235422},
+   year = {[c. 1701-1800]},
+   type = {Manuscript}
+}
+
+@misc{RN2669,
+   author = {[Zahorowski, Hieronim]},
+   title = {Forma del governo giesuitico, con una breve instruttione a' potentati del modo che osservano questi padri per ridurre la loro Compagnia ad una perfetta monarchia / Monita secreta Societatis Iesu},
+   url = {https://manus.iccu.sbn.it/cnmd/0000015077},
+   year = {[c. 1701–1750]},
+   type = {Manuscript}
+}
+
+@misc{RN2696,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta de la Compañía de Jesús},
+   number = {73},
+   url = {http://bdh.bne.es/bnesearch/detalle/bdh0000191797},
+   year = {[c. 1701–1800]},
+   type = {Manuscript}
+}
+
+@misc{RN2675,
+   author = {[Zahorowski, Hieronim]},
+   title = {Moniti, ò sia avvertimenti secreti della Compagnia di Gesù tradotti fedelmente dalla latina nell'Ital.a favella e trascritti dal libro intitolato "I lupi smascherati" nella confutazione, e traduzione del libro intitolato "Monita secreta Societ.is Iesu" stampato in Ortignano nel 1764},
+   note = {Roma, Biblioteca nazionale centrale, Vittorio Emanuele, Vitt.Em.678},
+   url = {https://manus.iccu.sbn.it/cnmd/0000068491},
+   year = {[c. 1701–1800]},
+   type = {Manuscript}
+}
+
+@misc{RN2673,
+   author = {[Zahorowski, Hieronim]},
+   title = {Politica dei Gesuiti ossia Monita Secreta tradotti in volgare},
+   note = {Il manoscritto comprende:
+c. Vr: titolo;
+c. VIrv: "Indice di tutti i capitoli";
+cc. 1r-19r: testo, suddiviso in 18 parti.},
+   year = {[c. 1701–1800]},
+   type = {Manuscript}
+}
+
+@book{RN2662,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della Compagnia di Gesù: con importanti aggiunte},
+   publisher = {Tipografia della Propagande},
+   address = {Roma},
+   url = {https://www.worldcat.org/title/717473031},
+   year = {[c. 1760]},
+   type = {Book}
+}
+
+@book{RN2469,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Societatis Jesu},
+   note = {t.es o-o- iie- jeau (3) 1767 (R) fei
+17 cm
+Signatures: a-f⁸ g⁴ (g4 blank).
+Culture Class Collection copy is no. 7 in a collection of seven anti-Jesuitical writings printed around 1767. Six items are in Italian and one in Latin; they have been bound up and provided with a table of contents in ms.},
+   keywords = {Jesuits History 18th century.
+Jesuits.
+History.
+chr 1767},
+   pages = {98 pages, 6 unnumbered pages},
+   year = {[c. 1767]},
+   type = {Book}
+}
+
+@misc{RN2671,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta},
+   url = {https://manus.iccu.sbn.it/cnmd/0000223285},
+   year = {[c. 1773]},
+   type = {Manuscript}
+}
+
+@misc{RN2691,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita Secreta},
+   publisher = {APUG 216A rec},
+   pages = {169-199},
+   url = {https://manus.iccu.sbn.it/cnmd/0000223285},
+   year = {[c. 1773]},
+   type = {Manuscript}
+}
+
+@misc{RN2692,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta},
+   publisher = {Fondazione Camillo Caetani (ms. 1136/397)},
+   pages = {180-325},
+   abstract = {Appendix to “Il Paragone della dispersa Repubblica degli Ebrei con quella dei dispersi Gesuiti, ove chiaramente si mostra, quanto siano più perniciosi ed intollerabili nei Stati de’ principi i Gesuiti che gli Ebrei”},
+   url = {https://issuu.com/fondazionecamillocaetani/docs/miscellanea_2_96fb953560e266},
+   year = {[c. 1773]},
+   type = {Manuscript}
+}
+
+@book{RN1460,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della compagnia de Gesù : con importanti aggiunto.},
+   publisher = {Tip. della Propaganda},
+   address = {Roma},
+   note = {Italian translation of Monita.},
+   url = {http://dx.doi.org/},
+   year = {[c. 1780]},
+   type = {Book}
+}
+
+@misc{RN2668,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Jesu},
+   pages = {63r–114r},
+   url = {https://manus.iccu.sbn.it/cnmd/0000164627},
+   year = {[c. 1801–1900]},
+   type = {Manuscript}
+}
+
+@misc{RN2670,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta Patrum Jesuitarum},
+   note = {Roma, Archivio della Pontificia Università Gregoriana, APUG, APUG 94rec},
+   url = {https://manus.iccu.sbn.it/cnmd/0000223022},
+   year = {[c. 1801–1900]},
+   type = {Manuscript}
+}
+
+@book{RN1257,
+   author = {[Zahorowski, Hieronim]},
+   title = {Istruzioni secrete della Compagnia di Gesù con importanti aggiunte},
+   publisher = {Tipografia Della Propaganda},
+   address = {Rome},
+   url = {http://dx.doi.org/},
+   year = {[c. 1814]},
+   type = {Book}
+}
+
+@misc{RN2665,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Jesuitarum},
+   url = {https://manus.iccu.sbn.it/cnmd/0000078608},
+   year = {[c. 1835–1900]},
+   type = {Manuscript}
+}
+
+@book{RN2663,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les instructions secrètes des jésuites (Monita secreta) : d'aprèes le manuscrit authéntique},
+   publisher = {[n.p.]},
+   address = {[Paris]},
+   url = {https://www.worldcat.org/title/836793887?fbclid=IwAR1yEy12MTDHMocIsC15CK4UC9jMlBjs_TLDYEy2cMJhAEz0Zfqo7z-GopE},
+   year = {[c. 1901]},
+   type = {Book}
+}
+
+@misc{RN1437,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta : singulares y secretas admonitiones para particulares personas de Nra. Compaía de Ihs.},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {59-73v},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000133794&page=1},
+   year = {[n.d.]},
+   type = {Manuscript}
+}
+
+@misc{RN1438,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta de los jesuitas},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {1-88},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000187377&page=1},
+   year = {[n.d.]},
+   type = {Manuscript}
+}
+
+@misc{RN1440,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta que han de observar y guardar los prelados de la Compañía de Jesús},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   pages = {217-301},
+   url = {http://bdh.bne.es/bnesearch/detalle/bdh0000050290},
+   year = {[n.d.]},
+   type = {Manuscript}
+}
+
+@misc{RN1439,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta ò institucìones, que obserbaran los padres, que se decian de la Compañía de Jesús [...]},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {240-336},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000231352&page=1},
+   year = {[n.d.]},
+   type = {Manuscript}
+}
+
+@misc{RN1443,
+   author = {[Zahorowski, Hieronim]},
+   title = {Singulares y secretas admoniciones para particulares personas de nuestra Compañía},
+   publisher = {Archivum Romanum Societatis Jesu},
+   volume = {FG. 695},
+   year = {[n.d.]},
+   type = {Manuscript}
+}
+
+@misc{RN2654,
+   author = {[Zahorowski, Hieronim]},
+   title = {Politica de Gesuiti},
+   publisher = {Biblioteca Nazionale Centrale di Roma},
+   year = {[XVII c.?]},
+   type = {Manuscript}
+}
+
+@misc{RN2664,
+   author = {[Zahorowski, Hieronim]},
+   title = {La Regle Secrette des R. P. Jesuistes (c. 2r) / Monita Societatis Iesu},
+   note = {Una traduzione francese edita ne: Le Cabinet Jesuitique, Cologne, 1678, pp. 37-90},
+   url = {https://manus.iccu.sbn.it/cnmd/0000105042},
+   year = {[XVII c.]},
+   type = {Manuscript}
+}
+
+@book{RN2655,
+   author = {[Zahorowski, Hieronim]},
+   title = {Les intructions secretes des Jesuites traduites de leurs Secreta Monita},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   year = {[XVIII c.]},
+   type = {Book}
+}
+
+@misc{RN2656,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita privata Societatis Jesu. Politicas singulares y secretas, admoniciones importantes para algunas particulares personas de nuestra Compañia, traducidas de latín en romance por un Devoto de la misma Compañía},
+   publisher = {Real Biblioteca del Monasterio de San Lorenzo de El Escorial},
+   volume = {Salón de Manuscritos},
+   number = {293r-303v.},
+   url = {https://rbmecat.patrimonionacional.es/cgi-bin/koha/opac-detail.pl?biblionumber=1611},
+   year = {[XVIII c.]},
+   type = {Manuscript}
+}
+
+@misc{RN795,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta},
+   number = {140-155},
+   note = {Manuscript},
+   url = {https://patrimoniodigital.ucm.es/s/patrimonio/item/143143},
+   year = {[XVIII c.]},
+   type = {Manuscript}
+}
+
+@misc{RN2657,
+   author = {[Zahorowski, Hieronim]},
+   title = {Monita secreta ad Superiores Societatis Iesu},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {110-119},
+   url = {https://www.worldcat.org/title/430601553?fbclid=IwAR0VneGFLoB4RBE4WGcEfcibbAx2w43z7lcGgHW-imrGnUk6GkFUF-kRuVY},
+   year = {[XVIII c.]},
+   type = {Manuscript}
+}
+
+@misc{RN2712,
+   author = {[Zahorowski, Hieronim]},
+   title = {Singulares y secretas Admoniciones para particulares Personas de nostra Compañia, traducidas fielmente de el Latin en nostro Castellano},
+   publisher = {Oxford, Bodleian Libraries [followed by shelfmark and folio or page reference, e.g. MS. Span. e. 1, fols. 1-2]},
+   url = {https://archives.bodleian.ox.ac.uk/repositories/2/resources/6813},
+   year = {[XVIII c.]},
+   type = {Manuscript}
+}
+
+@book{RN1465,
+   author = {[Zahorowski, Hieronim] and Al., G. F.},
+   title = {Forma del Governo Giesuitico con vna instruttione et uuiso a'Potentati del modo, Con il quale si gouernano li Giesuiti, Per ridurre la loro Compagnia ad vna perfetta Monarchia [Trad. des Monita secreta de Zahorowski. Suivi de : Lettera amfibologica..., Riposta del cavaliere discepolo..., Il Lamento de'monaci..., Riposta della Corte..., Il Processo della Critica..., Diario, e lettera sopra gli Affari Correnti di Don Giovanni d'Austria...]},
+   publisher = {[n.p.]},
+   address = {[n.p.]},
+   url = {https://books.google.com/books/about/Forma_del_Governo_Giesuitico_con_vna_ins.html?hl=pl&id=1G7DMnEa88QC},
+   year = {[1667]},
+   type = {Book}
+}
+
+@book{RN1311,
+   author = {[Zahorowski, Hieronim] and Al.], [G. F.},
+   title = {Forma del governo giesuitico con una istrutione et avviso a' potentati del modo con il quale si governano li
+Giesuiti per ridurre la loro Compagnia ad una perfetta monarchia},
+   publisher = {Turchetto, Antonio},
+   address = {Cologne},
+   volume = {LI SEGRETI DI STATO DE I PRENCIPI dell' EVROPA, Rivelati, DA VARII 
+CONFESSORI POLITICI. Per lo beneficio comune di tutti quelli che 
+maneggiano Affari publici, e per la sodisfatione de' più Curiosi. 
+Nuovamente ristampati, e corretti. Con Aggiunta considerabile. PARTE 
+PRIMA. LA TAVOLA di tutte le OPERE che si contengono in deta Prima 
+PARTE, si troua nella Pagina seguente},
+   url = {https://books.google.com/books/about/LI_SEGRETI_DI_STATO_DE_I_PRENCIPI_dell_E.html?hl=pl&id=zVbKKhihnfoC},
+   year = {1676},
+   type = {Book}
+}
+
+@book{RN1312,
+   author = {[Zahorowski, Hieronim] and Al.], [G. F.},
+   title = {Forma del governo giesuitico},
+   publisher = {[n.p.]},
+   address = {[Turin?]},
+   volume = {Forma del Governo Giesuitico con vna instruttione et uuiso a'Potentati del modo, Con il quale si gouernano li Giesuiti, Per ridurre la loro Compagnia ad vna perfetta Monarchia},
+   url = {https://books.google.com/books/about/Forma_del_Governo_Giesuitico_con_vna_ins.html?hl=pl&id=1G7DMnEa88QC},
+   year = {[1669]},
+   type = {Book}
+}
+
+@book{RN1451,
+   author = {[Zahorowski, Hieronim] and Anonymous},
+   title = {Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo.},
+   address = {Carpentras},
+   note = {adaptation of Monita secreta},
+   url = {https://books.google.pl/books/about/Mondo_gesuitico_scoperto_al_pubblico_con.html?id=oTSJLFdfyJgC&redir_esc=y},
+   year = {1758},
+   type = {Book}
+}
+
+@misc{RN810,
+   author = {[Zahorowski, Hieronim] and Arias Montano, Benito},
+   title = {Monita secreta},
+   publisher = {Biblioteca Nacional de España},
+   volume = {Fondo anterior a 1958},
+   number = {1-70},
+   pages = {71-191},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000139717&page=1},
+   year = {[c. 1701-1800]},
+   type = {Manuscript}
+}
+
+@book{RN2558,
+   author = {[Zahorowski, Hieronim] and Capriata and Le Bret, Johann Friedrich},
+   title = {Die Entlarvte Wölfe},
+   publisher = {Privacy Policy},
+   abstract = {Verf. ermittelt in: Melzi, Gaetano: Dizionario di opere anonime e pseudonime di scrittori italiani o come che sia aventi relazione all'Italia, Bd. 2, Mailand 1852, S. 143. - Ãbers. ermittelt in: Holzmann-Bohatta, Bd. 4, Nr. 12743. - Bibliogr. Nachweis: Bibliographie der deutschen Ãbersetzungen aus dem Italienischen von den AnfÃ¤ngen bis zur Gegenwart, Bd. II,1, S. 234, Nr. 2308Vorlageform des Erscheinungsvermerks: im Jahr 1761},
+   url = {https://www.digitale-sammlungen.de/en/details/bsb10521253},
+   year = {1761},
+   type = {Book}
+}
+
+@book{RN828,
+   author = {[Zahorowski, Hieronim] and Capriata, Giovanni Bernardino},
+   title = {Monita secreta Societatis Iesu},
+   publisher = {De Strozzagriffi},
+   address = {Ortignano},
+   volume = {I lupi smascherati : nella confutazione e traduzione del libro intitulato: Monita secreta Societatis Iesu},
+   url = {https://books.google.pl/books/about/I_lupi_smascherati_nella_confutazione_e.html?id=bl9NtgIi7NcC&redir_esc=y},
+   year = {1760},
+   type = {Book}
+}
+
+@book{RN830,
+   author = {[Zahorowski, Hieronim] and Capriata, Giovanni Bernardino},
+   title = {Monita secreta Soc. Jesu},
+   publisher = {Pagliarini},
+   address = {Aletopoli [i.e. Lugano or Rome]},
+   volume = {I lupi smascherati nell'Appendice alle Riflessioni del Portoghese, nella traduzione e confutazione del libro intitolato Monita secreta Soc. Jesu, ed in altre aggiunte, e documenti rari ed inediti ... tomo primo[-secondo]},
+   url = {https://catalogue.bnf.fr/ark:/12148/cb30194601c},
+   year = {1761},
+   type = {Book}
+}
+
+@book{RN1784,
+   author = {[Zahorowski, Hieronim] and Gentleman at, Paris and Compton, Henry},
+   title = {The Jesuites intrigues : with the private instructions of that society to their emissaries. The first, translated out of a book privately printed at Paris. The second, lately found in manuscript in a Jesuites closet after his death. Both sent with a letter from a gentleman at Paris, to his friend in London},
+   publisher = {Printed for Ric. Chiswell, at the Rose and Crown in St. Paul's Church-Yard},
+   address = {London},
+   edition = {The second edition.},
+   note = {(OCoLC)606950446
+CL0037000099 ProQuest Information and Learning. 300 N. Zeeb Rd., Ann Arbor, MI 48106
+ProQuest Early English Books Online.},
+   keywords = {Jesuits},
+   pages = {1 online resource ( 14 , 62, 2 pages)},
+   url = {https://quod.lib.umich.edu/e/eebo/A46857.0001.001?view=toc},
+   year = {1669},
+   type = {Book}
+}
+
+@book{RN2701,
+   author = {[Zahorowski, Hieronim] and Gratiosus, Benedictus},
+   title = {Machiavellismus Jesuiticus oder ein besonderer historisch-politischer Tractat, in welchem die Geheimnisse und Kunst-Griffe, wie auch alle heimlichen Anschläge und besondere Lehren derer Jesuiten enthalten sind/ publiciret von Benedicto Gratioso. In die teutsche Sprache übersetzet und herausgegeben von einem aufrichtigen Bekenner des Evangelii},
+   publisher = {J. C. Hendel},
+   address = {Halle},
+   url = {https://www.manuscriptorium.com/apps/index.php?direct=record&pid=NKCR__-NKCR__35_F_000320_3JYYZ39-cs#search},
+   year = {1725},
+   type = {Book}
+}
+
+@misc{RN1851,
+   author = {[Zahorowski, Hieronim] and Jarrige, Pierre and Schoppe, Kaspar and Hildegard and Flacius Illyricus, Matthias},
+   title = {Monita secreta Societatis Jesu},
+   publisher = {Printed for R. Royston, and are to be sold at the Angel in Ivy-lane.},
+   volume = {A Further discovery of the mystery of Jesuitisme. In a collection of severall pieces, representing the humours, designs and practises of those who call themselves the Society of Jesus},
+   pages = {[36], 75, [11], 84, [12], 33, [5], 23, [5], 24, [12], 70, [2] p.},
+   note = {[electronic resource] :
+A variant of the edition with "printed for T. Dring" in imprint.
+Although "A discourse of the reasons why the Jesuits are so generally hated. Originally written by Fortunius Galindus" has separate title page dated 1659, Thomason received his copy of the collection in September 1658.
+Annotation on Thomason copy before imprint date of general title page: "Septem:".
+Reproduction of the original in the British Library.
+Contents (each with divisional title unless otherwise specified): The Jesuits upon the scaffold .. By Peter Jarrigius" [a translation of "Les j©*suites mis sur l'©*schafaut pour plusieurs crimes capitaux par eux commis dans la province de Guienne"] -- The calumnies of James Beaufes refuted. By the same author [a translation of "Response aux calomnies de Jacques Beauf©*s"] -- Secret instructions for the superiours of the Societie of Jesus. Faithfully rendred out of the Latine [a translation of "Monita secreta Societatis Jesu", a work attributed mainly to Hieronym Zahorowski] -- A discourse of the reasons why the Jesuits are so generally hated. Originally written by Fortunius Galindus [With separate t.p. with imprint "Printed for Richard Royston and Thomas Dring, 1659;" a translation of "De causis publici erga Jesuitas odii disputatio" by Kaspar Schoppe] -- A discovery of the Society in relation to their politicks. Written originally, by a well-wisher to the Jesuits -- The prophecy of Saint Hildegard fulfilled in the Jesuits.
+Available electronically as part of Early English books online.
+Early English books online
+Access this e-resource. *McMaster only},
+   keywords = {Hildegard, Saint, 1098-1179
+Beauf©*s, Jacques.
+Jesuits},
+   url = {https://quod.lib.umich.edu/e/eebo2/B03889.0001.001?rgn=main},
+   year = {1658},
+   type = {Electronic Book}
+}
+
+@misc{RN2694,
+   author = {[Zahorowski, Hieronim] and Jorge, Juan},
+   title = {Monita secreta para el santo, celoso, prudente y acertado gobierno de nuestro serenísimo Monarca don Fernando VI, rey católico},
+   number = {123-206},
+   url = {http://bdh-rd.bne.es/viewer.vm?id=0000128379&page=1},
+   year = {[c. 1600–1899]},
+   type = {Manuscript}
+}
+
+@book{RN309,
+   author = {[Zahorowski, Hieronim] and Le Blanc, Jean},
+   title = {Advis secrets de la Société de Jésus},
+   series = {Le cabinet jesuitique, contenant plusieurs pieces tres curieuses des R. Peres jesuites ; avec un recueil des mysteres de l'Eglise romaine ; le tout augmenté dans cette seconde edition & enrichi de figures en taille douce},
+   note = {a ||||| zzyy
+in-12
+Fausse adresse : publié en Hollande d'après Weller et Brunet
+Contient notamment : "Les secrets des jésuites, traduits de l'italien" ; "Advis secrets de la Société de Jésus", trad. de : "Monita privata Societatis Jesu" attribués à Hieronim Zahorowski ; "Aphorismes, ou Sommaire de la doctrine des jésuites", trad. de : "Aphorismi doctrinae jesuitarum et aliorum doctorum pontificiorum" ; "Légende véritable de Jean Le Blanc" avec p. de titre propre datée 1677 sans indication de lieu, en vers ; quelques pièces de vers et des prières
+Front. gr. sur cuivre ; vignette à la p. de titre principale et une autre (buisson ardent) à celle de la "Légende véritable de Jean Le Blanc", bandeau, lettrines et culs-de-lampe gr. sur bois
+Table des matière à la fin
+CG, CCXXIX, 637. - Brunet. - Weller, Falsche Druckorte. - Barbier
+Présence de vers
+Avis secrets de la Société de Jésus
+Sommaire de la doctrine des jésuites, et de quelques autres, leurs docteurs},
+   pages = {[4]-184-61-[3] , front.},
+   year = {[1677?]},
+   type = {Book}
+}
+
+@book{RN1786,
+   author = {[Zahorowski, Hieronim] and Le Blanc, Jean and Barbier d'Aucour, Jean},
+   title = {Le cabinet jésuitique : contenant plusieurs pièces tres curieuses des R. Pères jésuites, avec un recueil des mystères de l'Eglise romaine},
+   publisher = {chez Jean Le Blanc},
+   address = {A Cologne},
+   note = {ill. ; in-8
+Recueil de diverses pièces consernant les jésuites: "Les secrets des jésuites", "Advis secrets de la Société de Jésus" (trad. de "Monita privata Societatis Jesu", attribués à Hieronim Zahorowski), "Aphorismes, ou Sommaire de la doctrine des jésuites" (trad. de "Aphorismi doctrinae jesuitarum et aliorum doctorum pontificiorum"), "Le pater noster des jésuites dédié au roy d'Espagne", "Légende véritable de Jean Le Blanc", "Onguent pour la brûlure ou le secret pour empêscher les jésuites de brûler les livres" (par Jean Barbier D'Aucour), etc.
+L'illustration consiste en deux planches gravées en taille-douce, non signées
+Seconde édition de ce recueil, imprimée selon le NUC en Hollande vers 1720 sous l'adresse fictive de Cologne et le nom supposé de Jean Le Blanc},
+   pages = {[4], 308, [3] , [2] f. de pl.},
+   url = {http://books.google.ch/books?vid=BCULVD2206766},
+   year = {1720},
+   type = {Book}
+}
+
+@misc{RN1006,
+   author = {[Zahorowski, Hieronim] and Lubrani, Giacomo},
+   title = {Moniti priuati della Società di Gesù},
+   publisher = {The Newberry Library},
+   volume = {Newberry VAULT Case},
+   number = {35},
+   url = {https://i-share-nby.primo.exlibrisgroup.com/permalink/01CARLI_NBY/i5mcb2/alma995481888805867},
+   year = {1665},
+   type = {Manuscript}
+}
+
+@book{RN1791,
+   author = {[Zahorowski, Hieronim] and Oldenburger, Philipp Andreas},
+   title = {Homo politicus, hoc est : consiliarius novus, officiarius et aulicus, secundum hodiernam praxin},
+   address = {Cosmopoli},
+   edition = {Editio secunda, auctior et emendatior : cui accesserunt Monita privata Societatis Jesu.},
+   note = {AHE2142^^^^^
+(OCoLC)1154017020
+auctore Pacifico a Lapide.
+21 cm (4to)
+Bound in brown calf over wodden boards, printed marginalia.
+Running title: Homo Politicvs.
+Variously attributed to P.A. Oldenburger and C. Rapp. - Cf. BM.
+Fictitious imprint. Actual location varies. Published in Geneva, Switzerland.
+Also available online.},
+   keywords = {State, The 17th century.
+Political science Early works to 1800.
+Statesmen Early works to 1800.
+Imprints Switzerland Geneva 1668.},
+   pages = {56 1 , 46 p. 2 pts},
+   url = {http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11061382-6},
+   year = {1668},
+   type = {Book}
+}
+
+@book{RN335,
+   author = {[Zahorowski, Hieronim] and Plancher, Pierre},
+   title = {Monitoria secreta ou Instrucções secretas dos padres da Companhia de Jesus},
+   note = {(OCoLC)on1033692945
+compostas pelo Claudio Aquavivei da mesma companhia.
+Instrucções secretas dos padres da Companhia de Jesus
+Monita privata Societatis Jesu
+20 cm
+Woodcut vignette on cover and title page.
+First published under the title Monita privata Societatis Jesu (Notobrigae, 1612, i.e. Cracow, 1614), and attributed generally to Hieronim Zahorowski. See Schneider, B. "Monita Secreta." New Catholic Encyclopedia, 2nd ed., vol. 9, Gale, 2003, p. 812.
+Errata on page [1] at end.},
+   abstract = {First Brazilian edition of a forgery purporting to be the secret instructions of Claudio Acquaviva.},
+   keywords = {Jesuits},
+   pages = {VII, 2 , 10-71, 1 pages},
+   url = {https://bc-primo.hosted.exlibrisgroup.com/permalink/f/1jdnfk3/ALMA-BC21482952120001021},
+   year = {1827},
+   type = {Book}
+}
+
+@book{RN1836,
+   author = {[Zahorowski, Hieronim] and Ruckert, Michael},
+   title = {Constitutiones, sive Monita secreta Societatis Jesu publici juris facta a Michaele Ruckert},
+   publisher = {apud viduam J. Nicolai},
+   address = {Groningae},
+   note = {Le titre de départ porte seulement "Monita secreta Societatis Jesu", titre sous lequel ce libelle sera également publié. - On trouve à la fin un poème latin de Dominicus Baudius intitulé : "De Jesuitis"},
+   pages = {In-4° , 22 (C. Van Aken, o cit., 59.)},
+   year = {1654},
+   type = {Book}
+}
+
+@book{RN2382,
+   author = {[Zahorowski, Hieronim] and Sauvestre, Charles},
+   title = {Monita secreta Societatis Jesu = Instructions secrètes des Jésuites},
+   publisher = {E. Dentu},
+   address = {Paris},
+   edition = {3. éd.},
+   note = {(CUY)UCB-b140620916-01ucs_ber
+(OCoLC)6550833
+(EXLNZ-01UCS_NETWORK)9913743760306531
+Monita secreta Societatis Jesu.
+augm. de notes curieuses et précédée d'une introduction par Charles Sauvestre.
+19 cm.},
+   keywords = {Jesuits},
+   pages = {144 p.},
+   year = {1864},
+   type = {Book}
+}
+
+@book{RN2407,
+   author = {[Zahorowski, Hieronim] and Sauvestre, Charles},
+   title = {Monita secreta Societatis Jesu = : Instructions secrètes des Jésuites},
+   publisher = {E. Dentu},
+   address = {Paris},
+   keywords = {Jesuits -- Controversial literature.},
+   pages = {168 : ill. ; 19 cm.},
+   year = {1867},
+   type = {Book}
+}
+
+@book{RN2526,
+   author = {[Zahorowski, Hieronim] and Sauvestre, Charles},
+   title = {Monita secreta Societatis Jesu Instructions secrètes des Jésuites},
+   publisher = {E. Dentu},
+   address = {Paris},
+   edition = {10. éd.},
+   note = {(DE-627)1480160822
+(DE-576)410160822
+(DE-599)BSZ410160822
+(OCoLC)54673725
+par Charles Sauvestre. Ed. très-augmentée contentant le dénombrement des Jésuites en France par département, et ornée d'une gravure
+Instructions secrètes des Jésuites
+Ill. 19 cm},
+   keywords = {Jesuits Controversial literature Jesuits Controversial literature},
+   pages = {III, 168 S.},
+   year = {1872},
+   type = {Book}
+}
+
+@book{RN1825,
+   author = {[Zahorowski, Hieronim] and Sauvestre, Charles},
+   title = {Monita secreta Societatis Jesu. Instructions secrètes des Jésuites},
+   publisher = {E. Dentu},
+   address = {Paris},
+   edition = {19. ©*d.,},
+   note = {(MiU)001940907MIU01
+(CaOTULAS)176855817
+(SAZTEC)014303020
+(OCoLC)ocm23398746
+3. augm., contenant le d©*nombrement des j©*suites en France par d©*partement, et orn©*e d'une gravure. Par Charles Sauvestre.
+fold. pl. 19cm.
+Latin and French on opposite pages.
+First published under title Monita privata Societatis Jesu, Notobrigae, 1612 (i. e. Cracow, 1614) cf. Wetzer und Welte's Kirchenlexikon. 2. aufl. 1886-1901. v. 8, col. 1776.},
+   keywords = {Jesuits Controversial literature.
+Monita secreta Societatis Jesu.},
+   pages = {2 p. l., iii, 168 p.},
+   year = {1880},
+   type = {Book}
+}
+
+@book{RN1866,
+   author = {[Zahorowski, Hieronim] and Sauvestre, Charles},
+   title = {Instructions secrètes des Jésuites},
+   publisher = {le Monde inconnu},
+   address = {Paris},
+   note = {[publié] par Charles Sauvestre
+19 cm
+Attribué à Hieronim Zahorowski
+Mention parallèle de titre ou de responsabilité : Monita secreta Societatis Jesu...
+Reprod. en fac-sim. de la 4e éd. de Paris, Le Dentu, 1865
+Monita secreta Societatis Jesu...},
+   keywords = {Jésuites
+Ouvrages de controverse},
+   pages = {168 -[1] dépl. de pl.},
+   ISBN = {Br. 59 F},
+   year = {1983},
+   type = {Book}
+}
+
+@book{RN319,
+   author = {[Zahorowski, Hieronim] and Schoppe, Kaspar},
+   title = {Instructio secreta pro superioribus Societatis Jesu},
+   publisher = {n.p.},
+   address = {n.p.},
+   volume = {Anatomia Societatis Jesu : seu Probatio spiritus jesuitarum. Item, Arcana imperii jesuitici cum Instructione secretissima pro superioribus ejusdem. Et Deliciarum jesuiticarum specimina : tandem Divina oracula de societatis exitu},
+   note = {||||||||| zzyy
+in-4
+Contient : "Anatome Societatis Jesu...", des extraits du "De morbis Societatis Jesu", du Père J. de Mariana, "Instructio secreta pro superioribus Societatis Jesu" réimpression des "Monita privata Societatis Jesu", dû à Hieronim Zahorowski, "Deliciarum jesuiticarum specimina" et "Divina oracula de exitu Societatis", ces deux dernières pièces dues à Gaspar Scioppius qui édite l'ensemble
+Probatio spiritus jesuitarum},
+   pages = {103},
+   url = {https://www.digitale-sammlungen.de/en/view/bsb11228841?page=,1},
+   year = {1668},
+   type = {Book}
+}
+
+@book{RN2275,
+   author = {[Zahorowski, Hieronim] and Sherman, Edwin A.},
+   title = {Monita secreta Societatis Jesu},
+   address = {San Francisco?},
+   series = {The Engineer Corps of Hell; or, Rome's sappers and miners. Containing the tactics of the "militia of the Pope," or the Secret manual of the Jesuits, and other matter intensely interesting, especially to the Freemason and lovers of civil and religious liberty, whithersoever disperesed throughout the globe},
+   note = {66043354
+(Edwin Allen),
+Compiled and translated by Edwin A. Sherman.
+18 cm.
+"Sold by private subscription only, and under stipulated conditions."
+Includes the Papal syllabus of errors, by Pope Pius IX.
+Syllabus errorum. English.
+Monita secreta Societatis Jesu. English.},
+   keywords = {Jesuits},
+   pages = {320, 11 p.},
+   year = {1883},
+   type = {Book}
+}
+
+@book{RN2709,
+   author = {[Zahorowski, Hieronim] and [Acquaviva, Claudio]},
+   title = {Monitoria secreta ou instrucções secretas dos Padres da Companhia de Jesus},
+   publisher = {Ericeira : Sol Invictus Atelier},
+   address = {Ericeira},
+   series = {Instruções secretas dos Jesuítas},
+   note = {Originally published: Lisboa : Typographia do Panorama, Travessa da Victoria, 1859.},
+   keywords = {Jesuits -- History -- Sources
+Jesuits -- Rules},
+   year = {1991},
+   type = {Book}
+}
+
