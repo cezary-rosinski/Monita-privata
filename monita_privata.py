@@ -9,10 +9,12 @@ import requests
 import time
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
+from my_functions import gsheet_to_df
+import json
 
 #%%
 
-file = r"C:\Users\Cezary\Downloads\exportlist (1).txt"
+file = r"data\endnote_bibliography.txt"
 
 with open(file, encoding='utf-8') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
@@ -23,8 +25,6 @@ df = pd.DataFrame(data)
 
 
 year = set(df['year'].to_list())
-
-[e for e in year if '–' in e]
 
 def set_year(x):
     if x.isnumeric():
@@ -111,42 +111,25 @@ df = pd.DataFrame().from_dict(places_with_geonames, orient='index').reset_index(
 for m in tqdm(places):
     query_geonames(m)
         
-max(lst, key=lambda x:x['price'])        
+
+
+
+#%% geojson
+
+geo_data = gsheet_to_df('1Azq2_eYY2cooc9emPHlOj6vkwDrS04OdrPz-GZQ5tMI', 'Arkusz1')  
+geo_data = geo_data.loc[(geo_data['lat'].notnull()) &
+                        (geo_data['error'].isnull())]
+        
+geojson = {"type": "FeatureCollection", "features": []}
+
+for _, row in geo_data.iterrows():
+    feature = {"type": "Feature", "geometry": {"type": "Point", "coordinates": [float(row['lng']), float(row['lat'])]}, "properties": {"city": row['name']}}
+    geojson['features'].append(feature)
+    
+with open('data/monita_privata.geojson', 'w') as fp:
+    json.dump(geojson, fp) 
         
         
-        
-        
-        
-        
-        
-        geonames_resp = [[e['geonameId'], e['name'], e['lat'], e['lng'], [f['name'] for f in e['alternateNames']] if 'alternateNames' in e else []] for e in result['geonames']]
-        [e[-1].append(e[1]) for e in geonames_resp]
-        if len(geonames_resp) == 0:
-            miejscowosci_total[m] = geonames_resp
-        if len(geonames_resp) == 1:
-            miejscowosci_total[m] = geonames_resp
-        elif len(geonames_resp) > 1:    
-            for i, resp in enumerate(geonames_resp):
-                # i = -1
-                # resp = geonames_resp[-1]
-                if len(resp[-1]) > 1:
-                    try:
-                        wikipedia_link = [e for e in resp[-1] if 'wikipedia' in e][0]
-                        wikipedia_title = wikipedia_link.replace('https://en.wikipedia.org/wiki/','')
-                        wikipedia_query = f'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageprops&ppprop=wikibase_item&redirects=1&titles={wikipedia_title}'
-                        try:
-                            wikipedia_result = requests.get(wikipedia_query).json()['query']['pages']
-                            wikidata_id = wikipedia_result[list(wikipedia_result.keys())[0]]['pageprops']['wikibase_item']
-                            wikidata_query = requests.get(f'https://www.wikidata.org/wiki/Special:EntityData/{wikidata_id}.json').json()
-                            labels = {v['value'] for k,v in wikidata_query['entities'][wikidata_id]['labels'].items()}
-                            geonames_resp[i][-1].extend(labels)
-                            geonames_resp[i][-1].remove(wikipedia_link)
-                        # except (KeyError, requests.exceptions.ConnectTimeout):
-                        except Exception:
-                            pass
-                    except IndexError:
-                        pass
-            miejscowosci_total[m] = geonames_resp
     
     
     
@@ -163,8 +146,4 @@ max(lst, key=lambda x:x['price'])
     
     
     
-    
-    
-        
-x = '1901'
-x.isnumeric()
+
