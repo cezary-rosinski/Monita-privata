@@ -26,7 +26,7 @@ df = pd.DataFrame(data)
 
 year = set(df['year'].to_list())
 
-def set_year(x):
+def get_year(x):
     if x.isnumeric():
         return (int(x), 'certain')
     elif x.replace('[','').replace(']','').isnumeric():
@@ -55,27 +55,35 @@ def set_year(x):
         return (int(re.findall('\d{4}', x)[0]), 'uncertain')
     else: return('solution not provided')
     
-        
+df_fixed = df.copy()
+df_fixed['year_fixed'] = df['year'].apply(lambda x: get_year(x)[0])
+df_fixed['year_certainty'] = df['year'].apply(lambda x: get_year(x)[1])
+    
 #test poprawności funkcji `set_year`
 for e in year:
-    if set_year(e) == 'solution not provided':
+    if get_year(e) == 'solution not provided':
         print(e)
 
-def set_origin_of_the_year(x):
+def get_origin_of_the_year(x):
     if '[' in x:
         return 'external'
     else: return 'internal'
     
-def set_privata_in_title(x):
+df_fixed['year_origin'] = df['year'].apply(lambda x: get_origin_of_the_year(x))
+    
+def get_privata_in_title(x):
     if 'privata' in x.lower():
         return True
     else: return False
 
-def set_secreta_in_title(x):
+df_fixed['privata_in_title'] = df['title'].apply(lambda x: get_privata_in_title(x))
+
+def get_secreta_in_title(x):
     if 'secreta' in x.lower():
         return True
     else: return False   
     
+df_fixed['secreta_in_title'] = df['title'].apply(lambda x: get_secreta_in_title(x))
 #dopytać RM, jaka informacja i w którym polu
 #def set_publishing_form(x):
 
@@ -106,10 +114,10 @@ with ThreadPoolExecutor() as excecutor:
 places_without_geonames = {k:v for k,v in places_with_geonames.items() if not v}
 places_with_geonames = {k:v for k,v in places_with_geonames.items() if k not in places_without_geonames}
 
-df = pd.DataFrame().from_dict(places_with_geonames, orient='index').reset_index().rename(columns={'index': 'query'})
+df_places = pd.DataFrame().from_dict(places_with_geonames, orient='index').reset_index().rename(columns={'index': 'query'})
         
-for m in tqdm(places):
-    query_geonames(m)
+# for m in tqdm(places):
+#     query_geonames(m)
         
 
 
