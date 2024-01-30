@@ -119,8 +119,12 @@ df_places = pd.DataFrame().from_dict(places_with_geonames, orient='index').reset
 # for m in tqdm(places):
 #     query_geonames(m)
         
+df_places = gsheet_to_df('1Azq2_eYY2cooc9emPHlOj6vkwDrS04OdrPz-GZQ5tMI', 'Arkusz1')
+df_places = df_places.loc[(df_places['error'].isnull()) & (df_places['lat'].notnull())].drop(columns='error')
 
+df_to_work = pd.merge(df_fixed, df_places, left_on='address', right_on='query', how='left')[['ID', 'title', 'publisher', 'address', 'note', 'year', 'name', 'link']]
 
+df_to_work.to_excel('data/records_and_places.xlsx', index=False)
 
 #%% geojson
 
