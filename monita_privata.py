@@ -16,13 +16,73 @@ import json
 
 file = r"data\endnote_bibliography.txt"
 
-with open(file, encoding='utf-8') as bibtex_file:
-    bib_database = bibtexparser.load(bibtex_file)
+# with open(file, encoding='utf-8') as bibtex_file:
+#     bib_database = bibtexparser.load(bibtex_file)
 
-data = bib_database.entries
+# data = bib_database.entries
+
+with open(file, encoding='utf-8') as f:
+    data = f.readlines()
+
+data_list = []
+for i, row in enumerate(data[:-1]):
+    if row.startswith('%') and data[i+1].startswith('%'):
+        temp = row.strip()
+        data_list.append(temp)
+    elif row.startswith('%') and not data[i+1].startswith('%'):
+        temp = row.strip()
+    elif not row.startswith('%') and data[i+1].startswith('%'): 
+        temp += f" {row.strip()}"
+        data_list.append(temp)
+    elif not row.startswith('%') and not data[i+1].startswith('%'): 
+        temp += f" {row.strip()}"
+
+bib_list = []
+for row in data_list:
+    if row.startswith('%0'):
+        bib_list.append([row])
+    else:
+        if row.strip():
+            bib_list[-1].append(row)
+            
+test = set([e for sub in [[el[:2] for el in e] for e in bib_list] for e in sub])
+    
 
 df = pd.DataFrame(data)
 
+conversion_dict = {
+    '%!': 'title2',
+    '%&': 'pages2',
+    '%+': 'ID',
+    '%0': 'type',
+    '%6': 'notes2',
+    '%7': 'edition',
+    '%9': 'format',
+    '%<': 'translation info',
+    '%?': 'NT',
+    '%@': 'catalogue info',
+    '%A': 'author',
+    '%B': 'note3',
+    '%C': 'address',
+    '%D': 'year',
+    '%E': 'co-author',
+    '%F': 'unknown number',
+    '%G': 'language',
+    '%I': 'publisher',
+    '%K': 'keywords',
+    '%L': 'keywords2',
+    '%M': 'library id',
+    '%N': 'number',
+    '%P': 'pages',
+    '%T': 'title',
+    '%U': 'url',
+    '%V': 'volume',
+    '%W': 'worldcat',
+    '%X': 'abstract',
+    '%Z': 'note',
+    '%~': 'worldcat2'
+    }
+#pola mogą być wilokrotne!
 
 year = set(df['year'].to_list())
 
