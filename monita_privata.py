@@ -45,10 +45,17 @@ for row in data_list:
         if row.strip():
             bib_list[-1].append(row)
             
-test = set([e for sub in [[el[:2] for el in e] for e in bib_list] for e in sub])
-    
+final_list = []
+for lista in bib_list:
+    slownik = {}
+    for el in lista:
+        if el[:2] in slownik:
+            slownik[el[:2]] += f"❦{el[3:]}"
+        else:
+            slownik[el[:2]] = el[3:]
+    final_list.append(slownik)
 
-df = pd.DataFrame(data)
+df = pd.DataFrame(bib_list)
 
 conversion_dict = {
     '%!': 'title2',
