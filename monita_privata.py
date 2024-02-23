@@ -23,23 +23,40 @@ file = r"data\endnote_bibliography.txt"
 
 with open(file, encoding='utf-8') as f:
     data = f.readlines()
+    
+# test = set([e[:2] for e in data if '  - ' in e])
+# [e for e in test if e not in conversion_dict_RIS.keys()]
 
 data_list = []
 for i, row in enumerate(data[:-1]):
-    if row.startswith('%') and data[i+1].startswith('%'):
+    if row[2:6] == '  - ' and data[i+1][2:6] == '  - ':
         temp = row.strip()
         data_list.append(temp)
-    elif row.startswith('%') and not data[i+1].startswith('%'):
+    elif row[2:6] == '  - ' and data[i+1][2:6] != '  - ':
         temp = row.strip()
-    elif not row.startswith('%') and data[i+1].startswith('%'): 
+    elif row[2:6] != '  - ' and data[i+1][2:6] == '  - ':
         temp += f" {row.strip()}"
         data_list.append(temp)
-    elif not row.startswith('%') and not data[i+1].startswith('%'): 
+    elif row[2:6] != '  - ' and data[i+1][2:6] != '  - ':
         temp += f" {row.strip()}"
+
+# data_list = []
+# for i, row in enumerate(data[:-1]):
+#     if row.startswith('%') and data[i+1].startswith('%'):
+#         temp = row.strip()
+#         data_list.append(temp)
+#     elif row.startswith('%') and not data[i+1].startswith('%'):
+#         temp = row.strip()
+#     elif not row.startswith('%') and data[i+1].startswith('%'): 
+#         temp += f" {row.strip()}"
+#         data_list.append(temp)
+#     elif not row.startswith('%') and not data[i+1].startswith('%'): 
+#         temp += f" {row.strip()}"
 
 bib_list = []
 for row in data_list:
-    if row.startswith('%0'):
+    # if row.startswith('%0'):
+    if row.startswith('TY  - '):
         bib_list.append([row])
     else:
         if row.strip():
@@ -50,46 +67,86 @@ for lista in bib_list:
     slownik = {}
     for el in lista:
         if el[:2] in slownik:
-            slownik[el[:2]] += f"❦{el[3:]}"
+            slownik[el[:2]] += f"❦{el[6:]}"
         else:
-            slownik[el[:2]] = el[3:]
+            slownik[el[:2]] = el[6:]
     final_list.append(slownik)
 
-df = pd.DataFrame(bib_list)
+df = pd.DataFrame(final_list)
 
-conversion_dict = {
-    '%!': 'title2',
-    '%&': 'pages2',
-    '%+': 'ID',
-    '%0': 'type',
-    '%6': 'notes2',
-    '%7': 'edition',
-    '%9': 'format',
-    '%<': 'translation info',
-    '%?': 'NT',
-    '%@': 'catalogue info',
-    '%A': 'author',
-    '%B': 'note3',
-    '%C': 'address',
-    '%D': 'year',
-    '%E': 'co-author',
-    '%F': 'unknown number',
-    '%G': 'language',
-    '%I': 'publisher',
-    '%K': 'keywords',
-    '%L': 'keywords2',
-    '%M': 'library id',
-    '%N': 'number',
-    '%P': 'pages',
-    '%T': 'title',
-    '%U': 'url',
-    '%V': 'volume',
-    '%W': 'worldcat',
-    '%X': 'abstract',
-    '%Z': 'note',
-    '%~': 'worldcat2'
+conversion_dict_RIS = {
+    'ST': 'short_title',
+    'SE': 'pages2',
+    'AD': 'postal_address',
+    'TY': 'type',
+    'NV': 'number_of_volumes',
+    'ET': 'edition',
+    'M3': 'format',
+    'RN': 'research_notes',
+    'A4': 'NT',
+    'SN': 'catalogue_info',
+    'AU': 'author',
+    'T2': 'secondary_title',
+    'CY': 'publication_place',
+    'PY': 'year',
+    'A2': 'co-author',
+    'LB': 'label',
+    'LA': 'language',
+    'PB': 'publisher',
+    'KW': 'keywords',
+    'CN': 'keywords2',
+    'AN': 'accession_number',
+    'M1': 'number',
+    'SP': 'pages',
+    'TI': 'title',
+    'UR': 'url',
+    'VL': 'volume',
+    'DP': 'database_provider',
+    'AB': 'abstract',
+    'N1': 'notes',
+    'DB': 'name_of_database',
+    'ER': 'end_of_reference', 
+    'ID': 'ID', 
+    'RP': 'reprint_status'
     }
-#pola mogą być wilokrotne!
+
+# conversion_dict = {
+#     '%!': 'title2',
+#     '%&': 'pages2',
+#     '%+': 'ID',
+#     '%0': 'type',
+#     '%6': 'notes2',
+#     '%7': 'edition',
+#     '%9': 'format',
+#     '%<': 'translation info',
+#     '%?': 'NT',
+#     '%@': 'catalogue info',
+#     '%A': 'author',
+#     '%B': 'note3',
+#     '%C': 'address',
+#     '%D': 'year',
+#     '%E': 'co-author',
+#     '%F': 'unknown number',
+#     '%G': 'language',
+#     '%I': 'publisher',
+#     '%K': 'keywords',
+#     '%L': 'keywords2',
+#     '%M': 'library id',
+#     '%N': 'number',
+#     '%P': 'pages',
+#     '%T': 'title',
+#     '%U': 'url',
+#     '%V': 'volume',
+#     '%W': 'worldcat',
+#     '%X': 'abstract',
+#     '%Z': 'note',
+#     '%~': 'worldcat2'
+#     }
+
+df.columns = [conversion_dict_RIS.get(e) for e in df.columns]
+
+#%%
+
 
 year = set(df['year'].to_list())
 
