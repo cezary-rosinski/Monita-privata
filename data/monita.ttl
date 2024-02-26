@@ -5,7 +5,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-monita:125 dcterms:date "1727"^^xsd:year ;
+monita:125 a dcterms:BibliographicResource ;
+    dcterms:date "1727"^^xsd:year ;
     dcterms:title "Les instructions secrets des Jesuites traduites de leurs Secreta Monita" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -15,7 +16,8 @@ monita:125 dcterms:date "1727"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:1257 dcterms:date "[c. 1814]"^^xsd:year ;
+monita:1257 a dcterms:BibliographicResource ;
+    dcterms:date "[c. 1814]"^^xsd:year ;
     dcterms:title "Istruzioni secrete della Compagnia di Gesù con importanti aggiunte" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -24,7 +26,8 @@ monita:1257 dcterms:date "[c. 1814]"^^xsd:year ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" .
 
-monita:1311 dcterms:date "1676"^^xsd:year ;
+monita:1311 a dcterms:BibliographicResource ;
+    dcterms:date "1676"^^xsd:year ;
     dcterms:title "Forma del governo giesuitico con una istrutione et avviso a' potentati del modo con il quale si governano li Giesuiti per ridurre la loro Compagnia ad una perfetta monarchia" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -34,7 +37,8 @@ monita:1311 dcterms:date "1676"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:1444 dcterms:date "1634"^^xsd:year ;
+monita:1444 a dcterms:BibliographicResource ;
+    dcterms:date "1634"^^xsd:year ;
     dcterms:title "Avisos secretos  à los bien entendidos" ;
     monita:placeInText <https://www.geonames.org/2510911> ;
     monita:placeType "prawdziwa" ;
@@ -44,7 +48,8 @@ monita:1444 dcterms:date "1634"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2510911> .
 
-monita:1445 dcterms:date "1634"^^xsd:year ;
+monita:1445 a dcterms:BibliographicResource ;
+    dcterms:date "1634"^^xsd:year ;
     dcterms:title "Singulares y secretas admoniciones para particulares personas de nuestra Compañia, traducidas de latin en romance" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -52,7 +57,8 @@ monita:1445 dcterms:date "1634"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1446 dcterms:date "1671"^^xsd:year ;
+monita:1446 a dcterms:BibliographicResource ;
+    dcterms:date "1671"^^xsd:year ;
     dcterms:title "Forma del governo giesuitico con una istruttione et avviso a' potentati del modo con il quale si governano li Giesuiti per ridurre la loro Compagnia ad una perfetta monarchia" ;
     monita:placeInText <https://www.geonames.org/3181928/bologna.html> ;
     monita:placeType "prawdziwa" ;
@@ -62,7 +68,8 @@ monita:1446 dcterms:date "1671"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3181928/bologna.html> .
 
-monita:1449 dcterms:date "1704"^^xsd:year ;
+monita:1449 a dcterms:BibliographicResource ;
+    dcterms:date "1704"^^xsd:year ;
     dcterms:title "Instructions Secretes Des Jesuites: Suivant l'original" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -72,7 +79,8 @@ monita:1449 dcterms:date "1704"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:1451 dcterms:date "1758"^^xsd:year ;
+monita:1451 a dcterms:BibliographicResource ;
+    dcterms:date "1758"^^xsd:year ;
     dcterms:title "Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo." ;
     monita:placeInText <https://www.geonames.org/3028542> ;
     monita:placeType "prawdziwa" ;
@@ -82,7 +90,8 @@ monita:1451 dcterms:date "1758"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3028542> .
 
-monita:1452 dcterms:date "1759"^^xsd:year ;
+monita:1452 a dcterms:BibliographicResource ;
+    dcterms:date "1759"^^xsd:year ;
     dcterms:title "Mondo gesuitico scoperto al pubblico : con la vera e distinta relazione dell'arte soprafina con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -91,7 +100,8 @@ monita:1452 dcterms:date "1759"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3164602/venezia.html> .
 
-monita:1453 dcterms:date "1760"^^xsd:year ;
+monita:1453 a dcterms:BibliographicResource ;
+    dcterms:date "1760"^^xsd:year ;
     dcterms:title "Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -100,7 +110,8 @@ monita:1453 dcterms:date "1760"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3164602/venezia.html> .
 
-monita:1457 dcterms:date "1860"^^xsd:year ;
+monita:1457 a dcterms:BibliographicResource ;
+    dcterms:date "1860"^^xsd:year ;
     dcterms:title "Istruzioni secrete della compagnia di Gesù" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -109,7 +120,8 @@ monita:1457 dcterms:date "1860"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1460 dcterms:date "[c. 1780]"^^xsd:year ;
+monita:1460 a dcterms:BibliographicResource ;
+    dcterms:date "[c. 1780]"^^xsd:year ;
     dcterms:title "Istruzioni secrete della compagnia de Gesù : con importanti aggiunto." ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -118,7 +130,8 @@ monita:1460 dcterms:date "[c. 1780]"^^xsd:year ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" .
 
-monita:1465 dcterms:date "[1667]"^^xsd:year ;
+monita:1465 a dcterms:BibliographicResource ;
+    dcterms:date "[1667]"^^xsd:year ;
     dcterms:title "Forma del Governo Giesuitico con vna instruttione et uuiso a'Potentati del modo, Con il quale si gouernano li Giesuiti, Per ridurre la loro Compagnia ad vna perfetta Monarchia [Trad. des Monita secreta de Zahorowski. Suivi de : Lettera amfibologica..., Riposta del cavaliere discepolo..., Il Lamento de'monaci..., Riposta della Corte..., Il Processo della Critica..., Diario, e lettera sopra gli Affari Correnti di Don Giovanni d'Austria...]" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -126,7 +139,8 @@ monita:1465 dcterms:date "[1667]"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
 
-monita:1754 dcterms:date "1868"^^xsd:year ;
+monita:1754 a dcterms:BibliographicResource ;
+    dcterms:date "1868"^^xsd:year ;
     dcterms:title "Monita Secreta, of de geheime instructiën die door de Jesuïeten in stilte worden nageleefd" ;
     monita:placeInText <https://www.geonames.org/2749541> ;
     monita:placeType "prawdziwa" ;
@@ -136,7 +150,8 @@ monita:1754 dcterms:date "1868"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2749541> .
 
-monita:1764 dcterms:date "1759"^^xsd:year ;
+monita:1764 a dcterms:BibliographicResource ;
+    dcterms:date "1759"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu = The secret instructions of the Jesuits" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -146,7 +161,8 @@ monita:1764 dcterms:date "1759"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:1767 dcterms:date "[1612]"^^xsd:year ;
+monita:1767 a dcterms:BibliographicResource ;
+    dcterms:date "[1612]"^^xsd:year ;
     dcterms:title "Aurea monita religiosissimae societatis Jesu in gratiam politicorum & omnium qui Jesum amant, pro studio edita" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -154,7 +170,8 @@ monita:1767 dcterms:date "[1612]"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
 
-monita:1772 dcterms:date "1723"^^xsd:year ;
+monita:1772 a dcterms:BibliographicResource ;
+    dcterms:date "1723"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu. = The secret instructions of the Jesuits" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -164,7 +181,8 @@ monita:1772 dcterms:date "1723"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:1776 dcterms:date "1824"^^xsd:year ;
+monita:1776 a dcterms:BibliographicResource ;
+    dcterms:date "1824"^^xsd:year ;
     dcterms:title "The Secreta Monita, or, the Jesuits' private instructions to their emissaries : found in manuscript in a Jesuit's closet, after his death" ;
     monita:placeInText <https://www.geonames.org/2964574/dublin.html> ;
     monita:placeType "prawdziwa" ;
@@ -174,7 +192,8 @@ monita:1776 dcterms:date "1824"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2964574/dublin.html> .
 
-monita:1778 dcterms:date "1669"^^xsd:year ;
+monita:1778 a dcterms:BibliographicResource ;
+    dcterms:date "1669"^^xsd:year ;
     dcterms:title "Forma del gouerno giesuitico con vna instruttione & auuiso a' potentati del modo con il quale si gouernano li Giesuiti per ridurre la loro Compagnia ad vna perfetta monarchia [Monita secreta]" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -182,7 +201,8 @@ monita:1778 dcterms:date "1669"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1782 dcterms:date "1679"^^xsd:year ;
+monita:1782 a dcterms:BibliographicResource ;
+    dcterms:date "1679"^^xsd:year ;
     dcterms:title "Le cabinet jesuitique : contenant plusieurs pieces tres curieuses des r. peres Jesuites : avec un recueil des mysteres de l'Eglise romaine" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -192,7 +212,8 @@ monita:1782 dcterms:date "1679"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:1784 dcterms:date "1669"^^xsd:year ;
+monita:1784 a dcterms:BibliographicResource ;
+    dcterms:date "1669"^^xsd:year ;
     dcterms:title "The Jesuites intrigues : with the private instructions of that society to their emissaries. The first, translated out of a book privately printed at Paris. The second, lately found in manuscript in a Jesuites closet after his death. Both sent with a letter from a gentleman at Paris, to his friend in London" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -202,7 +223,8 @@ monita:1784 dcterms:date "1669"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:1786 dcterms:date "1720"^^xsd:year ;
+monita:1786 a dcterms:BibliographicResource ;
+    dcterms:date "1720"^^xsd:year ;
     dcterms:title "Le cabinet jésuitique : contenant plusieurs pièces tres curieuses des R. Pères jésuites, avec un recueil des mystères de l'Eglise romaine" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -212,7 +234,8 @@ monita:1786 dcterms:date "1720"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:1788 dcterms:date "1897"^^xsd:year ;
+monita:1788 a dcterms:BibliographicResource ;
+    dcterms:date "1897"^^xsd:year ;
     dcterms:title "The secret instructions of the Jesuits" ;
     monita:placeInText <https://www.geonames.org/4951257> ;
     monita:placeType "prawdziwa" ;
@@ -222,7 +245,8 @@ monita:1788 dcterms:date "1897"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/4951257> .
 
-monita:1790 dcterms:date "1901"^^xsd:year ;
+monita:1790 a dcterms:BibliographicResource ;
+    dcterms:date "1901"^^xsd:year ;
     dcterms:title "Les Secrets des Jésuites. \"Monita secreta\"" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -232,7 +256,8 @@ monita:1790 dcterms:date "1901"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:1800 dcterms:date "1702"^^xsd:year ;
+monita:1800 a dcterms:BibliographicResource ;
+    dcterms:date "1702"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu" ;
     monita:placeType "NaN"^^xsd:double ;
     monita:privataInTitle false ;
@@ -240,7 +265,8 @@ monita:1800 dcterms:date "1702"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1805 dcterms:date "1901"^^xsd:year ;
+monita:1805 a dcterms:BibliographicResource ;
+    dcterms:date "1901"^^xsd:year ;
     dcterms:title "Monita secreta die geheimen Instruktionen der Jesuiten; lateinisch und deutsch = Monita secreta" ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
@@ -249,7 +275,8 @@ monita:1805 dcterms:date "1901"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2825297> .
 
-monita:1806 dcterms:date "1848"^^xsd:year ;
+monita:1806 a dcterms:BibliographicResource ;
+    dcterms:date "1848"^^xsd:year ;
     dcterms:title "Die geheimen Instruktionen der Jesuiten nach dem lateinischen Original" ;
     monita:placeInText <https://www.geonames.org/2658822> ;
     monita:placeType "prawdziwa" ;
@@ -259,7 +286,8 @@ monita:1806 dcterms:date "1848"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2658822> .
 
-monita:1807 dcterms:date "1845"^^xsd:year ;
+monita:1807 a dcterms:BibliographicResource ;
+    dcterms:date "1845"^^xsd:year ;
     dcterms:title "Geheime Verhaltungsbefehle der Jesuiten" ;
     monita:placeInText <https://www.geonames.org/2861982/nordhausen.html> ;
     monita:placeType "prawdziwa" ;
@@ -269,7 +297,8 @@ monita:1807 dcterms:date "1845"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2861982/nordhausen.html> .
 
-monita:1810 dcterms:date "1782"^^xsd:year ;
+monita:1810 a dcterms:BibliographicResource ;
+    dcterms:date "1782"^^xsd:year ;
     dcterms:title "Monita Secreta Patrvm Societatis Iesu : nunc primum typis expressa" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -278,7 +307,8 @@ monita:1810 dcterms:date "1782"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1811 dcterms:date "1762"^^xsd:year ;
+monita:1811 a dcterms:BibliographicResource ;
+    dcterms:date "1762"^^xsd:year ;
     dcterms:title "Privaterinnerungen der Gesellschaft Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -286,7 +316,8 @@ monita:1811 dcterms:date "1762"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1812 dcterms:date "1761"^^xsd:year ;
+monita:1812 a dcterms:BibliographicResource ;
+    dcterms:date "1761"^^xsd:year ;
     dcterms:title "Secreta Monita; Ou Advis Secrets De La Société De Jesus" ;
     monita:placeInText <https://www.geonames.org/2855745/paderborn.html> ;
     monita:placeType "prawdziwa" ;
@@ -296,7 +327,8 @@ monita:1812 dcterms:date "1761"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2855745/paderborn.html> .
 
-monita:1815 dcterms:date "1746"^^xsd:year ;
+monita:1815 a dcterms:BibliographicResource ;
+    dcterms:date "1746"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu = The secret instructions of the Jesuits" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -306,7 +338,8 @@ monita:1815 dcterms:date "1746"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:1819 dcterms:date "1717"^^xsd:year ;
+monita:1819 a dcterms:BibliographicResource ;
+    dcterms:date "1717"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/2759794> ;
     monita:placeType "prawdziwa" ;
@@ -316,7 +349,8 @@ monita:1819 dcterms:date "1717"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2759794> .
 
-monita:1822 dcterms:date "1826"^^xsd:year ;
+monita:1822 a dcterms:BibliographicResource ;
+    dcterms:date "1826"^^xsd:year ;
     dcterms:title "Instructions secrètes des jésuites : suivies du Rapport de M. Portalis : et du projet d'arrêt du Conseil d'état, sur les ecclésiastiques qui s'établissent en France sous le titre de Pères de la foi, sous le nom de Sacré coeur de Jésus, et autres semblables" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -326,7 +360,8 @@ monita:1822 dcterms:date "1826"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:1825 dcterms:date "1880"^^xsd:year ;
+monita:1825 a dcterms:BibliographicResource ;
+    dcterms:date "1880"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu. Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -336,7 +371,8 @@ monita:1825 dcterms:date "1880"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:1827 dcterms:date "1702"^^xsd:year ;
+monita:1827 a dcterms:BibliographicResource ;
+    dcterms:date "1702"^^xsd:year ;
     dcterms:title "Supplémens des Mémoires pour l'histoire des sciences et des beaux arts" ;
     monita:placeType "NaN"^^xsd:double ;
     monita:privataInTitle false ;
@@ -344,7 +380,8 @@ monita:1827 dcterms:date "1702"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1836 dcterms:date "1654"^^xsd:year ;
+monita:1836 a dcterms:BibliographicResource ;
+    dcterms:date "1654"^^xsd:year ;
     dcterms:title "Constitutiones, sive Monita secreta Societatis Jesu publici juris facta a Michaele Ruckert" ;
     monita:placeInText <https://www.geonames.org/2755251> ;
     monita:placeType "prawdziwa" ;
@@ -354,7 +391,8 @@ monita:1836 dcterms:date "1654"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2755251> .
 
-monita:1840 dcterms:date "1668"^^xsd:year ;
+monita:1840 a dcterms:BibliographicResource ;
+    dcterms:date "1668"^^xsd:year ;
     dcterms:title "Advis secrets de la Société de Jésus" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -363,7 +401,8 @@ monita:1840 dcterms:date "1668"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1841 dcterms:date "1751"^^xsd:year ;
+monita:1841 a dcterms:BibliographicResource ;
+    dcterms:date "1751"^^xsd:year ;
     dcterms:title "Ordres monastiques. Histoire... Tome cinquième. [Compagnie de Jésus. Pères missionnaires ou Lazaristes.]" ;
     monita:placeType "NaN"^^xsd:double ;
     monita:privataInTitle false ;
@@ -371,7 +410,8 @@ monita:1841 dcterms:date "1751"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:1850 dcterms:date "1894"^^xsd:year ;
+monita:1850 a dcterms:BibliographicResource ;
+    dcterms:date "1894"^^xsd:year ;
     dcterms:title "The secret instructions of the Jesuits" ;
     monita:placeInText <https://www.geonames.org/4951257> ;
     monita:placeType "prawdziwa" ;
@@ -381,7 +421,8 @@ monita:1850 dcterms:date "1894"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/4951257> .
 
-monita:1851 dcterms:date "1658"^^xsd:year ;
+monita:1851 a dcterms:BibliographicResource ;
+    dcterms:date "1658"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -391,7 +432,8 @@ monita:1851 dcterms:date "1658"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:1884 dcterms:date "1900"^^xsd:year ;
+monita:1884 a dcterms:BibliographicResource ;
+    dcterms:date "1900"^^xsd:year ;
     dcterms:title "Monita secreta ou Règles secrètes de la Maffia, par Jules Bosmans" ;
     monita:placeInText <https://www.geonames.org/2800866> ;
     monita:placeType "prawdziwa" ;
@@ -401,7 +443,8 @@ monita:1884 dcterms:date "1900"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2800866> .
 
-monita:1896 dcterms:date "1902"^^xsd:year ;
+monita:1896 a dcterms:BibliographicResource ;
+    dcterms:date "1902"^^xsd:year ;
     dcterms:title "Monita secreta : die geheimen Instruktionen der Jesuiten vergleichen mit den Amtlichen Quellen des Ordens" ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
@@ -410,7 +453,8 @@ monita:1896 dcterms:date "1902"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2954172> .
 
-monita:1924 dcterms:date "1669"^^xsd:year ;
+monita:1924 a dcterms:BibliographicResource ;
+    dcterms:date "1669"^^xsd:year ;
     dcterms:title "The private instructions of that society to their emissaries" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -420,7 +464,8 @@ monita:1924 dcterms:date "1669"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:1933 dcterms:date "1641"^^xsd:year ;
+monita:1933 a dcterms:BibliographicResource ;
+    dcterms:date "1641"^^xsd:year ;
     dcterms:title "Secreta Monita, ou advis secrets de la Societe de Jesu" ;
     monita:placeInText <https://www.geonames.org/2855745/paderborn.html> ;
     monita:placeType "prawdziwa" ;
@@ -430,7 +475,8 @@ monita:1933 dcterms:date "1641"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2855745/paderborn.html> .
 
-monita:1935 dcterms:date "[c. 187-?]"^^xsd:year ;
+monita:1935 a dcterms:BibliographicResource ;
+    dcterms:date "[c. 187-?]"^^xsd:year ;
     dcterms:title "Monita Secreta Societatis Iesu: Secret instructions of the Jesuits : also the four vows of the Jesuits, the oath of secrecy of 1680, and Tetzel's indulgence of 15th April, 1517" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -440,7 +486,8 @@ monita:1935 dcterms:date "[c. 187-?]"^^xsd:year ;
     monita:yearOrigin "external" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2015 dcterms:date "1835"^^xsd:year ;
+monita:2015 a dcterms:BibliographicResource ;
+    dcterms:date "1835"^^xsd:year ;
     dcterms:title "Secreta Monita Societatis Jesu. The Secret Counsels of the Society of Jesus, in Latin and English" ;
     monita:placeInText <https://www.geonames.org/4347778> ;
     monita:placeType "prawdziwa" ;
@@ -450,7 +497,8 @@ monita:2015 dcterms:date "1835"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/4347778> .
 
-monita:2258 dcterms:date "1881"^^xsd:year ;
+monita:2258 a dcterms:BibliographicResource ;
+    dcterms:date "1881"^^xsd:year ;
     dcterms:title "Monita secreta; instrucções secretas dos Jesuitas" ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
@@ -460,7 +508,8 @@ monita:2258 dcterms:date "1881"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2267057> .
 
-monita:2261 dcterms:date "1841"^^xsd:year ;
+monita:2261 a dcterms:BibliographicResource ;
+    dcterms:date "1841"^^xsd:year ;
     dcterms:title "Secret instructions of the Jesuits, faithfully translated from the Latin of an old, genuine London copy" ;
     monita:placeInText <https://www.geonames.org/5128581> ;
     monita:placeType "prawdziwa" ;
@@ -470,7 +519,8 @@ monita:2261 dcterms:date "1841"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/5128581> .
 
-monita:2262 dcterms:date "1888"^^xsd:year ;
+monita:2262 a dcterms:BibliographicResource ;
+    dcterms:date "1888"^^xsd:year ;
     dcterms:title "The secret instructions of the Jesuits. In Latin and English" ;
     monita:placeInText <https://www.geonames.org/4930956> ;
     monita:placeType "prawdziwa" ;
@@ -480,7 +530,8 @@ monita:2262 dcterms:date "1888"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/4930956> .
 
-monita:2263 dcterms:date "1831"^^xsd:year ;
+monita:2263 a dcterms:BibliographicResource ;
+    dcterms:date "1831"^^xsd:year ;
     dcterms:title "Secret instructions of the Jesuits. Printed verbatim from the London copy of 1725. To which is prefixed an historical essay; with an appendix of notes, by the editor of the Protestant" ;
     monita:placeInText <https://www.geonames.org/5102922> ;
     monita:placeType "prawdziwa" ;
@@ -490,7 +541,8 @@ monita:2263 dcterms:date "1831"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/5102922> .
 
-monita:2267 dcterms:date "1901"^^xsd:year ;
+monita:2267 a dcterms:BibliographicResource ;
+    dcterms:date "1901"^^xsd:year ;
     dcterms:title "Los secretos de los jesuítas (Monita secreta)" ;
     monita:placeInText <https://www.geonames.org/3128760> ;
     monita:placeType "prawdziwa" ;
@@ -500,7 +552,8 @@ monita:2267 dcterms:date "1901"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3128760> .
 
-monita:2275 dcterms:date "1883"^^xsd:year ;
+monita:2275 a dcterms:BibliographicResource ;
+    dcterms:date "1883"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -509,7 +562,8 @@ monita:2275 dcterms:date "1883"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2302 dcterms:date "1679"^^xsd:year ;
+monita:2302 a dcterms:BibliographicResource ;
+    dcterms:date "1679"^^xsd:year ;
     dcterms:title "The cabinet of the Jesuits secrets opened in which there are many things relating to the church and clergy of England : as also the ways by which they encrease the number and wealth of their society on the ruines of kingdoms and families : in part began by Dr. Oats from an Italian copy, but now more largely discovered from a French copy printed at Colon, 1678" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -519,7 +573,8 @@ monita:2302 dcterms:date "1679"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:231 dcterms:date "1612"^^xsd:year ;
+monita:231 a dcterms:BibliographicResource ;
+    dcterms:date "1612"^^xsd:year ;
     dcterms:title "Monita Privata Societatis Jesu" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle true ;
@@ -528,7 +583,8 @@ monita:231 dcterms:date "1612"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:232 dcterms:date "1670"^^xsd:year ;
+monita:232 a dcterms:BibliographicResource ;
+    dcterms:date "1670"^^xsd:year ;
     dcterms:title "Aurea Monita Religiosissimae Societatis Jesu" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -536,7 +592,8 @@ monita:232 dcterms:date "1670"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2327 dcterms:date "1858"^^xsd:year ;
+monita:2327 a dcterms:BibliographicResource ;
+    dcterms:date "1858"^^xsd:year ;
     dcterms:title "The Secreta Monita of the Jesuits; being the private rules of the lion's provider" ;
     monita:placeInText <https://www.geonames.org/2648579> ;
     monita:placeType "prawdziwa" ;
@@ -546,7 +603,8 @@ monita:2327 dcterms:date "1858"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2648579> .
 
-monita:2338 dcterms:date "1868"^^xsd:year ;
+monita:2338 a dcterms:BibliographicResource ;
+    dcterms:date "1868"^^xsd:year ;
     dcterms:title "Ultramontanism exemplified in Irish disaffection : in the action of the Roman Catholic hierarchy, and in the doctrines of the Jesuit Suarez, and others lately referred to as lights of his church by the Roamn Catholic Archbishop of Dublin : with a translation in full of Monita Privata, or secret advices of the order of Jesuits" ;
     monita:placeInText <https://www.geonames.org/2964574> ;
     monita:placeType "prawdziwa" ;
@@ -556,7 +614,8 @@ monita:2338 dcterms:date "1868"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2964574> .
 
-monita:2348 dcterms:date "1844"^^xsd:year ;
+monita:2348 a dcterms:BibliographicResource ;
+    dcterms:date "1844"^^xsd:year ;
     dcterms:title "Secret instructions of the Jesuits : with an appendix containing a short historical account of the Society of the Jesuits, their maxims, the Jesuits' oath, etc., etc" ;
     monita:placeInText <https://www.geonames.org/4560349/philadelphia.html> ;
     monita:placeType "prawdziwa" ;
@@ -566,7 +625,8 @@ monita:2348 dcterms:date "1844"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/4560349/philadelphia.html> .
 
-monita:2374 dcterms:date "1869"^^xsd:year ;
+monita:2374 a dcterms:BibliographicResource ;
+    dcterms:date "1869"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu. Instrucciones secretas de los Jesuitas. Su codigo. El juramento de los padres de la fe. Sus palabras de reconocimiento" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -576,7 +636,8 @@ monita:2374 dcterms:date "1869"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2377 dcterms:date "[1823]"^^xsd:year ;
+monita:2377 a dcterms:BibliographicResource ;
+    dcterms:date "[1823]"^^xsd:year ;
     dcterms:title "Constitución secreta de los Jesuitas" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -585,7 +646,8 @@ monita:2377 dcterms:date "[1823]"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
 
-monita:2382 dcterms:date "1864"^^xsd:year ;
+monita:2382 a dcterms:BibliographicResource ;
+    dcterms:date "1864"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu = Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -595,7 +657,8 @@ monita:2382 dcterms:date "1864"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2386 dcterms:date "[187-?]"^^xsd:year ;
+monita:2386 a dcterms:BibliographicResource ;
+    dcterms:date "[187-?]"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu = The secret instructions of the Jesuits ; also the four vows of the Jesuits, the Oath of Secrecy of 1680, and Tetzel's indulgence of 15th April, 1517" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -605,7 +668,8 @@ monita:2386 dcterms:date "[187-?]"^^xsd:year ;
     monita:yearOrigin "external" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2393 dcterms:date "1850"^^xsd:year ;
+monita:2393 a dcterms:BibliographicResource ;
+    dcterms:date "1850"^^xsd:year ;
     dcterms:title "The secreta monita of the Jesuits; being the private rules of the Lion's Provider" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -615,7 +679,8 @@ monita:2393 dcterms:date "1850"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2395 dcterms:date "1851"^^xsd:year ;
+monita:2395 a dcterms:BibliographicResource ;
+    dcterms:date "1851"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu = The secret instructions of the Jesuits, with extracts from some of the chief authorities of the order exhibiting the rules by which their conduct is guided" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -625,7 +690,8 @@ monita:2395 dcterms:date "1851"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2407 dcterms:date "1867"^^xsd:year ;
+monita:2407 a dcterms:BibliographicResource ;
+    dcterms:date "1867"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu = : Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -635,7 +701,8 @@ monita:2407 dcterms:date "1867"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2413 dcterms:date "1824"^^xsd:year ;
+monita:2413 a dcterms:BibliographicResource ;
+    dcterms:date "1824"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu: The secret instructions of the Jesuits : with an appendix" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -645,7 +712,8 @@ monita:2413 dcterms:date "1824"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2417 dcterms:date "1861"^^xsd:year ;
+monita:2417 a dcterms:BibliographicResource ;
+    dcterms:date "1861"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu = : Instructions secrètes des Jésuites : suivies de pièces justificatives" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -655,7 +723,8 @@ monita:2417 dcterms:date "1861"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2423 dcterms:date "[1746]"^^xsd:year ;
+monita:2423 a dcterms:BibliographicResource ;
+    dcterms:date "[1746]"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -665,7 +734,8 @@ monita:2423 dcterms:date "[1746]"^^xsd:year ;
     monita:yearOrigin "external" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2426 dcterms:date "1662 SP  -; cm."^^xsd:year ;
+monita:2426 a dcterms:BibliographicResource ;
+    dcterms:date "1662 SP  -; cm."^^xsd:year ;
     dcterms:title "Monita privata Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
@@ -673,7 +743,8 @@ monita:2426 dcterms:date "1662 SP  -; cm."^^xsd:year ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "internal" .
 
-monita:2430 dcterms:date "1880"^^xsd:year ;
+monita:2430 a dcterms:BibliographicResource ;
+    dcterms:date "1880"^^xsd:year ;
     dcterms:title "The secret oath, and a fresh translation [from the French edition of Jerome Zaorowsky's \"Monita Privata\"] of the secret instructions of the Order of the Jesuits, with a slight sketch of the society, etc" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -683,7 +754,8 @@ monita:2430 dcterms:date "1880"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:2434 dcterms:date "1786"^^xsd:year ;
+monita:2434 a dcterms:BibliographicResource ;
+    dcterms:date "1786"^^xsd:year ;
     dcterms:title "Vorläufige Darstellung des heutigen Jesuitismus, der Rosenkreuzerey, Proselytenmacherey und Religionsvereinigung Privata Monita und Secreta Monita Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/2925533> ;
     monita:placeType "prawdziwa" ;
@@ -693,7 +765,8 @@ monita:2434 dcterms:date "1786"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2925533> .
 
-monita:2441 dcterms:date "1620"^^xsd:year ;
+monita:2441 a dcterms:BibliographicResource ;
+    dcterms:date "1620"^^xsd:year ;
     dcterms:title "Aurea Monita Religiosissimæ Societatis Jesu. [Comprising the apocryphal “Monita Privata Societatis Jesu,” written by J. Zaorowsky, and “Testimonia de Jesuitis Italorum et Hispanorum quorundam”] ... edita a T. Eulalio" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle true ;
@@ -701,7 +774,8 @@ monita:2441 dcterms:date "1620"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2452 dcterms:date "1886"^^xsd:year ;
+monita:2452 a dcterms:BibliographicResource ;
+    dcterms:date "1886"^^xsd:year ;
     dcterms:title "Mónita secreta" ;
     monita:placeInText <https://www.geonames.org/3936456> ;
     monita:placeType "prawdziwa" ;
@@ -711,7 +785,8 @@ monita:2452 dcterms:date "1886"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3936456> .
 
-monita:2457 dcterms:date "1857"^^xsd:year ;
+monita:2457 a dcterms:BibliographicResource ;
+    dcterms:date "1857"^^xsd:year ;
     dcterms:title "Secret instructions of the Jesuits faithfully translated from the Latin of an old genuine London copy, with an historical sketch &c. &c" ;
     monita:placeInText <https://www.geonames.org/5128581> ;
     monita:placeType "prawdziwa" ;
@@ -721,7 +796,8 @@ monita:2457 dcterms:date "1857"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/5128581> .
 
-monita:2466 dcterms:date "1831"^^xsd:year ;
+monita:2466 a dcterms:BibliographicResource ;
+    dcterms:date "1831"^^xsd:year ;
     dcterms:title "Secreta monita Societatis Jesu = Secret instructions of the Jesuits : printed verbatim from the London copy of 1725" ;
     monita:placeInText <https://www.geonames.org/5102922> ;
     monita:placeType "prawdziwa" ;
@@ -731,7 +807,8 @@ monita:2466 dcterms:date "1831"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/5102922> .
 
-monita:2524 dcterms:date "1890"^^xsd:year ;
+monita:2524 a dcterms:BibliographicResource ;
+    dcterms:date "1890"^^xsd:year ;
     dcterms:title "Die geheimen Vorschriften (monita secreta) und 31 Instruktionen der Novizen von und für Jesuiten nebst Vorwort und Nachwort; aufs neue dem deutschen Volke zur Warnung mitgeteilt" ;
     monita:placeInText <https://www.geonames.org/2952540/barmen.html> ;
     monita:placeType "prawdziwa" ;
@@ -741,7 +818,8 @@ monita:2524 dcterms:date "1890"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2952540/barmen.html> .
 
-monita:2525 dcterms:date "1887"^^xsd:year ;
+monita:2525 a dcterms:BibliographicResource ;
+    dcterms:date "1887"^^xsd:year ;
     dcterms:title "Die geheimen Vorschriften (Monita secreta) und 31 Instruktionen der Novizen von und für Jesuiten; nebst Vorwort und Nachwort" ;
     monita:placeInText <https://www.geonames.org/2952540/barmen.html> ;
     monita:placeType "prawdziwa" ;
@@ -751,7 +829,8 @@ monita:2525 dcterms:date "1887"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2952540/barmen.html> .
 
-monita:2526 dcterms:date "1872"^^xsd:year ;
+monita:2526 a dcterms:BibliographicResource ;
+    dcterms:date "1872"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -761,7 +840,8 @@ monita:2526 dcterms:date "1872"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2531 dcterms:date "1831"^^xsd:year ;
+monita:2531 a dcterms:BibliographicResource ;
+    dcterms:date "1831"^^xsd:year ;
     dcterms:title "Der entlarvte Jesuit die verabscheuungswerthen Grundsätze und Lehren der Jesuiten, aus ihren eigenen Schriften geschöpft; und die Jesuiten als Königsmörder" ;
     monita:placeInText <https://www.geonames.org/2872155> ;
     monita:placeType "prawdziwa" ;
@@ -771,7 +851,8 @@ monita:2531 dcterms:date "1831"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2872155> .
 
-monita:2533 dcterms:date "1825"^^xsd:year ;
+monita:2533 a dcterms:BibliographicResource ;
+    dcterms:date "1825"^^xsd:year ;
     dcterms:title "Die Monita Secreta Societas Jesu, oder: die geheimen Verhaltungsbefehle der Jesuiten, ein Lügen-Machwerk, kurz bewiesen" ;
     monita:placeInText <https://www.geonames.org/3247449> ;
     monita:placeType "prawdziwa" ;
@@ -781,7 +862,8 @@ monita:2533 dcterms:date "1825"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3247449> .
 
-monita:2545 dcterms:date "1666"^^xsd:year ;
+monita:2545 a dcterms:BibliographicResource ;
+    dcterms:date "1666"^^xsd:year ;
     dcterms:title "Monita privata ejusdem Societatis" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
@@ -789,7 +871,8 @@ monita:2545 dcterms:date "1666"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2548 dcterms:date "1657"^^xsd:year ;
+monita:2548 a dcterms:BibliographicResource ;
+    dcterms:date "1657"^^xsd:year ;
     dcterms:title "Monita Privata Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
@@ -797,7 +880,8 @@ monita:2548 dcterms:date "1657"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2550 dcterms:date "1617"^^xsd:year ;
+monita:2550 a dcterms:BibliographicResource ;
+    dcterms:date "1617"^^xsd:year ;
     dcterms:title "Monita privata Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
@@ -805,7 +889,8 @@ monita:2550 dcterms:date "1617"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2558 dcterms:date "1761"^^xsd:year ;
+monita:2558 a dcterms:BibliographicResource ;
+    dcterms:date "1761"^^xsd:year ;
     dcterms:title "Die Entlarvte Wölfe" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -813,7 +898,8 @@ monita:2558 dcterms:date "1761"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2559 dcterms:date "1762"^^xsd:year ;
+monita:2559 a dcterms:BibliographicResource ;
+    dcterms:date "1762"^^xsd:year ;
     dcterms:title "Die Entlarvte Wölfe" ;
     monita:placeType "NaN"^^xsd:double ;
     monita:privataInTitle false ;
@@ -821,7 +907,8 @@ monita:2559 dcterms:date "1762"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2561 dcterms:date "1868"^^xsd:year ;
+monita:2561 a dcterms:BibliographicResource ;
+    dcterms:date "1868"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -831,7 +918,8 @@ monita:2561 dcterms:date "1868"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2564 dcterms:date "1915"^^xsd:year ;
+monita:2564 a dcterms:BibliographicResource ;
+    dcterms:date "1915"^^xsd:year ;
     dcterms:title "Compagnia di gesu: Istruzioni segrete" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -839,7 +927,8 @@ monita:2564 dcterms:date "1915"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2587 dcterms:date "1740"^^xsd:year ;
+monita:2587 a dcterms:BibliographicResource ;
+    dcterms:date "1740"^^xsd:year ;
     dcterms:title "Verfassende die geheime Instructiones der Jesuiten, zu Beförderung ihres zeitlichen Interesse" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -847,7 +936,8 @@ monita:2587 dcterms:date "1740"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2594 dcterms:date "1761"^^xsd:year ;
+monita:2594 a dcterms:BibliographicResource ;
+    dcterms:date "1761"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/9035371/ortignano.html> ;
     monita:placeType "prawdziwa" ;
@@ -857,7 +947,8 @@ monita:2594 dcterms:date "1761"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/9035371/ortignano.html> .
 
-monita:2596 dcterms:date "1814"^^xsd:year ;
+monita:2596 a dcterms:BibliographicResource ;
+    dcterms:date "1814"^^xsd:year ;
     dcterms:title "Istruzioni secrete della Compagnia di Gesù con importanti aggiunte" ;
     monita:placeInText <https://www.geonames.org/3169070> ;
     monita:placeType "prawdziwa" ;
@@ -867,7 +958,8 @@ monita:2596 dcterms:date "1814"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3169070> .
 
-monita:2597 dcterms:date "1824"^^xsd:year ;
+monita:2597 a dcterms:BibliographicResource ;
+    dcterms:date "1824"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites, ou Monita Secreta Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -877,7 +969,8 @@ monita:2597 dcterms:date "1824"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2598 dcterms:date "1825"^^xsd:year ;
+monita:2598 a dcterms:BibliographicResource ;
+    dcterms:date "1825"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites, ou Monita secreta Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/2800866> ;
     monita:placeType "prawdziwa" ;
@@ -887,7 +980,8 @@ monita:2598 dcterms:date "1825"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2800866> .
 
-monita:2599 dcterms:date "1826"^^xsd:year ;
+monita:2599 a dcterms:BibliographicResource ;
+    dcterms:date "1826"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites ... 2e édition" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -896,7 +990,8 @@ monita:2599 dcterms:date "1826"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2601 dcterms:date "1835"^^xsd:year ;
+monita:2601 a dcterms:BibliographicResource ;
+    dcterms:date "1835"^^xsd:year ;
     dcterms:title "Mónita o instrucciones secretas de los jesuitas : seguidas del informe de M. Portalis y del proyecto de Decreto del Consejo de Estado sobre los eclesiásticos establecidos en Francia bajo el título de Padres de la Fe, del Sagrado Corazón de Jesús y otros semejantes" ;
     monita:placeInText <https://www.geonames.org/3128760> ;
     monita:placeType "prawdziwa" ;
@@ -906,7 +1001,8 @@ monita:2601 dcterms:date "1835"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3128760> .
 
-monita:2602 dcterms:date "1838"^^xsd:year ;
+monita:2602 a dcterms:BibliographicResource ;
+    dcterms:date "1838"^^xsd:year ;
     dcterms:title "Les instructions secrètes des Jésuites ou Monita Secreta Societatis Jesus" ;
     monita:placeInText <https://www.geonames.org/2661552/bern.html> ;
     monita:placeType "prawdziwa" ;
@@ -916,7 +1012,8 @@ monita:2602 dcterms:date "1838"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2661552/bern.html> .
 
-monita:2603 dcterms:date "1845"^^xsd:year ;
+monita:2603 a dcterms:BibliographicResource ;
+    dcterms:date "1845"^^xsd:year ;
     dcterms:title "El Jesuita sagaz [Texto impreso] : o consejos secretos que da un jesuita a los hermanos de la Compañia a fin de que esta llegue a dominar el orbe entero" ;
     monita:placeInText <https://www.geonames.org/3104499/gasteiz-vitoria.html> ;
     monita:placeType "prawdziwa" ;
@@ -926,7 +1023,8 @@ monita:2603 dcterms:date "1845"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3104499/gasteiz-vitoria.html> .
 
-monita:2604 dcterms:date "1845"^^xsd:year ;
+monita:2604 a dcterms:BibliographicResource ;
+    dcterms:date "1845"^^xsd:year ;
     dcterms:title "Instructions secrètes de la Société des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -936,7 +1034,8 @@ monita:2604 dcterms:date "1845"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2605 dcterms:date "1845"^^xsd:year ;
+monita:2605 a dcterms:BibliographicResource ;
+    dcterms:date "1845"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites, ou \"Monita secreta Societatis Jesu\", précédées de l'histoire et de la morale des Jésuites depuis la fondation de leur Société jusqu'à nos jours" ;
     monita:placeInText <https://www.geonames.org/3032213/blois.html> ;
     monita:placeType "prawdziwa" ;
@@ -946,7 +1045,8 @@ monita:2605 dcterms:date "1845"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3032213/blois.html> .
 
-monita:2606 dcterms:date "1845"^^xsd:year ;
+monita:2606 a dcterms:BibliographicResource ;
+    dcterms:date "1845"^^xsd:year ;
     dcterms:title "Los Jesuitas juzgados por si mismos, ó Constituciones publicas [purporting to be a translation of \"Compte rendu des Constitutions des Jésuites\" by L.R. de Caradeuc de la Chalotais]. É Instrucciones secretas, Monita secreta de los mismos [or rather, by J. Zaorowski]. Por un eclesiàstico liberal y amante de su religion y de su patria" ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
@@ -956,7 +1056,8 @@ monita:2606 dcterms:date "1845"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3117735> .
 
-monita:2608 dcterms:date "1846"^^xsd:year ;
+monita:2608 a dcterms:BibliographicResource ;
+    dcterms:date "1846"^^xsd:year ;
     dcterms:title "Admoestações secretas da Companhia de Jesus" ;
     monita:placeInText <https://www.geonames.org/1260607> ;
     monita:placeType "prawdziwa" ;
@@ -966,7 +1067,8 @@ monita:2608 dcterms:date "1846"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/1260607> .
 
-monita:261 dcterms:date "1826"^^xsd:year ;
+monita:261 a dcterms:BibliographicResource ;
+    dcterms:date "1826"^^xsd:year ;
     dcterms:title "Geheime Verhaltungsbefehle der Jesuiten oder Monita secreta Societatis Jesu." ;
     monita:placeInText <https://www.geonames.org/3247449> ;
     monita:placeType "prawdziwa" ;
@@ -976,7 +1078,8 @@ monita:261 dcterms:date "1826"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3247449> .
 
-monita:2610 dcterms:date "1847"^^xsd:year ;
+monita:2610 a dcterms:BibliographicResource ;
+    dcterms:date "1847"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -986,7 +1089,8 @@ monita:2610 dcterms:date "1847"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2611 dcterms:date "1848"^^xsd:year ;
+monita:2611 a dcterms:BibliographicResource ;
+    dcterms:date "1848"^^xsd:year ;
     dcterms:title "Istruzioni secrete della Compagnia di Gesù" ;
     monita:placeInText <https://www.geonames.org/3164603> ;
     monita:placeType "prawdziwa" ;
@@ -996,7 +1100,8 @@ monita:2611 dcterms:date "1848"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3164603> .
 
-monita:2613 dcterms:date "1859"^^xsd:year ;
+monita:2613 a dcterms:BibliographicResource ;
+    dcterms:date "1859"^^xsd:year ;
     dcterms:title "I Gesuiti smascherati colle loro istruzioni segrete" ;
     monita:placeInText <https://www.geonames.org/3176959> ;
     monita:placeType "prawdziwa" ;
@@ -1006,7 +1111,8 @@ monita:2613 dcterms:date "1859"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3176959> .
 
-monita:2614 dcterms:date "1859"^^xsd:year ;
+monita:2614 a dcterms:BibliographicResource ;
+    dcterms:date "1859"^^xsd:year ;
     dcterms:title "Monitoria secreta ou Instrucções secretas dos Padres da Companhia de Jesus" ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
@@ -1016,7 +1122,8 @@ monita:2614 dcterms:date "1859"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2267057> .
 
-monita:2615 dcterms:date "1860"^^xsd:year ;
+monita:2615 a dcterms:BibliographicResource ;
+    dcterms:date "1860"^^xsd:year ;
     dcterms:title "Secreta monita societatis Jesu = Apokrypha parangelmata tou Tagmatos tōn Iēsouitōn" ;
     monita:placeInText <https://www.geonames.org/264371> ;
     monita:placeType "prawdziwa" ;
@@ -1026,7 +1133,8 @@ monita:2615 dcterms:date "1860"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/264371> .
 
-monita:2618 dcterms:date "1862"^^xsd:year ;
+monita:2618 a dcterms:BibliographicResource ;
+    dcterms:date "1862"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu instructions secrètes des Jésuites, suivies de pièces justificatives" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1036,7 +1144,8 @@ monita:2618 dcterms:date "1862"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2619 dcterms:date "1863"^^xsd:year ;
+monita:2619 a dcterms:BibliographicResource ;
+    dcterms:date "1863"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu = Instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1046,7 +1155,8 @@ monita:2619 dcterms:date "1863"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2623 dcterms:date "1865"^^xsd:year ;
+monita:2623 a dcterms:BibliographicResource ;
+    dcterms:date "1865"^^xsd:year ;
     dcterms:title "Secreta Monita Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/3173435> ;
     monita:placeType "prawdziwa" ;
@@ -1056,7 +1166,8 @@ monita:2623 dcterms:date "1865"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3173435> .
 
-monita:2626 dcterms:date "1869"^^xsd:year ;
+monita:2626 a dcterms:BibliographicResource ;
+    dcterms:date "1869"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu Instrucciones secretas de los Jesuitas. Su codigo. El juramento de los padres de la fe. Sus palabras de reconocimiento .." ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1066,7 +1177,8 @@ monita:2626 dcterms:date "1869"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2627 dcterms:date "1870"^^xsd:year ;
+monita:2627 a dcterms:BibliographicResource ;
+    dcterms:date "1870"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu; instructions secrètes des Jésuites" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1076,7 +1188,8 @@ monita:2627 dcterms:date "1870"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2628 dcterms:date "1870"^^xsd:year ;
+monita:2628 a dcterms:BibliographicResource ;
+    dcterms:date "1870"^^xsd:year ;
     dcterms:title "Mónita ó instrucciones secretas de los Jesuitas" ;
     monita:placeInText <https://www.geonames.org/3128760> ;
     monita:placeType "prawdziwa" ;
@@ -1086,7 +1199,8 @@ monita:2628 dcterms:date "1870"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3128760> .
 
-monita:2629 dcterms:date "1874"^^xsd:year ;
+monita:2629 a dcterms:BibliographicResource ;
+    dcterms:date "1874"^^xsd:year ;
     dcterms:title "Instrucciones secretas o Monita de los jesuitas" ;
     monita:placeInText <https://www.geonames.org/3530597> ;
     monita:placeType "prawdziwa" ;
@@ -1096,7 +1210,8 @@ monita:2629 dcterms:date "1874"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3530597> .
 
-monita:2630 dcterms:date "1875"^^xsd:year ;
+monita:2630 a dcterms:BibliographicResource ;
+    dcterms:date "1875"^^xsd:year ;
     dcterms:title "Monita secreta o Instrucciones reservadas de la llamada Compañía de Jesús El jesuita de sotana corta ; La beata" ;
     monita:placeInText <https://www.geonames.org/3435910> ;
     monita:placeType "prawdziwa" ;
@@ -1106,7 +1221,8 @@ monita:2630 dcterms:date "1875"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3435910> .
 
-monita:2631 dcterms:date "1879"^^xsd:year ;
+monita:2631 a dcterms:BibliographicResource ;
+    dcterms:date "1879"^^xsd:year ;
     dcterms:title "Monita Secreta Societatis Jesu. Instructions secrètes des Jésuites. Treizième édition ... augmentée, contenant le dénombrement des Jésuites en France par Département" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1114,7 +1230,8 @@ monita:2631 dcterms:date "1879"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2632 dcterms:date "1880"^^xsd:year ;
+monita:2632 a dcterms:BibliographicResource ;
+    dcterms:date "1880"^^xsd:year ;
     dcterms:title "Monita secreta. Instructions secrètes des Jésuites, d'après l'édition déposée à la Bibliothèque de l'Arsenal" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1124,7 +1241,8 @@ monita:2632 dcterms:date "1880"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2633 dcterms:date "1880"^^xsd:year ;
+monita:2633 a dcterms:BibliographicResource ;
+    dcterms:date "1880"^^xsd:year ;
     dcterms:title "Monita secreta societatis Jesu = Instructions secrètes des jésuites, précédées d'une introduction et de notes curieuses" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1132,7 +1250,8 @@ monita:2633 dcterms:date "1880"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2635 dcterms:date "1881"^^xsd:year ;
+monita:2635 a dcterms:BibliographicResource ;
+    dcterms:date "1881"^^xsd:year ;
     dcterms:title "Monita Secreta ó instrucciones reservadas de la Compañía de Jesús" ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
@@ -1142,7 +1261,8 @@ monita:2635 dcterms:date "1881"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3117735> .
 
-monita:2636 dcterms:date "1881"^^xsd:year ;
+monita:2636 a dcterms:BibliographicResource ;
+    dcterms:date "1881"^^xsd:year ;
     dcterms:title "Monita secreta, o instrucciones ocultas de los Jesuitas" ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
@@ -1152,7 +1272,8 @@ monita:2636 dcterms:date "1881"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2267057> .
 
-monita:2637 dcterms:date "1890"^^xsd:year ;
+monita:2637 a dcterms:BibliographicResource ;
+    dcterms:date "1890"^^xsd:year ;
     dcterms:title "Monita secreta o Instrucciones reservadas de la Compañía de Jesús" ;
     monita:placeInText <https://www.geonames.org/5128581> ;
     monita:placeType "prawdziwa" ;
@@ -1162,7 +1283,8 @@ monita:2637 dcterms:date "1890"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/5128581> .
 
-monita:2638 dcterms:date "1893"^^xsd:year ;
+monita:2638 a dcterms:BibliographicResource ;
+    dcterms:date "1893"^^xsd:year ;
     dcterms:title "Monita secreta : instructions secrètes des jésuites" ;
     monita:placeInText <https://www.geonames.org/3014728> ;
     monita:placeType "prawdziwa" ;
@@ -1172,7 +1294,8 @@ monita:2638 dcterms:date "1893"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3014728> .
 
-monita:2640 dcterms:date "1897"^^xsd:year ;
+monita:2640 a dcterms:BibliographicResource ;
+    dcterms:date "1897"^^xsd:year ;
     dcterms:title "Monita secreta. Instructions secrètes des Jésuites. Traduction nouvelle et commentaires par Pierre des Pilliers ... Seconde édition. Lat. & Fr" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1180,7 +1303,8 @@ monita:2640 dcterms:date "1897"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2643 dcterms:date "1901"^^xsd:year ;
+monita:2643 a dcterms:BibliographicResource ;
+    dcterms:date "1901"^^xsd:year ;
     dcterms:title "Monita secreta : extrait des Instruction secrètes pour les membres de la Compagnie de Jésus" ;
     monita:placeInText <https://www.geonames.org/3037656> ;
     monita:placeType "prawdziwa" ;
@@ -1190,7 +1314,8 @@ monita:2643 dcterms:date "1901"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3037656> .
 
-monita:2644 dcterms:date "1905"^^xsd:year ;
+monita:2644 a dcterms:BibliographicResource ;
+    dcterms:date "1905"^^xsd:year ;
     dcterms:title "Istruzioni segrete della Compagnia di Gesu" ;
     monita:placeInText <https://www.geonames.org/3172244> ;
     monita:placeType "prawdziwa" ;
@@ -1200,7 +1325,8 @@ monita:2644 dcterms:date "1905"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3172244> .
 
-monita:2645 dcterms:date "1907"^^xsd:year ;
+monita:2645 a dcterms:BibliographicResource ;
+    dcterms:date "1907"^^xsd:year ;
     dcterms:title "Les instructions secrètes des Jésuites : étude critique" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1210,7 +1336,8 @@ monita:2645 dcterms:date "1907"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2646 dcterms:date "1910"^^xsd:year ;
+monita:2646 a dcterms:BibliographicResource ;
+    dcterms:date "1910"^^xsd:year ;
     dcterms:title "Monita secreta; istruzioni secrete dei Gesuiti" ;
     monita:placeInText <https://www.geonames.org/3176219> ;
     monita:placeType "prawdziwa" ;
@@ -1220,7 +1347,8 @@ monita:2646 dcterms:date "1910"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3176219> .
 
-monita:2651 dcterms:date "[1831]"^^xsd:year ;
+monita:2651 a dcterms:BibliographicResource ;
+    dcterms:date "[1831]"^^xsd:year ;
     dcterms:title "Secreta Monita Societatis Jesu" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -1229,7 +1357,8 @@ monita:2651 dcterms:date "[1831]"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
 
-monita:2653 dcterms:date "n.d."^^xsd:year ;
+monita:2653 a dcterms:BibliographicResource ;
+    dcterms:date "n.d."^^xsd:year ;
     dcterms:title "AUREA MONITA RELIGIOSISSIMAE SOCIETATIS JESU :In gratiam Politicorum, & omnium qui JESUM amant, pro studio edita /à THEOPHILO EULALIO Catholico Bohemo" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -1237,7 +1366,8 @@ monita:2653 dcterms:date "n.d."^^xsd:year ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "internal" .
 
-monita:2659 dcterms:date "1635"^^xsd:year ;
+monita:2659 a dcterms:BibliographicResource ;
+    dcterms:date "1635"^^xsd:year ;
     dcterms:title "Instructio secreta pro superioribus Societatis Jesu" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -1246,7 +1376,8 @@ monita:2659 dcterms:date "1635"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2660 dcterms:date "1827–1830"^^xsd:year ;
+monita:2660 a dcterms:BibliographicResource ;
+    dcterms:date "1827–1830"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu. Instructions secrètes de la Société de Jésus" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1256,7 +1387,8 @@ monita:2660 dcterms:date "1827–1830"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2662 dcterms:date "[c. 1760]"^^xsd:year ;
+monita:2662 a dcterms:BibliographicResource ;
+    dcterms:date "[c. 1760]"^^xsd:year ;
     dcterms:title "Istruzioni secrete della Compagnia di Gesù: con importanti aggiunte" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -1265,7 +1397,8 @@ monita:2662 dcterms:date "[c. 1760]"^^xsd:year ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" .
 
-monita:2676 dcterms:date "1657"^^xsd:year ;
+monita:2676 a dcterms:BibliographicResource ;
+    dcterms:date "1657"^^xsd:year ;
     dcterms:title "Monita privata Societatis Iesu edita anno 1657mo" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
@@ -1273,7 +1406,8 @@ monita:2676 dcterms:date "1657"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2679 dcterms:date "1723"^^xsd:year ;
+monita:2679 a dcterms:BibliographicResource ;
+    dcterms:date "1723"^^xsd:year ;
     dcterms:title "Geheime lessen van 't Genootschap der Jezuïten, uit het Latyn en Engelsch (Te Londen 1723. gedrukt) verduitscht" ;
     monita:placeInText <https://www.geonames.org/2747891> ;
     monita:placeType "prawdziwa" ;
@@ -1283,7 +1417,8 @@ monita:2679 dcterms:date "1723"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2747891> .
 
-monita:268 dcterms:date "1879"^^xsd:year ;
+monita:268 a dcterms:BibliographicResource ;
+    dcterms:date "1879"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu\". Instructions secrètes des Jésuites. Nouvelle édition, précédée d'une introduction par Charles Sauvestre" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1293,7 +1428,8 @@ monita:268 dcterms:date "1879"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:2680 dcterms:date "1727"^^xsd:year ;
+monita:2680 a dcterms:BibliographicResource ;
+    dcterms:date "1727"^^xsd:year ;
     dcterms:title "De ontmaskerde Jesuit, of De geheime onderrechtingen en voorschriften dezer Societeit, waer by een verhael van de verbanninge der Jesuiten uit Vrankrijk, en van hare herstelling Nevens een klaer vertoog van de gevaerlijke staetkunde dezer Paters voor alle Rijken ene Staten. Voorzien met eene Opdragt aan den tegenwoordigenn Paus Benedictus de XIII" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1301,7 +1437,8 @@ monita:2680 dcterms:date "1727"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2681 dcterms:date "1729"^^xsd:year ;
+monita:2681 a dcterms:BibliographicResource ;
+    dcterms:date "1729"^^xsd:year ;
     dcterms:title "Les Intrigues secrétes des Jésuites, traduites du \"Monita secreta\" ; ou l'on a joint l'extrait de la Faculté  de théologie de Paris de l'an 1554, et la prophétie de sainte Hildegarde, morte en 1181" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1309,7 +1446,8 @@ monita:2681 dcterms:date "1729"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2682 dcterms:date "1825"^^xsd:year ;
+monita:2682 a dcterms:BibliographicResource ;
+    dcterms:date "1825"^^xsd:year ;
     dcterms:title "Geheime Verhaltungsbefehle der Jesuiten oder monita secreta Societatis Jesu" ;
     monita:placeInText <https://www.geonames.org/3247449> ;
     monita:placeType "prawdziwa" ;
@@ -1319,7 +1457,8 @@ monita:2682 dcterms:date "1825"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3247449> .
 
-monita:2683 dcterms:date "1718"^^xsd:year ;
+monita:2683 a dcterms:BibliographicResource ;
+    dcterms:date "1718"^^xsd:year ;
     dcterms:title "Les intrigues secrettes des Jésuites, traduites du Monita secreta ; où l'on a joint l'Extrait de la Faculté de théologie de Paris de l'an 1554 et la Prophétie de Sainte Hildegarde, morte en 1181" ;
     monita:placeInText <https://www.geonames.org/3165524> ;
     monita:placeType "prawdziwa" ;
@@ -1329,7 +1468,8 @@ monita:2683 dcterms:date "1718"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3165524> .
 
-monita:2686 dcterms:date "1661"^^xsd:year ;
+monita:2686 a dcterms:BibliographicResource ;
+    dcterms:date "1661"^^xsd:year ;
     dcterms:title "Secreta Monita; Ou Advis Secrets De La Société De Jesus" ;
     monita:placeInText <https://www.geonames.org/2855745/paderborn.html> ;
     monita:placeType "prawdziwa" ;
@@ -1339,7 +1479,8 @@ monita:2686 dcterms:date "1661"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2855745/paderborn.html> .
 
-monita:2687 dcterms:date "1678"^^xsd:year ;
+monita:2687 a dcterms:BibliographicResource ;
+    dcterms:date "1678"^^xsd:year ;
     dcterms:title "Le cabinet jesuitique [Texte imprimé], contenant plusieurs pieces tres curieuses des R. Peres jesuites ; avec un recueil des mysteres de l'Eglise romaine ; le tout augmenté dans cette seconde edition & enrichi de figures en taille douce" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -1349,7 +1490,8 @@ monita:2687 dcterms:date "1678"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:2695 dcterms:date "1845"^^xsd:year ;
+monita:2695 a dcterms:BibliographicResource ;
+    dcterms:date "1845"^^xsd:year ;
     dcterms:title "Mónita secreta de los jesuitas o instrucciones reservadas de los padres de la Compañía de Jesús / compuesta por el padre Claudio Aguaviva ; traducida de la edición portuguesa de 1827" ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
@@ -1359,7 +1501,8 @@ monita:2695 dcterms:date "1845"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3117735> .
 
-monita:2697 dcterms:date "1886"^^xsd:year ;
+monita:2697 a dcterms:BibliographicResource ;
+    dcterms:date "1886"^^xsd:year ;
     dcterms:title "Il Mondo Gesuitico (scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -1368,7 +1511,8 @@ monita:2697 dcterms:date "1886"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2699 dcterms:date "1853"^^xsd:year ;
+monita:2699 a dcterms:BibliographicResource ;
+    dcterms:date "1853"^^xsd:year ;
     dcterms:title "Die geheimen Instructionen für die Gesellschaft Jesu, oder: Die Staat und Kirche bedrohenden Pläne des Jesuitenordens: der Gegenwart zur ernsten Erwägung vorgeführt im lateinischen Urtexte und deutscher Uebersetzung" ;
     monita:placeInText <https://www.geonames.org/2929670> ;
     monita:placeType "prawdziwa" ;
@@ -1378,7 +1522,8 @@ monita:2699 dcterms:date "1853"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2929670> .
 
-monita:2700 dcterms:date "1815"^^xsd:year ;
+monita:2700 a dcterms:BibliographicResource ;
+    dcterms:date "1815"^^xsd:year ;
     dcterms:title "Geheime Vorschriften für Jesuiten" ;
     monita:placeInText <https://www.geonames.org/2761369> ;
     monita:placeType "prawdziwa" ;
@@ -1388,7 +1533,8 @@ monita:2700 dcterms:date "1815"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2761369> .
 
-monita:2701 dcterms:date "1725"^^xsd:year ;
+monita:2701 a dcterms:BibliographicResource ;
+    dcterms:date "1725"^^xsd:year ;
     dcterms:title "Machiavellismus Jesuiticus oder ein besonderer historisch-politischer Tractat, in welchem die Geheimnisse und Kunst-Griffe, wie auch alle heimlichen Anschläge und besondere Lehren derer Jesuiten enthalten sind/ publiciret von Benedicto Gratioso. In die teutsche Sprache übersetzet und herausgegeben von einem aufrichtigen Bekenner des Evangelii" ;
     monita:placeInText <https://www.geonames.org/2911522> ;
     monita:placeType "prawdziwa" ;
@@ -1398,7 +1544,8 @@ monita:2701 dcterms:date "1725"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2911522> .
 
-monita:2705 dcterms:date "1764"^^xsd:year ;
+monita:2705 a dcterms:BibliographicResource ;
+    dcterms:date "1764"^^xsd:year ;
     dcterms:title "Monita secreta Soc. Jesu" ;
     monita:placeType "fikcyjna" ;
     monita:privataInTitle false ;
@@ -1407,7 +1554,8 @@ monita:2705 dcterms:date "1764"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2708 dcterms:date "[1901]"^^xsd:year ;
+monita:2708 a dcterms:BibliographicResource ;
+    dcterms:date "[1901]"^^xsd:year ;
     dcterms:title "Monita secreta : (instrucções secretas dos jesuitas)" ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
@@ -1417,7 +1565,8 @@ monita:2708 dcterms:date "[1901]"^^xsd:year ;
     monita:yearOrigin "external" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2267057> .
 
-monita:2713 dcterms:date "1887"^^xsd:year ;
+monita:2713 a dcterms:BibliographicResource ;
+    dcterms:date "1887"^^xsd:year ;
     dcterms:title "Singulares y secretas admoniciones para particulares personas de nuestra compañia, traduzidas de Latin en Romance" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1425,7 +1574,8 @@ monita:2713 dcterms:date "1887"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2715 dcterms:date "[1663?]"^^xsd:year ;
+monita:2715 a dcterms:BibliographicResource ;
+    dcterms:date "[1663?]"^^xsd:year ;
     dcterms:title "Le Cabinet jesuitique, contenant plusieurs pieces tres curieuses des r. peres jesuites, avec un recueil des mysteres de l’Eglise Romaine" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -1435,7 +1585,8 @@ monita:2715 dcterms:date "[1663?]"^^xsd:year ;
     monita:yearOrigin "external" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:2716 dcterms:date "1682"^^xsd:year ;
+monita:2716 a dcterms:BibliographicResource ;
+    dcterms:date "1682"^^xsd:year ;
     dcterms:title "Le Cabinet Jesuitique, contenant plusieurs Pieces tres curieuses des R. Peres Jesuites: avec un Recueil des Mysteres de l'Eglise Romaine: le tout augmenté dans cette 2. Edition" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -1445,7 +1596,8 @@ monita:2716 dcterms:date "1682"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:2718 dcterms:date "1643"^^xsd:year ;
+monita:2718 a dcterms:BibliographicResource ;
+    dcterms:date "1643"^^xsd:year ;
     dcterms:title "Instructio secreta pro Superioribus Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1453,23 +1605,19 @@ monita:2718 dcterms:date "1643"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:2722 dcterms:date "1635"^^xsd:year ;
-    dcterms:title "Instructio secreta pro superioribus Societatis Jesu" ;
-    monita:placeType "NaN"^^xsd:double ;
-    monita:privataInTitle false ;
-    monita:secretaInTitle true ;
-    monita:yearCertainty "certain" ;
-    monita:yearOrigin "internal" .
-
-monita:2723 dcterms:date "1849"^^xsd:year ;
+monita:2723 a dcterms:BibliographicResource ;
+    dcterms:date "1849"^^xsd:year ;
     dcterms:title "Monita secreta de los Jesuitas, o, Instrucciones reservadas de los padres de la Compañía de Jesús, compuesta por el padre Claudio Aguaviva, de la misma Compañía ; traducida de la edición portuguesa de 1827 i dedicada por el editor a M. Eujenio Sue, autor de El judío errante." ;
-    monita:placeType "NaN"^^xsd:double ;
+    monita:placeInText <https://www.geonames.org/3117735> ;
+    monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
-    monita:yearOrigin "internal" .
+    monita:yearOrigin "internal" ;
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3117735> .
 
-monita:275 dcterms:date "1828"^^xsd:year ;
+monita:275 a dcterms:BibliographicResource ;
+    dcterms:date "1828"^^xsd:year ;
     dcterms:title "Monita secreta societatis Jesu. Instructions secrètes de la Société de Jésus" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1479,7 +1627,8 @@ monita:275 dcterms:date "1828"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:293 dcterms:date "1865"^^xsd:year ;
+monita:293 a dcterms:BibliographicResource ;
+    dcterms:date "1865"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu. Instructions secrètes des Jésuites. Nouvelle édition, précédée d'une introduction par Charles Sauvestre" ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
@@ -1489,7 +1638,8 @@ monita:293 dcterms:date "1865"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2988507> .
 
-monita:306 dcterms:date "n.d."^^xsd:year ;
+monita:306 a dcterms:BibliographicResource ;
+    dcterms:date "n.d."^^xsd:year ;
     dcterms:title "Forma del governo giesuitico con una instructione & avviso a' potentati, del modo , con il quale si governalo li Giesuiti, per riderre la loro Compagnia ad una perfetta monarchia" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1497,7 +1647,8 @@ monita:306 dcterms:date "n.d."^^xsd:year ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "internal" .
 
-monita:314 dcterms:date "1627"^^xsd:year ;
+monita:314 a dcterms:BibliographicResource ;
+    dcterms:date "1627"^^xsd:year ;
     dcterms:title "Historia jesuitica ; de jesuitarum ordinis origine, nomine, regulis, officiis, votis... ac facinoribus, tam communiter quam singulariter, in quatuor libros tributa... per M. Ludovicum Lucium" ;
     monita:placeInText <https://www.geonames.org/2661604/basel.html> ;
     monita:placeType "prawdziwa" ;
@@ -1507,7 +1658,8 @@ monita:314 dcterms:date "1627"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2661604/basel.html> .
 
-monita:319 dcterms:date "1668"^^xsd:year ;
+monita:319 a dcterms:BibliographicResource ;
+    dcterms:date "1668"^^xsd:year ;
     dcterms:title "Instructio secreta pro superioribus Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1515,7 +1667,8 @@ monita:319 dcterms:date "1668"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:324 dcterms:date "1847"^^xsd:year ;
+monita:324 a dcterms:BibliographicResource ;
+    dcterms:date "1847"^^xsd:year ;
     dcterms:title "The secret oath and a fresh translation of the secret instructions of the order of the Jesuits : with a slight sketch of the society, its principles from their own accredited standard works, their actions on the testimony of Roman Catholic authorities, and their strenuous exertions at this moment to overturn every constituted authority throughout the empire of Great Britain to establish their own sovereignty" ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
@@ -1525,7 +1678,8 @@ monita:324 dcterms:date "1847"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2643743> .
 
-monita:328 dcterms:date "1633"^^xsd:year ;
+monita:328 a dcterms:BibliographicResource ;
+    dcterms:date "1633"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
@@ -1533,7 +1687,8 @@ monita:328 dcterms:date "1633"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:334 dcterms:date "1657"^^xsd:year ;
+monita:334 a dcterms:BibliographicResource ;
+    dcterms:date "1657"^^xsd:year ;
     dcterms:title "Monita privata Societatis Iesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
@@ -1541,7 +1696,8 @@ monita:334 dcterms:date "1657"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-monita:335 dcterms:date "1827"^^xsd:year ;
+monita:335 a dcterms:BibliographicResource ;
+    dcterms:date "1827"^^xsd:year ;
     dcterms:title "Monitoria secreta ou Instrucções secretas dos padres da Companhia de Jesus" ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
@@ -1550,7 +1706,8 @@ monita:335 dcterms:date "1827"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3451189/rio-de-janeiro.html> .
 
-monita:398 dcterms:date "1800"^^xsd:year ;
+monita:398 a dcterms:BibliographicResource ;
+    dcterms:date "1800"^^xsd:year ;
     dcterms:title "Istruzioni secrete della Compagnia di Gesù : con aggiunte importanti" ;
     monita:placeInText <https://www.geonames.org/3169070> ;
     monita:placeType "prawdziwa" ;
@@ -1560,7 +1717,8 @@ monita:398 dcterms:date "1800"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3169070> .
 
-monita:615 dcterms:date "1676"^^xsd:year ;
+monita:615 a dcterms:BibliographicResource ;
+    dcterms:date "1676"^^xsd:year ;
     dcterms:title "Lettera Amfibologica e persuasiva di un Giesuita ad un Cavaliero suo Discepolo" ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
@@ -1570,7 +1728,8 @@ monita:615 dcterms:date "1676"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/2886242> .
 
-monita:671 dcterms:date "1760"^^xsd:year ;
+monita:671 a dcterms:BibliographicResource ;
+    dcterms:date "1760"^^xsd:year ;
     dcterms:title "Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeInText <https://www.geonames.org/3172394> ;
     monita:placeType "prawdziwa" ;
@@ -1580,7 +1739,8 @@ monita:671 dcterms:date "1760"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/3172394> .
 
-monita:772 dcterms:date "[1669]"^^xsd:year ;
+monita:772 a dcterms:BibliographicResource ;
+    dcterms:date "[1669]"^^xsd:year ;
     dcterms:title "Lettera Amfibologica e persuasiva di un Giesuita ad un Cavaliero suo Discepolo" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
@@ -1589,7 +1749,8 @@ monita:772 dcterms:date "[1669]"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
 
-monita:828 dcterms:date "1760"^^xsd:year ;
+monita:828 a dcterms:BibliographicResource ;
+    dcterms:date "1760"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Iesu" ;
     monita:placeInText <https://www.geonames.org/9035371/ortignano.html> ;
     monita:placeType "prawdziwa" ;
@@ -1599,7 +1760,8 @@ monita:828 dcterms:date "1760"^^xsd:year ;
     monita:yearOrigin "internal" ;
     fabio:hasPlaceOfPublication <https://www.geonames.org/9035371/ortignano.html> .
 
-monita:830 dcterms:date "1761"^^xsd:year ;
+monita:830 a dcterms:BibliographicResource ;
+    dcterms:date "1761"^^xsd:year ;
     dcterms:title "Monita secreta Soc. Jesu" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
@@ -1608,251 +1770,313 @@ monita:830 dcterms:date "1761"^^xsd:year ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
-<https://www.geonames.org/2825297> rdfs:label "Stuttgart" ;
+<https://www.geonames.org/2825297> a dcterms:Location ;
+    rdfs:label "Stuttgart" ;
     geo1:lat "48.78232"^^xsd:float ;
     geo1:long "9.17702"^^xsd:float .
 
-<https://www.geonames.org/2929567/erlangen.html> rdfs:label "Erlangen" ;
+<https://www.geonames.org/2929567/erlangen.html> a dcterms:Location ;
+    rdfs:label "Erlangen" ;
     geo1:lat "49.59099"^^xsd:float ;
     geo1:long "11.00783"^^xsd:float .
 
-<https://www.geonames.org/2954172> rdfs:label "Augsburg" ;
+<https://www.geonames.org/2954172> a dcterms:Location ;
+    rdfs:label "Augsburg" ;
     geo1:lat "48.37154"^^xsd:float ;
     geo1:long "10.89851"^^xsd:float .
 
-<https://www.geonames.org/3090436/nysa.html> rdfs:label "Nysa" ;
+<https://www.geonames.org/3090436/nysa.html> a dcterms:Location ;
+    rdfs:label "Nysa" ;
     geo1:lat "50.47379"^^xsd:float ;
     geo1:long "17.33437"^^xsd:float .
 
-<https://www.geonames.org/3179866/caserta.html> rdfs:label "Caserta" ;
+<https://www.geonames.org/3179866/caserta.html> a dcterms:Location ;
+    rdfs:label "Caserta" ;
     geo1:lat "41.07262"^^xsd:float ;
     geo1:long "14.33231"^^xsd:float .
 
-<https://www.geonames.org/3451189/rio-de-janeiro.html> rdfs:label "Rio de Janeiro" ;
+<https://www.geonames.org/3451189/rio-de-janeiro.html> a dcterms:Location ;
+    rdfs:label "Rio de Janeiro" ;
     geo1:lat "-22.25"^^xsd:float ;
     geo1:long "-42.5"^^xsd:float .
 
-<https://www.geonames.org/5391959> rdfs:label "San Francisco" ;
+<https://www.geonames.org/5391959> a dcterms:Location ;
+    rdfs:label "San Francisco" ;
     geo1:lat "37.77493"^^xsd:float ;
     geo1:long "-122.41942"^^xsd:float .
 
-<https://www.geonames.org/6458783/geneva.html> rdfs:label "Geneva" ;
+<https://www.geonames.org/6458783/geneva.html> a dcterms:Location ;
+    rdfs:label "Geneva" ;
     geo1:lat "46.20804"^^xsd:float ;
     geo1:long "6.12737"^^xsd:float .
 
-<https://www.geonames.org/1260607> rdfs:label "Panjim" ;
+<https://www.geonames.org/1260607> a dcterms:Location ;
+    rdfs:label "Panjim" ;
     geo1:lat "15.49574"^^xsd:float ;
     geo1:long "73.82624"^^xsd:float .
 
-<https://www.geonames.org/2510911> rdfs:label "Seville" ;
+<https://www.geonames.org/2510911> a dcterms:Location ;
+    rdfs:label "Seville" ;
     geo1:lat "37.38283"^^xsd:float ;
     geo1:long "-5.97317"^^xsd:float .
 
-<https://www.geonames.org/264371> rdfs:label "Athens" ;
+<https://www.geonames.org/264371> a dcterms:Location ;
+    rdfs:label "Athens" ;
     geo1:lat "37.98376"^^xsd:float ;
     geo1:long "23.72784"^^xsd:float .
 
-<https://www.geonames.org/2648579> rdfs:label "Glasgow" ;
+<https://www.geonames.org/2648579> a dcterms:Location ;
+    rdfs:label "Glasgow" ;
     geo1:lat "55.86515"^^xsd:float ;
     geo1:long "-4.25763"^^xsd:float .
 
-<https://www.geonames.org/2658822> rdfs:label "Saint Gallen" ;
+<https://www.geonames.org/2658822> a dcterms:Location ;
+    rdfs:label "Saint Gallen" ;
     geo1:lat "47.42391"^^xsd:float ;
     geo1:long "9.37477"^^xsd:float .
 
-<https://www.geonames.org/2661552/bern.html> rdfs:label "Bern" ;
+<https://www.geonames.org/2661552/bern.html> a dcterms:Location ;
+    rdfs:label "Bern" ;
     geo1:lat "46.94809"^^xsd:float ;
     geo1:long "7.44744"^^xsd:float .
 
-<https://www.geonames.org/2661604/basel.html> rdfs:label "Basel" ;
+<https://www.geonames.org/2661604/basel.html> a dcterms:Location ;
+    rdfs:label "Basel" ;
     geo1:lat "47.55839"^^xsd:float ;
     geo1:long "7.57327"^^xsd:float .
 
-<https://www.geonames.org/2747891> rdfs:label "Rotterdam" ;
+<https://www.geonames.org/2747891> a dcterms:Location ;
+    rdfs:label "Rotterdam" ;
     geo1:lat "51.9225"^^xsd:float ;
     geo1:long "4.47917"^^xsd:float .
 
-<https://www.geonames.org/2749541> rdfs:label "Oostburg" ;
+<https://www.geonames.org/2749541> a dcterms:Location ;
+    rdfs:label "Oostburg" ;
     geo1:lat "51.32583"^^xsd:float ;
     geo1:long "3.4875"^^xsd:float .
 
-<https://www.geonames.org/2755251> rdfs:label "Groningen" ;
+<https://www.geonames.org/2755251> a dcterms:Location ;
+    rdfs:label "Groningen" ;
     geo1:lat "53.21917"^^xsd:float ;
     geo1:long "6.56667"^^xsd:float .
 
-<https://www.geonames.org/2759794> rdfs:label "Amsterdam" ;
+<https://www.geonames.org/2759794> a dcterms:Location ;
+    rdfs:label "Amsterdam" ;
     geo1:lat "52.37403"^^xsd:float ;
     geo1:long "4.88969"^^xsd:float .
 
-<https://www.geonames.org/2761369> rdfs:label "Vienna" ;
+<https://www.geonames.org/2761369> a dcterms:Location ;
+    rdfs:label "Vienna" ;
     geo1:lat "48.20849"^^xsd:float ;
     geo1:long "16.37208"^^xsd:float .
 
-<https://www.geonames.org/2861982/nordhausen.html> rdfs:label "Nordhausen" ;
+<https://www.geonames.org/2861982/nordhausen.html> a dcterms:Location ;
+    rdfs:label "Nordhausen" ;
     geo1:lat "51.5018"^^xsd:float ;
     geo1:long "10.7957"^^xsd:float .
 
-<https://www.geonames.org/2872155> rdfs:label "Meissen" ;
+<https://www.geonames.org/2872155> a dcterms:Location ;
+    rdfs:label "Meissen" ;
     geo1:lat "51.16158"^^xsd:float ;
     geo1:long "13.4737"^^xsd:float .
 
-<https://www.geonames.org/2911522> rdfs:label "Halle" ;
+<https://www.geonames.org/2911522> a dcterms:Location ;
+    rdfs:label "Halle" ;
     geo1:lat "51.48158"^^xsd:float ;
     geo1:long "11.97947"^^xsd:float .
 
-<https://www.geonames.org/2925533> rdfs:label "Frankfurt am Main" ;
+<https://www.geonames.org/2925533> a dcterms:Location ;
+    rdfs:label "Frankfurt am Main" ;
     geo1:lat "50.11552"^^xsd:float ;
     geo1:long "8.68417"^^xsd:float .
 
-<https://www.geonames.org/2929670> rdfs:label "Erfurt" ;
+<https://www.geonames.org/2929670> a dcterms:Location ;
+    rdfs:label "Erfurt" ;
     geo1:lat "50.9787"^^xsd:float ;
     geo1:long "11.03283"^^xsd:float .
 
-<https://www.geonames.org/2964574> rdfs:label "Dublin" ;
+<https://www.geonames.org/2964574> a dcterms:Location ;
+    rdfs:label "Dublin" ;
     geo1:lat "53.33306"^^xsd:float ;
     geo1:long "-6.24889"^^xsd:float .
 
-<https://www.geonames.org/2964574/dublin.html> rdfs:label "Dublin" ;
+<https://www.geonames.org/2964574/dublin.html> a dcterms:Location ;
+    rdfs:label "Dublin" ;
     geo1:lat "53.33306"^^xsd:float ;
     geo1:long "-6.24889"^^xsd:float .
 
-<https://www.geonames.org/3014728> rdfs:label "Grenoble" ;
+<https://www.geonames.org/3014728> a dcterms:Location ;
+    rdfs:label "Grenoble" ;
     geo1:lat "45.17869"^^xsd:float ;
     geo1:long "5.71479"^^xsd:float .
 
-<https://www.geonames.org/3028542> rdfs:label "Carpentras" ;
+<https://www.geonames.org/3028542> a dcterms:Location ;
+    rdfs:label "Carpentras" ;
     geo1:lat "44.05507"^^xsd:float ;
     geo1:long "5.04813"^^xsd:float .
 
-<https://www.geonames.org/3032213/blois.html> rdfs:label "Blois" ;
+<https://www.geonames.org/3032213/blois.html> a dcterms:Location ;
+    rdfs:label "Blois" ;
     geo1:lat "47.59432"^^xsd:float ;
     geo1:long "1.32912"^^xsd:float .
 
-<https://www.geonames.org/3037656> rdfs:label "Angers" ;
+<https://www.geonames.org/3037656> a dcterms:Location ;
+    rdfs:label "Angers" ;
     geo1:lat "47.47156"^^xsd:float ;
     geo1:long "-0.55202"^^xsd:float .
 
-<https://www.geonames.org/3104499/gasteiz-vitoria.html> rdfs:label "Vitoria-Gasteiz" ;
+<https://www.geonames.org/3104499/gasteiz-vitoria.html> a dcterms:Location ;
+    rdfs:label "Vitoria-Gasteiz" ;
     geo1:lat "42.84998"^^xsd:float ;
     geo1:long "-2.67268"^^xsd:float .
 
-<https://www.geonames.org/3164602/venezia.html> rdfs:label "Venezia" ;
+<https://www.geonames.org/3164602/venezia.html> a dcterms:Location ;
+    rdfs:label "Venezia" ;
     geo1:lat "45.5"^^xsd:float ;
     geo1:long "12.0"^^xsd:float .
 
-<https://www.geonames.org/3172244> rdfs:label "Nocera Inferiore" ;
+<https://www.geonames.org/3172244> a dcterms:Location ;
+    rdfs:label "Nocera Inferiore" ;
     geo1:lat "40.7454"^^xsd:float ;
     geo1:long "14.64542"^^xsd:float .
 
-<https://www.geonames.org/3172394> rdfs:label "Naples" ;
+<https://www.geonames.org/3172394> a dcterms:Location ;
+    rdfs:label "Naples" ;
     geo1:lat "40.85216"^^xsd:float ;
     geo1:long "14.26811"^^xsd:float .
 
-<https://www.geonames.org/3173435> rdfs:label "Milan" ;
+<https://www.geonames.org/3173435> a dcterms:Location ;
+    rdfs:label "Milan" ;
     geo1:lat "45.46427"^^xsd:float ;
     geo1:long "9.18951"^^xsd:float .
 
-<https://www.geonames.org/3176219> rdfs:label "Genoa" ;
+<https://www.geonames.org/3176219> a dcterms:Location ;
+    rdfs:label "Genoa" ;
     geo1:lat "44.40478"^^xsd:float ;
     geo1:long "8.94439"^^xsd:float .
 
-<https://www.geonames.org/3176959> rdfs:label "Florence" ;
+<https://www.geonames.org/3176959> a dcterms:Location ;
+    rdfs:label "Florence" ;
     geo1:lat "43.77925"^^xsd:float ;
     geo1:long "11.24626"^^xsd:float .
 
-<https://www.geonames.org/3181928/bologna.html> rdfs:label "Bologna" ;
+<https://www.geonames.org/3181928/bologna.html> a dcterms:Location ;
+    rdfs:label "Bologna" ;
     geo1:lat "44.49381"^^xsd:float ;
     geo1:long "11.33875"^^xsd:float .
 
-<https://www.geonames.org/3435910> rdfs:label "Buenos Aires" ;
+<https://www.geonames.org/3435910> a dcterms:Location ;
+    rdfs:label "Buenos Aires" ;
     geo1:lat "-34.61315"^^xsd:float ;
     geo1:long "-58.37723"^^xsd:float .
 
-<https://www.geonames.org/3936456> rdfs:label "Lima" ;
+<https://www.geonames.org/3936456> a dcterms:Location ;
+    rdfs:label "Lima" ;
     geo1:lat "-12.04318"^^xsd:float ;
     geo1:long "-77.02824"^^xsd:float .
 
-<https://www.geonames.org/4347778> rdfs:label "Baltimore" ;
+<https://www.geonames.org/4347778> a dcterms:Location ;
+    rdfs:label "Baltimore" ;
     geo1:lat "39.29038"^^xsd:float ;
     geo1:long "-76.61219"^^xsd:float .
 
-<https://www.geonames.org/4560349/philadelphia.html> rdfs:label "Philadelphia" ;
+<https://www.geonames.org/4560349/philadelphia.html> a dcterms:Location ;
+    rdfs:label "Philadelphia" ;
     geo1:lat "39.95238"^^xsd:float ;
     geo1:long "-75.16362"^^xsd:float .
 
-<https://www.geonames.org/4930956> rdfs:label "Boston" ;
+<https://www.geonames.org/4930956> a dcterms:Location ;
+    rdfs:label "Boston" ;
     geo1:lat "42.35843"^^xsd:float ;
     geo1:long "-71.05977"^^xsd:float .
 
-<https://www.geonames.org/3165524> rdfs:label "Turin" ;
+<https://www.geonames.org/3165524> a dcterms:Location ;
+    rdfs:label "Turin" ;
     geo1:lat "45.07049"^^xsd:float ;
     geo1:long "7.68682"^^xsd:float .
 
-<https://www.geonames.org/3530597> rdfs:label "Mexico City" ;
+<https://www.geonames.org/3530597> a dcterms:Location ;
+    rdfs:label "Mexico City" ;
     geo1:lat "19.42847"^^xsd:float ;
     geo1:long "-99.12766"^^xsd:float .
 
-<https://www.geonames.org/2800866> rdfs:label "Brussels" ;
+<https://www.geonames.org/2800866> a dcterms:Location ;
+    rdfs:label "Brussels" ;
     geo1:lat "50.85045"^^xsd:float ;
     geo1:long "4.34878"^^xsd:float .
 
-<https://www.geonames.org/2952540/barmen.html> rdfs:label "Barmen" ;
+<https://www.geonames.org/2952540/barmen.html> a dcterms:Location ;
+    rdfs:label "Barmen" ;
     geo1:lat "50.94381"^^xsd:float ;
     geo1:long "6.30508"^^xsd:float .
 
-<https://www.geonames.org/3164603> rdfs:label "Venice" ;
+<https://www.geonames.org/3164603> a dcterms:Location ;
+    rdfs:label "Venice" ;
     geo1:lat "45.43713"^^xsd:float ;
     geo1:long "12.33265"^^xsd:float .
 
-<https://www.geonames.org/4951257> rdfs:label "Somerville" ;
+<https://www.geonames.org/4951257> a dcterms:Location ;
+    rdfs:label "Somerville" ;
     geo1:lat "42.3876"^^xsd:float ;
     geo1:long "-71.0995"^^xsd:float .
 
-<https://www.geonames.org/5102922> rdfs:label "Princeton" ;
+<https://www.geonames.org/5102922> a dcterms:Location ;
+    rdfs:label "Princeton" ;
     geo1:lat "40.34872"^^xsd:float ;
     geo1:long "-74.65905"^^xsd:float .
 
-<https://www.geonames.org/9035371/ortignano.html> rdfs:label "Ortignano" ;
+<https://www.geonames.org/9035371/ortignano.html> a dcterms:Location ;
+    rdfs:label "Ortignano" ;
     geo1:lat "43.68005"^^xsd:float ;
     geo1:long "11.75021"^^xsd:float .
 
-<https://www.geonames.org/3117735> rdfs:label "Madrid" ;
-    geo1:lat "40.4165"^^xsd:float ;
-    geo1:long "-3.70256"^^xsd:float .
-
-<https://www.geonames.org/3128760> rdfs:label "Barcelona" ;
+<https://www.geonames.org/3128760> a dcterms:Location ;
+    rdfs:label "Barcelona" ;
     geo1:lat "41.38879"^^xsd:float ;
     geo1:long "2.15899"^^xsd:float .
 
-<https://www.geonames.org/3247449> rdfs:label "Aachen" ;
+<https://www.geonames.org/3247449> a dcterms:Location ;
+    rdfs:label "Aachen" ;
     geo1:lat "50.77664"^^xsd:float ;
     geo1:long "6.08342"^^xsd:float .
 
-<https://www.geonames.org/5128581> rdfs:label "New York" ;
+<https://www.geonames.org/5128581> a dcterms:Location ;
+    rdfs:label "New York" ;
     geo1:lat "40.71427"^^xsd:float ;
     geo1:long "-74.00597"^^xsd:float .
 
-<https://www.geonames.org/2855745/paderborn.html> rdfs:label "Paderborn" ;
+<https://www.geonames.org/2855745/paderborn.html> a dcterms:Location ;
+    rdfs:label "Paderborn" ;
     geo1:lat "51.71905"^^xsd:float ;
     geo1:long "8.75439"^^xsd:float .
 
-<https://www.geonames.org/2267057> rdfs:label "Lisbon" ;
+<https://www.geonames.org/2267057> a dcterms:Location ;
+    rdfs:label "Lisbon" ;
     geo1:lat "38.71667"^^xsd:float ;
     geo1:long "-9.13333"^^xsd:float .
 
-<https://www.geonames.org/3169070> rdfs:label "Rome" ;
+<https://www.geonames.org/3117735> a dcterms:Location ;
+    rdfs:label "Madrid" ;
+    geo1:lat "40.4165"^^xsd:float ;
+    geo1:long "-3.70256"^^xsd:float .
+
+<https://www.geonames.org/3169070> a dcterms:Location ;
+    rdfs:label "Rome" ;
     geo1:lat "41.89193"^^xsd:float ;
     geo1:long "12.51133"^^xsd:float .
 
-<https://www.geonames.org/2886242> rdfs:label "Cologne" ;
+<https://www.geonames.org/2886242> a dcterms:Location ;
+    rdfs:label "Cologne" ;
     geo1:lat "50.93333"^^xsd:float ;
     geo1:long "6.95"^^xsd:float .
 
-<https://www.geonames.org/2643743> rdfs:label "London" ;
+<https://www.geonames.org/2643743> a dcterms:Location ;
+    rdfs:label "London" ;
     geo1:lat "51.50853"^^xsd:float ;
     geo1:long "-0.12574"^^xsd:float .
 
-<https://www.geonames.org/2988507> rdfs:label "Paris" ;
+<https://www.geonames.org/2988507> a dcterms:Location ;
+    rdfs:label "Paris" ;
     geo1:lat "48.85341"^^xsd:float ;
     geo1:long "2.3488"^^xsd:float .
 

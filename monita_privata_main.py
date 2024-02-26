@@ -316,13 +316,7 @@ df_fixed['secreta_in_title'] = df_fixed['title'].apply(lambda x: get_secreta_in_
 #def set_publishing_form(x):
 
 #%% ontologia
-#load json
-files = [f for f in glob('dh*.json', recursive=True)]
-files_dict = {}
-for file in files:
-    name = file.replace('.json', '')
-    with open(file, 'r') as f:
-        files_dict[name] = json.load(f) 
+
 #namespaces
 monita = Namespace("http://purl.org/monita/")
 n = Namespace("http://example.org/people/")
@@ -356,6 +350,7 @@ g.bind("foaf", FOAF)
 
 def add_place(place_dict):
     place = URIRef(k)
+    g.add((place, RDF.type, dcterms.Location))
     g.add((place, RDFS.label, Literal(place_dict[k]['name'])))
     latitude = Literal(place_dict[k]["lat"], datatype=XSD.float)
     g.add((place, geo.lat, latitude))
@@ -367,6 +362,7 @@ for k,v in places_with_geonames.items():
 
 def add_book(row):
     book = URIRef(monita + row['ID'])
+    g.add((book, RDF.type, dcterms.BibliographicResource))
     g.add((book, dcterms.date, Literal(row["year"], datatype = XSD.year)))
     g.add((book, monita.yearCertainty, Literal(row['year_certainty'])))
     g.add((book, monita.yearOrigin, Literal(row['year_origin'])))
@@ -387,155 +383,11 @@ for i, row in df_fixed.iterrows():
 g.serialize("data/monita.ttl", format = "turtle")
 
 #https://www.youtube.com/watch?v=kyucE2iINwQ
-#skopiować logi, dodać .jar do pluginów, https://neo4j.com/labs/neosemantics/4.0/install/, może być błąd, wtedy restart systemu
+#skopiować logi, dodać .jar do pluginów, https://neo4j.com/labs/neosemantics/4.0/install/, może być błąd, wtedy sprawdzić plugins, czy nie ma starego
 
 
 
 
-
-
-def add_partition(partition_dict):
-
-    partition = URIRef(TCO + partition_dict['id'])
-    g.add((partition, RDF.type, dcterms.Location))
-    g.add((partition, RDFS.label, Literal(partition_dict["name"])))
-    g.add((partition, TCO.isPartition, Literal(True)))
-    g.add((partition, OWL.sameAs, URIRef(partition_dict["wikidata"])))
-
-
-def add_epoch(epoch_dict):
-
-    epoch = URIRef(TCO + epoch_dict['id'])
-    g.add((epoch, RDF.type, dcterms.PeriodOfTime))
-    g.add((epoch, RDFS.label, Literal(epoch_dict["name"])))
-    g.add((epoch, TCO.isEpoch, Literal(True)))
-    g.add((epoch, OWL.sameAs, URIRef(epoch_dict["wikidata"])))
-
-def add_place(place_dict):
-
-    place = URIRef(TCO + place_dict['id'])
-    
-    
-    g.add((place, RDF.type, dcterms.Location))
-    g.add((place, RDFS.label, Literal(place_dict["name"])))
-    
-    ##POINT
-    
-    # Add the triple for latitude
-    latitude = Literal(place_dict["lat"], datatype=XSD.float)
-    g.add((place, geo.lat, latitude))
-    
-    # Add the triple for longitude
-    longitude = Literal(place_dict["lng"], datatype=XSD.float)
-    g.add((place, geo.long, longitude))
-    
-    ##/POINT
-    if place_dict["wikidataId"]:
-        g.add((place, OWL.sameAs, URIRef(WIKIDATA+place_dict["wikidataId"])))
-    if place_dict['geonameId']:
-        g.add((place, OWL.sameAs, URIRef(GEONAMES+str(place_dict["geonameId"]))))
-    if place_dict['partition']:
-        g.add((place, TCO.inPartition, URIRef(TCO+place_dict["partition"])))
-
-def add_book(book_dict):
-
-    book = URIRef(TCO + book_dict['id'])
-    
-    g.add((corpus, TCO.contains, book))
-    g.add((book, RDF.type, TCO.Text))
-    g.add((book, RDF.type, dcterms.BibliographicResource))
-    g.add((book, dcterms.title, Literal(book_dict["title"])))
-    g.add((book, dcterms.creator, URIRef(TCO + book_dict["creator"])))
-    g.add((book, dcterms.date, Literal(book_dict["year"], datatype = XSD.year)))
-    if book_dict["ELTeC"] and not isinstance(book_dict["ELTeC"], float):
-        g.add((book, OWL.sameAs, URIRef(eltec_uri + book_dict["ELTeC"])))
-    if book_dict["polonaId"]:
-        g.add((book, OWL.sameAs, URIRef(polona_uri + book_dict["polonaId"])))
-    if book_dict["wlId"]:
-        g.add((book, OWL.sameAs, URIRef(wl_uri + book_dict["wlId"])))
-    if book_dict["wsId"] and not isinstance(book_dict["wsId"], float):
-        g.add((book, OWL.sameAs, URIRef(ws_ids[book_dict["wsId"]])))
-    # g.add((book, TCO.inEpoch, URIRef(TCO + "epoch/" + book_dict["epoka"])))
-    g.add((book, TCO.inEpoch, URIRef(TCO + book_dict["epoka"])))
-    g.add((book, TCO.numberOfReissues, Literal(book_dict["liczba wznowień"], datatype = XSD.integer)))
-    g.add((book, TCO.numberOfTokens, Literal(book_dict["num_tokens"], datatype = XSD.integer)))
-    for place in book_dict["publishing place"]:
-        g.add((book, FABIO.hasPlaceOfPublication, URIRef(TCO + place)))
-    g.add((book, schema.genre, Literal('Novel')))
-    g.add((book, dcterms.subject, Literal('Plot after the Congress of Vienna')))
-    g.add((book, schema.contentUrl, URIRef(book_dict['download'])))
-  
-    
-def add_person(person_dict):
-
-    person = URIRef(TCO + person_dict['id'])
-    
-    #g.add((corpus, TCO.?, book) co robi korpus?
-    g.add((person, RDF.type, FOAF.Person))
-    g.add((person, FOAF.gender, Literal(person_dict["gender"])))
-    g.add((person, RDFS.label, Literal(person_dict["name"])))
-    if person_dict["wikidata"] and not isinstance(person_dict["wikidata"], float):
-        g.add((person, OWL.sameAs, URIRef(person_dict["wikidata"])))
-    if person_dict['birthplace'] and not isinstance(person_dict["birthplace"], float):
-        g.add((person, schema.birthPlace, URIRef(TCO+person_dict["birthplace"])))
-  
-#graph
-
-# Graph instantiation
-g = Graph()
-
-g.bind("tco", TCO)
-g.bind("dcterms", dcterms)
-g.bind("fabio", FABIO)
-g.bind("geo", geo)
-g.bind("bibo", bibo)
-g.bind("schema", schema)
-g.bind("biro", BIRO)
-g.bind("foaf", FOAF)
-
-# Create corpora node
-corpus = URIRef(TCO + "Corpora")
-g.add((corpus, RDF.type, TCO.Corpus))
-g.add((corpus, schema.provider, Literal("Instytut Badań Literackich PAN")))
-g.add((corpus, dcterms.license, URIRef('https://creativecommons.org/licenses/by/4.0/')))
-g.add((corpus, dcterms.created, Literal(datetime.today(), datatype=XSD.dateTime)))
-
-
-for k,v in tqdm(files_dict.items()):
-    if k == 'dh2023_partitions':
-        for ka,va in v.items():
-            add_partition(va)
-    elif k == 'dh2023_epochs':
-        for ka,va in v.items():
-            add_epoch(va)
-    elif k == 'dh2023_places':
-        for ka,va in v.items():
-            add_place(va)
-    elif k == 'dh2023_people':
-        for ka,va in v.items():
-            add_person(va)
-    elif k == 'dh2023_books':
-        for ka,va in v.items():
-            add_book(va)
-
-        
-# for k,v in partition_dict.items():
-#     add_partition(v)
-# for k,v in literary_epochs.items():
-#     add_epoch(v)
-# for k,v in places_json.items():
-#     add_place(v)
-# for k,v in books_json.items():
-#     add_book(v)
-# for k,v in people_json.items():
-#     add_person(v)
-
-# print(g.serialize(format='xml'))
-
-
-        
-        
-    
     
     
     
