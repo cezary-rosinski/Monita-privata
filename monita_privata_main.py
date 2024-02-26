@@ -1,0 +1,554 @@
+import bibtexparser
+import pandas as pd
+import regex as re
+import random
+import sys
+sys.path.insert(1, 'C:/Users/Cezary/Documents/IBL-PAN-Python')
+from geonames_accounts import geonames_users
+import requests
+import time
+from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
+from my_functions import gsheet_to_df
+import json
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException, NoAlertPresentException, SessionNotCreatedException, ElementClickInterceptedException, InvalidArgumentException
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.firefox.options import Options
+import endnote_credentials
+import os
+from rdflib import Graph, Literal, Namespace, URIRef
+from rdflib.namespace import RDF, RDFS, FOAF, XSD, OWL
+
+#%%
+
+#usunąć plik
+file_path = r"C:\Users\Cezary\Documents\Monita-privata\data\exportlist.txt"
+os.remove(file_path)
+
+#download references from endnote
+
+options = Options()
+
+options.set_preference("browser.download.folderList", 2)
+options.set_preference("browser.download.manager.showWhenStarting", False)
+options.set_preference("browser.download.dir", r'C:\Users\Cezary\Documents\Monita-privata\data')
+options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
+
+browser = webdriver.Firefox(options=options)
+
+browser.get("https://access.clarivate.com/login?app=endnote")
+time.sleep(1)
+login = browser.find_element('xpath', "//button[@name='login-btn']")
+
+username_input = browser.find_element('name', 'email')
+password_input = browser.find_element('name', 'password')
+
+username = endnote_credentials.username
+password = endnote_credentials.password
+time.sleep(1)
+username_input.send_keys(username)
+time.sleep(1)
+password_input.send_keys(password)
+time.sleep(1)
+try:
+    login.click()
+except NoSuchElementException():
+    time.sleep(1)
+    username_input.send_keys(username)
+    time.sleep(1)
+    password_input.send_keys(password)
+    time.sleep(1)
+    login.click()
+time.sleep(2)
+url = 'https://www.myendnoteweb.com/EndNoteWeb.html?func=export%20citations&'
+browser.get(url)
+time.sleep(2)
+reject_cookies = browser.find_element('xpath', "//button[@id='onetrust-reject-all-handler']")
+reject_cookies.click()
+time.sleep(1)
+references = browser.find_element('xpath', "//option[@value='YmJdcwrsDrYAAD6geaA:101']")
+references.click()
+time.sleep(1)
+export_style = browser.find_element('xpath', "//option[@value='RefMan (RIS) Export.ens']")
+export_style.click()
+time.sleep(1)
+save_button = browser.find_element('xpath', "//input[@name='export citations 2.x']")
+save_button.click()
+browser.close()
+
+
+file = r"data\exportlist.txt"
+
+# with open(file, encoding='utf-8') as bibtex_file:
+#     bib_database = bibtexparser.load(bibtex_file)
+
+# data = bib_database.entries
+
+with open(file, encoding='utf-8') as f:
+    data = f.readlines()
+    
+# test = set([e[:2] for e in data if '  - ' in e])
+# [e for e in test if e not in conversion_dict_RIS.keys()]
+
+data_list = []
+for i, row in enumerate(data[:-1]):
+    if row[2:6] == '  - ' and data[i+1][2:6] == '  - ':
+        temp = row.strip()
+        data_list.append(temp)
+    elif row[2:6] == '  - ' and data[i+1][2:6] != '  - ':
+        temp = row.strip()
+    elif row[2:6] != '  - ' and data[i+1][2:6] == '  - ':
+        temp += f" {row.strip()}"
+        data_list.append(temp)
+    elif row[2:6] != '  - ' and data[i+1][2:6] != '  - ':
+        temp += f" {row.strip()}"
+
+# data_list = []
+# for i, row in enumerate(data[:-1]):
+#     if row.startswith('%') and data[i+1].startswith('%'):
+#         temp = row.strip()
+#         data_list.append(temp)
+#     elif row.startswith('%') and not data[i+1].startswith('%'):
+#         temp = row.strip()
+#     elif not row.startswith('%') and data[i+1].startswith('%'): 
+#         temp += f" {row.strip()}"
+#         data_list.append(temp)
+#     elif not row.startswith('%') and not data[i+1].startswith('%'): 
+#         temp += f" {row.strip()}"
+
+bib_list = []
+for row in data_list:
+    # if row.startswith('%0'):
+    if row.startswith('TY  - '):
+        bib_list.append([row])
+    else:
+        if row.strip():
+            bib_list[-1].append(row)
+            
+final_list = []
+for lista in bib_list:
+    slownik = {}
+    for el in lista:
+        if el[:2] in slownik:
+            slownik[el[:2]] += f"❦{el[6:]}"
+        else:
+            slownik[el[:2]] = el[6:]
+    final_list.append(slownik)
+
+df = pd.DataFrame(final_list)
+
+conversion_dict_RIS = {
+    'ST': 'short_title',
+    'SE': 'pages2',
+    'AD': 'postal_address',
+    'TY': 'type',
+    'NV': 'number_of_volumes',
+    'ET': 'edition',
+    'M3': 'format',
+    'RN': 'research_notes',
+    'A4': 'NT',
+    'SN': 'catalogue_info',
+    'AU': 'author',
+    'T2': 'secondary_title',
+    'CY': 'publication_place',
+    'PY': 'year',
+    'A2': 'co-author',
+    'LB': 'label',
+    'LA': 'language',
+    'PB': 'publisher',
+    'KW': 'keywords',
+    'CN': 'keywords2',
+    'AN': 'accession_number',
+    'M1': 'number',
+    'SP': 'pages',
+    'TI': 'title',
+    'UR': 'url',
+    'VL': 'volume',
+    'DP': 'database_provider',
+    'AB': 'abstract',
+    'N1': 'notes',
+    'DB': 'name_of_database',
+    'ER': 'end_of_reference', 
+    'ID': 'ID', 
+    'RP': 'reprint_status'
+    }
+
+# conversion_dict = {
+#     '%!': 'title2',
+#     '%&': 'pages2',
+#     '%+': 'ID',
+#     '%0': 'type',
+#     '%6': 'notes2',
+#     '%7': 'edition',
+#     '%9': 'format',
+#     '%<': 'translation info',
+#     '%?': 'NT',
+#     '%@': 'catalogue info',
+#     '%A': 'author',
+#     '%B': 'note3',
+#     '%C': 'address',
+#     '%D': 'year',
+#     '%E': 'co-author',
+#     '%F': 'unknown number',
+#     '%G': 'language',
+#     '%I': 'publisher',
+#     '%K': 'keywords',
+#     '%L': 'keywords2',
+#     '%M': 'library id',
+#     '%N': 'number',
+#     '%P': 'pages',
+#     '%T': 'title',
+#     '%U': 'url',
+#     '%V': 'volume',
+#     '%W': 'worldcat',
+#     '%X': 'abstract',
+#     '%Z': 'note',
+#     '%~': 'worldcat2'
+#     }
+
+df.columns = [conversion_dict_RIS.get(e) for e in df.columns]
+
+#%% records and places
+records_and_places = gsheet_to_df('1Gh7ZZ9hrcygOCAFr-jVHBTKPvIIQGd-UJ4uwaA4B4o0', 'Sheet1')
+
+# new = df.loc[~df['ID'].isin(records_and_places['ID'].to_list())]
+
+df_total = pd.merge(df, records_and_places[['ID', 'typ miejscowości', 'miejscowość w tekście', 'prawdopodobna miejscowość wydania', 'prawdziwa miejscowość wydania', 'czy wydane samodzielnie (tak / nie)', 'manuskrypt', 'do usunięcia']], how='left', on='ID')
+
+df_select = df_total[['ID', 'year', 'title', 'typ miejscowości', 'miejscowość w tekście', 'prawdopodobna miejscowość wydania', 'prawdziwa miejscowość wydania', 'czy wydane samodzielnie (tak / nie)', 'manuskrypt', 'do usunięcia']]
+
+df_select = df_select.loc[(df_select['manuskrypt'].isna()) &
+                          (df_select['do usunięcia'].isna())].drop(columns=['manuskrypt', 'do usunięcia'])
+#%% geonames_query
+geonames_list = set(df_select['miejscowość w tekście'].to_list() + df_select['prawdopodobna miejscowość wydania'].to_list() + df_select['prawdziwa miejscowość wydania'].to_list())
+geonames_list = set([e for e in geonames_list if isinstance(e, str)])
+
+def query_geonames(geoname_url):
+# places_with_geonames = {}
+# for geoname_id in tqdm(geonames_list):
+    # m = 'Dublin'
+    geoname_id = re.findall('\d+', geoname_url)[0]
+    url = 'http://api.geonames.org/get?'
+    params = {'username': random.choice(geonames_users), 'geonameId': geoname_id, 'style': 'FULL'}
+    result = requests.get(url, params=params)
+    if 'status' in result:
+        time.sleep(5)
+        query_geonames(geoname_id)
+    else:  
+        soup = BeautifulSoup(result.text, "html.parser")
+        temp_dict = {'name': soup.find('name').text,
+                     'lat': soup.find('lat').text,
+                     'lng': soup.find('lng').text,
+                     'geoname_id': geoname_id}
+        places_with_geonames[geoname_url] = temp_dict
+    
+places_with_geonames = {}
+with ThreadPoolExecutor() as excecutor:
+    list(tqdm(excecutor.map(query_geonames, geonames_list),total=len(geonames_list)))
+
+#%%
+year = set(df_select['year'].to_list())
+
+def get_year(x):
+    if x.isnumeric():
+        return (int(x), 'certain')
+    elif x.replace('[','').replace(']','').isnumeric():
+        return (int(x.replace('[','').replace(']','')), 'certain')
+    elif re.findall('\d{4}', x) and '?' in x:
+        return (int(re.findall('\d{4}', x)[0]), 'uncertain')
+    elif '?' in x and re.findall('\d{3}-', x):
+        return (int(re.findall('\d{3}-', x)[0].replace('-', '0')), 'uncertain')
+    elif all(e in x for e in ['c', '–']):
+        return (int(re.findall('\d{4}', x)[0]), 'uncertain')
+    elif 'c' in x and re.findall('\d{4}', x):
+        return (int(re.findall('\d{4}', x)[0]), 'uncertain')
+    elif '–' in x:
+        return (int(re.findall('\d{4}', x)[0]), 'certain')
+    elif all(e in x for e in ['?', 'XVIII']):
+        return (1700, 'uncertain')
+    elif 'XVIII' in x:
+        return (1700, 'uncertain')
+    elif all(e in x for e in ['?', 'XVII']):
+        return (1600, 'uncertain')
+    elif 'XVII' in x:
+        return (1600, 'uncertain')
+    elif 'n.d' in x:
+        return (0, 'uncertain')
+    elif re.findall('\d{4}', x):
+        return (int(re.findall('\d{4}', x)[0]), 'uncertain')
+    else: return('solution not provided')
+    
+df_fixed = df_select.copy()
+df_fixed['year_fixed'] = df_fixed['year'].apply(lambda x: get_year(x)[0])
+df_fixed['year_certainty'] = df_fixed['year'].apply(lambda x: get_year(x)[1])
+    
+#test poprawności funkcji `set_year`
+for e in year:
+    if get_year(e) == 'solution not provided':
+        print(e)
+
+def get_origin_of_the_year(x):
+    if '[' in x:
+        return 'external'
+    else: return 'internal'
+    
+df_fixed['year_origin'] = df_fixed['year'].apply(lambda x: get_origin_of_the_year(x))
+    
+def get_privata_in_title(x):
+    if 'privata' in x.lower():
+        return True
+    else: return False
+
+df_fixed['privata_in_title'] = df_fixed['title'].apply(lambda x: get_privata_in_title(x))
+
+def get_secreta_in_title(x):
+    if 'secreta' in x.lower():
+        return True
+    else: return False   
+    
+df_fixed['secreta_in_title'] = df_fixed['title'].apply(lambda x: get_secreta_in_title(x))
+#dopytać RM, jaka informacja i w którym polu
+#def set_publishing_form(x):
+
+#%% ontologia
+#load json
+files = [f for f in glob('dh*.json', recursive=True)]
+files_dict = {}
+for file in files:
+    name = file.replace('.json', '')
+    with open(file, 'r') as f:
+        files_dict[name] = json.load(f) 
+#namespaces
+monita = Namespace("http://purl.org/monita/")
+n = Namespace("http://example.org/people/")
+dcterms = Namespace("http://purl.org/dc/terms/")
+rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+book_uri = "http://miastowies.org/item/"
+eltec_uri = "http://distantreading.github.io/ELTeC/pol/"
+polona_uri = "http://polona.pl/item/"
+wl_uri = "https://wolnelektury.pl/katalog/lektura/"
+ws_uri = "https://pl.wikisource.org/wiki/"
+FABIO = Namespace("http://purl.org/spar/fabio/")
+BIRO = Namespace("http://purl.org/spar/biro/")
+VIAF = Namespace("http://viaf.org/viaf/")
+WIKIDATA = Namespace("http://www.wikidata.org/entity/")
+GEONAMES = Namespace("https://www.geonames.org/")
+geo = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
+bibo = Namespace("http://purl.org/ontology/bibo/")
+schema = Namespace("http://schema.org/")
+#def
+
+g = Graph()
+
+g.bind("monita", monita)
+g.bind("dcterms", dcterms)
+g.bind("fabio", FABIO)
+g.bind("geo", geo)
+g.bind("bibo", bibo)
+g.bind("schema", schema)
+g.bind("biro", BIRO)
+g.bind("foaf", FOAF)
+
+def add_place(place_dict):
+    place = URIRef(k)
+    g.add((place, RDFS.label, Literal(place_dict[k]['name'])))
+    latitude = Literal(place_dict[k]["lat"], datatype=XSD.float)
+    g.add((place, geo.lat, latitude))
+    longitude = Literal(place_dict[k]["lng"], datatype=XSD.float)
+    g.add((place, geo.long, longitude))
+
+for k,v in places_with_geonames.items():
+    add_place({k:v})
+
+def add_book(row):
+    book = URIRef(monita + row['ID'])
+    g.add((book, dcterms.date, Literal(row["year"], datatype = XSD.year)))
+    g.add((book, monita.yearCertainty, Literal(row['year_certainty'])))
+    g.add((book, monita.yearOrigin, Literal(row['year_origin'])))
+    g.add((book, dcterms.title, Literal(row["title"])))
+    g.add((book, monita.privataInTitle, Literal(row["privata_in_title"])))
+    g.add((book, monita.secretaInTitle, Literal(row["secreta_in_title"])))    
+    g.add((book, monita.placeType, Literal(row['typ miejscowości'])))
+    if isinstance(row['miejscowość w tekście'], str):
+        g.add((book, monita.placeInText, URIRef(row['miejscowość w tekście'])))
+    if isinstance(row['prawdopodobna miejscowość wydania'], str):
+        g.add((book, monita.probablePlace, URIRef(row['prawdopodobna miejscowość wydania'])))
+    if isinstance(row['prawdziwa miejscowość wydania'], str):
+        g.add((book, FABIO.hasPlaceOfPublication, URIRef(row['prawdziwa miejscowość wydania'])))
+    
+for i, row in df_fixed.iterrows():
+    add_book(row)
+    
+g.serialize("data/monita.ttl", format = "turtle")
+
+#https://www.youtube.com/watch?v=kyucE2iINwQ
+#skopiować logi, dodać .jar do pluginów, https://neo4j.com/labs/neosemantics/4.0/install/, może być błąd, wtedy restart systemu
+
+
+
+
+
+
+def add_partition(partition_dict):
+
+    partition = URIRef(TCO + partition_dict['id'])
+    g.add((partition, RDF.type, dcterms.Location))
+    g.add((partition, RDFS.label, Literal(partition_dict["name"])))
+    g.add((partition, TCO.isPartition, Literal(True)))
+    g.add((partition, OWL.sameAs, URIRef(partition_dict["wikidata"])))
+
+
+def add_epoch(epoch_dict):
+
+    epoch = URIRef(TCO + epoch_dict['id'])
+    g.add((epoch, RDF.type, dcterms.PeriodOfTime))
+    g.add((epoch, RDFS.label, Literal(epoch_dict["name"])))
+    g.add((epoch, TCO.isEpoch, Literal(True)))
+    g.add((epoch, OWL.sameAs, URIRef(epoch_dict["wikidata"])))
+
+def add_place(place_dict):
+
+    place = URIRef(TCO + place_dict['id'])
+    
+    
+    g.add((place, RDF.type, dcterms.Location))
+    g.add((place, RDFS.label, Literal(place_dict["name"])))
+    
+    ##POINT
+    
+    # Add the triple for latitude
+    latitude = Literal(place_dict["lat"], datatype=XSD.float)
+    g.add((place, geo.lat, latitude))
+    
+    # Add the triple for longitude
+    longitude = Literal(place_dict["lng"], datatype=XSD.float)
+    g.add((place, geo.long, longitude))
+    
+    ##/POINT
+    if place_dict["wikidataId"]:
+        g.add((place, OWL.sameAs, URIRef(WIKIDATA+place_dict["wikidataId"])))
+    if place_dict['geonameId']:
+        g.add((place, OWL.sameAs, URIRef(GEONAMES+str(place_dict["geonameId"]))))
+    if place_dict['partition']:
+        g.add((place, TCO.inPartition, URIRef(TCO+place_dict["partition"])))
+
+def add_book(book_dict):
+
+    book = URIRef(TCO + book_dict['id'])
+    
+    g.add((corpus, TCO.contains, book))
+    g.add((book, RDF.type, TCO.Text))
+    g.add((book, RDF.type, dcterms.BibliographicResource))
+    g.add((book, dcterms.title, Literal(book_dict["title"])))
+    g.add((book, dcterms.creator, URIRef(TCO + book_dict["creator"])))
+    g.add((book, dcterms.date, Literal(book_dict["year"], datatype = XSD.year)))
+    if book_dict["ELTeC"] and not isinstance(book_dict["ELTeC"], float):
+        g.add((book, OWL.sameAs, URIRef(eltec_uri + book_dict["ELTeC"])))
+    if book_dict["polonaId"]:
+        g.add((book, OWL.sameAs, URIRef(polona_uri + book_dict["polonaId"])))
+    if book_dict["wlId"]:
+        g.add((book, OWL.sameAs, URIRef(wl_uri + book_dict["wlId"])))
+    if book_dict["wsId"] and not isinstance(book_dict["wsId"], float):
+        g.add((book, OWL.sameAs, URIRef(ws_ids[book_dict["wsId"]])))
+    # g.add((book, TCO.inEpoch, URIRef(TCO + "epoch/" + book_dict["epoka"])))
+    g.add((book, TCO.inEpoch, URIRef(TCO + book_dict["epoka"])))
+    g.add((book, TCO.numberOfReissues, Literal(book_dict["liczba wznowień"], datatype = XSD.integer)))
+    g.add((book, TCO.numberOfTokens, Literal(book_dict["num_tokens"], datatype = XSD.integer)))
+    for place in book_dict["publishing place"]:
+        g.add((book, FABIO.hasPlaceOfPublication, URIRef(TCO + place)))
+    g.add((book, schema.genre, Literal('Novel')))
+    g.add((book, dcterms.subject, Literal('Plot after the Congress of Vienna')))
+    g.add((book, schema.contentUrl, URIRef(book_dict['download'])))
+  
+    
+def add_person(person_dict):
+
+    person = URIRef(TCO + person_dict['id'])
+    
+    #g.add((corpus, TCO.?, book) co robi korpus?
+    g.add((person, RDF.type, FOAF.Person))
+    g.add((person, FOAF.gender, Literal(person_dict["gender"])))
+    g.add((person, RDFS.label, Literal(person_dict["name"])))
+    if person_dict["wikidata"] and not isinstance(person_dict["wikidata"], float):
+        g.add((person, OWL.sameAs, URIRef(person_dict["wikidata"])))
+    if person_dict['birthplace'] and not isinstance(person_dict["birthplace"], float):
+        g.add((person, schema.birthPlace, URIRef(TCO+person_dict["birthplace"])))
+  
+#graph
+
+# Graph instantiation
+g = Graph()
+
+g.bind("tco", TCO)
+g.bind("dcterms", dcterms)
+g.bind("fabio", FABIO)
+g.bind("geo", geo)
+g.bind("bibo", bibo)
+g.bind("schema", schema)
+g.bind("biro", BIRO)
+g.bind("foaf", FOAF)
+
+# Create corpora node
+corpus = URIRef(TCO + "Corpora")
+g.add((corpus, RDF.type, TCO.Corpus))
+g.add((corpus, schema.provider, Literal("Instytut Badań Literackich PAN")))
+g.add((corpus, dcterms.license, URIRef('https://creativecommons.org/licenses/by/4.0/')))
+g.add((corpus, dcterms.created, Literal(datetime.today(), datatype=XSD.dateTime)))
+
+
+for k,v in tqdm(files_dict.items()):
+    if k == 'dh2023_partitions':
+        for ka,va in v.items():
+            add_partition(va)
+    elif k == 'dh2023_epochs':
+        for ka,va in v.items():
+            add_epoch(va)
+    elif k == 'dh2023_places':
+        for ka,va in v.items():
+            add_place(va)
+    elif k == 'dh2023_people':
+        for ka,va in v.items():
+            add_person(va)
+    elif k == 'dh2023_books':
+        for ka,va in v.items():
+            add_book(va)
+
+        
+# for k,v in partition_dict.items():
+#     add_partition(v)
+# for k,v in literary_epochs.items():
+#     add_epoch(v)
+# for k,v in places_json.items():
+#     add_place(v)
+# for k,v in books_json.items():
+#     add_book(v)
+# for k,v in people_json.items():
+#     add_person(v)
+
+# print(g.serialize(format='xml'))
+
+
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
