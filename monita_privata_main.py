@@ -57,7 +57,7 @@ password_input.send_keys(password)
 time.sleep(1)
 try:
     login.click()
-except NoSuchElementException():
+except NoSuchElementException:
     time.sleep(1)
     username_input.send_keys(username)
     time.sleep(1)
@@ -363,7 +363,7 @@ for k,v in places_with_geonames.items():
 def add_book(row):
     book = URIRef(monita + row['ID'])
     g.add((book, RDF.type, dcterms.BibliographicResource))
-    g.add((book, dcterms.date, Literal(row["year"], datatype = XSD.year)))
+    g.add((book, dcterms.date, Literal(row["year_fixed"], datatype = XSD.year)))
     g.add((book, monita.yearCertainty, Literal(row['year_certainty'])))
     g.add((book, monita.yearOrigin, Literal(row['year_origin'])))
     g.add((book, dcterms.title, Literal(row["title"])))
@@ -385,7 +385,8 @@ g.serialize("data/monita.ttl", format = "turtle")
 #https://www.youtube.com/watch?v=kyucE2iINwQ
 #skopiować logi, dodać .jar do pluginów, https://neo4j.com/labs/neosemantics/4.0/install/, może być błąd, wtedy sprawdzić plugins, czy nie ma starego
 
-
+#przykład
+# match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location) return book, place
 
 
     
