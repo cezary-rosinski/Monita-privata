@@ -1,0 +1,15 @@
+match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
+return book, place
+
+match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
+where 1600 <= toInteger(book.dcterms__date) <= 1700
+and book.monita__yearCertainty = 'certain'
+return book, place
+
+match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
+where book.monita__yearOrigin = 'internal'
+return book, place
+
+match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
+where book.monita__yearOrigin <> 'internal'
+return book, place
