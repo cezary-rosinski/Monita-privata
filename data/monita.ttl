@@ -60,13 +60,13 @@ monita:1445 a dcterms:BibliographicResource ;
 monita:1446 a dcterms:BibliographicResource ;
     dcterms:date "1671"^^xsd:year ;
     dcterms:title "Forma del governo giesuitico con una istruttione et avviso a' potentati del modo con il quale si governano li Giesuiti per ridurre la loro Compagnia ad una perfetta monarchia" ;
-    monita:placeInText <https://www.geonames.org/3181928/bologna.html> ;
+    monita:placeInText <https://www.geonames.org/3181928> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/3181928/bologna.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3181928> .
 
 monita:1449 a dcterms:BibliographicResource ;
     dcterms:date "1704"^^xsd:year ;
@@ -98,7 +98,7 @@ monita:1452 a dcterms:BibliographicResource ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/3164602/venezia.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3164602> .
 
 monita:1453 a dcterms:BibliographicResource ;
     dcterms:date "1760"^^xsd:year ;
@@ -108,7 +108,7 @@ monita:1453 a dcterms:BibliographicResource ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/3164602/venezia.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3164602> .
 
 monita:1457 a dcterms:BibliographicResource ;
     dcterms:date "1860"^^xsd:year ;
@@ -184,13 +184,13 @@ monita:1772 a dcterms:BibliographicResource ;
 monita:1776 a dcterms:BibliographicResource ;
     dcterms:date "1824"^^xsd:year ;
     dcterms:title "The Secreta Monita, or, the Jesuits' private instructions to their emissaries : found in manuscript in a Jesuit's closet, after his death" ;
-    monita:placeInText <https://www.geonames.org/2964574/dublin.html> ;
+    monita:placeInText <https://www.geonames.org/2964574> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2964574/dublin.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2964574> .
 
 monita:1778 a dcterms:BibliographicResource ;
     dcterms:date "1669"^^xsd:year ;
@@ -289,20 +289,20 @@ monita:1806 a dcterms:BibliographicResource ;
 monita:1807 a dcterms:BibliographicResource ;
     dcterms:date "1845"^^xsd:year ;
     dcterms:title "Geheime Verhaltungsbefehle der Jesuiten" ;
-    monita:placeInText <https://www.geonames.org/2861982/nordhausen.html> ;
+    monita:placeInText <https://www.geonames.org/2861982> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2861982/nordhausen.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2861982> .
 
 monita:1810 a dcterms:BibliographicResource ;
     dcterms:date "1782"^^xsd:year ;
     dcterms:title "Monita Secreta Patrvm Societatis Iesu : nunc primum typis expressa" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
-    monita:probablePlace <https://www.geonames.org/2929567/erlangen.html> ;
+    monita:probablePlace <https://www.geonames.org/2929567> ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -319,13 +319,13 @@ monita:1811 a dcterms:BibliographicResource ;
 monita:1812 a dcterms:BibliographicResource ;
     dcterms:date "1761"^^xsd:year ;
     dcterms:title "Secreta Monita; Ou Advis Secrets De La Société De Jesus" ;
-    monita:placeInText <https://www.geonames.org/2855745/paderborn.html> ;
+    monita:placeInText <https://www.geonames.org/2855745> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2855745/paderborn.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2855745> .
 
 monita:1815 a dcterms:BibliographicResource ;
     dcterms:date "1746"^^xsd:year ;
@@ -396,7 +396,7 @@ monita:1840 a dcterms:BibliographicResource ;
     dcterms:title "Advis secrets de la Société de Jésus" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
-    monita:probablePlace <https://www.geonames.org/2855745/paderborn.html> ;
+    monita:probablePlace <https://www.geonames.org/2855745> ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -467,13 +467,13 @@ monita:1924 a dcterms:BibliographicResource ;
 monita:1933 a dcterms:BibliographicResource ;
     dcterms:date "1641"^^xsd:year ;
     dcterms:title "Secreta Monita, ou advis secrets de la Societe de Jesu" ;
-    monita:placeInText <https://www.geonames.org/2855745/paderborn.html> ;
+    monita:placeInText <https://www.geonames.org/2855745> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2855745/paderborn.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2855745> .
 
 monita:1935 a dcterms:BibliographicResource ;
     dcterms:date "1870"^^xsd:year ;
@@ -578,7 +578,7 @@ monita:231 a dcterms:BibliographicResource ;
     dcterms:title "Monita Privata Societatis Jesu" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle true ;
-    monita:probablePlace <https://www.geonames.org/3090436/nysa.html> ;
+    monita:probablePlace <https://www.geonames.org/3090436> ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -617,13 +617,13 @@ monita:2338 a dcterms:BibliographicResource ;
 monita:2348 a dcterms:BibliographicResource ;
     dcterms:date "1844"^^xsd:year ;
     dcterms:title "Secret instructions of the Jesuits : with an appendix containing a short historical account of the Society of the Jesuits, their maxims, the Jesuits' oath, etc., etc" ;
-    monita:placeInText <https://www.geonames.org/4560349/philadelphia.html> ;
+    monita:placeInText <https://www.geonames.org/4560349> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/4560349/philadelphia.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/4560349> .
 
 monita:2374 a dcterms:BibliographicResource ;
     dcterms:date "1869"^^xsd:year ;
@@ -810,24 +810,24 @@ monita:2466 a dcterms:BibliographicResource ;
 monita:2524 a dcterms:BibliographicResource ;
     dcterms:date "1890"^^xsd:year ;
     dcterms:title "Die geheimen Vorschriften (monita secreta) und 31 Instruktionen der Novizen von und für Jesuiten nebst Vorwort und Nachwort; aufs neue dem deutschen Volke zur Warnung mitgeteilt" ;
-    monita:placeInText <https://www.geonames.org/2952540/barmen.html> ;
+    monita:placeInText <https://www.geonames.org/2952540> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2952540/barmen.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2952540> .
 
 monita:2525 a dcterms:BibliographicResource ;
     dcterms:date "1887"^^xsd:year ;
     dcterms:title "Die geheimen Vorschriften (Monita secreta) und 31 Instruktionen der Novizen von und für Jesuiten; nebst Vorwort und Nachwort" ;
-    monita:placeInText <https://www.geonames.org/2952540/barmen.html> ;
+    monita:placeInText <https://www.geonames.org/2952540> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2952540/barmen.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2952540> .
 
 monita:2526 a dcterms:BibliographicResource ;
     dcterms:date "1872"^^xsd:year ;
@@ -939,13 +939,13 @@ monita:2587 a dcterms:BibliographicResource ;
 monita:2594 a dcterms:BibliographicResource ;
     dcterms:date "1761"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Jesu" ;
-    monita:placeInText <https://www.geonames.org/9035371/ortignano.html> ;
+    monita:placeInText <https://www.geonames.org/9035371> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/9035371/ortignano.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/9035371> .
 
 monita:2596 a dcterms:BibliographicResource ;
     dcterms:date "1814"^^xsd:year ;
@@ -1004,24 +1004,24 @@ monita:2601 a dcterms:BibliographicResource ;
 monita:2602 a dcterms:BibliographicResource ;
     dcterms:date "1838"^^xsd:year ;
     dcterms:title "Les instructions secrètes des Jésuites ou Monita Secreta Societatis Jesus" ;
-    monita:placeInText <https://www.geonames.org/2661552/bern.html> ;
+    monita:placeInText <https://www.geonames.org/2661552> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2661552/bern.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2661552> .
 
 monita:2603 a dcterms:BibliographicResource ;
     dcterms:date "1845"^^xsd:year ;
     dcterms:title "El Jesuita sagaz [Texto impreso] : o consejos secretos que da un jesuita a los hermanos de la Compañia a fin de que esta llegue a dominar el orbe entero" ;
-    monita:placeInText <https://www.geonames.org/3104499/gasteiz-vitoria.html> ;
+    monita:placeInText <https://www.geonames.org/3104499> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/3104499/gasteiz-vitoria.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3104499> .
 
 monita:2604 a dcterms:BibliographicResource ;
     dcterms:date "1845"^^xsd:year ;
@@ -1037,13 +1037,13 @@ monita:2604 a dcterms:BibliographicResource ;
 monita:2605 a dcterms:BibliographicResource ;
     dcterms:date "1845"^^xsd:year ;
     dcterms:title "Instructions secrètes des Jésuites, ou \"Monita secreta Societatis Jesu\", précédées de l'histoire et de la morale des Jésuites depuis la fondation de leur Société jusqu'à nos jours" ;
-    monita:placeInText <https://www.geonames.org/3032213/blois.html> ;
+    monita:placeInText <https://www.geonames.org/3032213> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/3032213/blois.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3032213> .
 
 monita:2606 a dcterms:BibliographicResource ;
     dcterms:date "1845"^^xsd:year ;
@@ -1371,7 +1371,7 @@ monita:2659 a dcterms:BibliographicResource ;
     dcterms:title "Instructio secreta pro superioribus Societatis Jesu" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
-    monita:probablePlace <https://www.geonames.org/6458783/geneva.html> ;
+    monita:probablePlace <https://www.geonames.org/6458783> ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1471,13 +1471,13 @@ monita:2683 a dcterms:BibliographicResource ;
 monita:2686 a dcterms:BibliographicResource ;
     dcterms:date "1661"^^xsd:year ;
     dcterms:title "Secreta Monita; Ou Advis Secrets De La Société De Jesus" ;
-    monita:placeInText <https://www.geonames.org/2855745/paderborn.html> ;
+    monita:placeInText <https://www.geonames.org/2855745> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2855745/paderborn.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2855745> .
 
 monita:2687 a dcterms:BibliographicResource ;
     dcterms:date "1678"^^xsd:year ;
@@ -1506,7 +1506,7 @@ monita:2697 a dcterms:BibliographicResource ;
     dcterms:title "Il Mondo Gesuitico (scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
-    monita:probablePlace <https://www.geonames.org/3179866/caserta.html> ;
+    monita:probablePlace <https://www.geonames.org/3179866> ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1650,13 +1650,13 @@ monita:306 a dcterms:BibliographicResource ;
 monita:314 a dcterms:BibliographicResource ;
     dcterms:date "1627"^^xsd:year ;
     dcterms:title "Historia jesuitica ; de jesuitarum ordinis origine, nomine, regulis, officiis, votis... ac facinoribus, tam communiter quam singulariter, in quatuor libros tributa... per M. Ludovicum Lucium" ;
-    monita:placeInText <https://www.geonames.org/2661604/basel.html> ;
+    monita:placeInText <https://www.geonames.org/2661604> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/2661604/basel.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/2661604> .
 
 monita:319 a dcterms:BibliographicResource ;
     dcterms:date "1668"^^xsd:year ;
@@ -1704,7 +1704,7 @@ monita:335 a dcterms:BibliographicResource ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/3451189/rio-de-janeiro.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/3451189> .
 
 monita:398 a dcterms:BibliographicResource ;
     dcterms:date "1800"^^xsd:year ;
@@ -1752,13 +1752,13 @@ monita:772 a dcterms:BibliographicResource ;
 monita:828 a dcterms:BibliographicResource ;
     dcterms:date "1760"^^xsd:year ;
     dcterms:title "Monita secreta Societatis Iesu" ;
-    monita:placeInText <https://www.geonames.org/9035371/ortignano.html> ;
+    monita:placeInText <https://www.geonames.org/9035371> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
-    fabio:hasPlaceOfPublication <https://www.geonames.org/9035371/ortignano.html> .
+    fabio:hasPlaceOfPublication <https://www.geonames.org/9035371> .
 
 monita:830 a dcterms:BibliographicResource ;
     dcterms:date "1761"^^xsd:year ;
@@ -1775,7 +1775,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "48.78232"^^xsd:float ;
     geo1:long "9.17702"^^xsd:float .
 
-<https://www.geonames.org/2929567/erlangen.html> a dcterms:Location ;
+<https://www.geonames.org/2929567> a dcterms:Location ;
     rdfs:label "Erlangen" ;
     geo1:lat "49.59099"^^xsd:float ;
     geo1:long "11.00783"^^xsd:float .
@@ -1785,17 +1785,17 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "48.37154"^^xsd:float ;
     geo1:long "10.89851"^^xsd:float .
 
-<https://www.geonames.org/3090436/nysa.html> a dcterms:Location ;
+<https://www.geonames.org/3090436> a dcterms:Location ;
     rdfs:label "Nysa" ;
     geo1:lat "50.47379"^^xsd:float ;
     geo1:long "17.33437"^^xsd:float .
 
-<https://www.geonames.org/3179866/caserta.html> a dcterms:Location ;
+<https://www.geonames.org/3179866> a dcterms:Location ;
     rdfs:label "Caserta" ;
     geo1:lat "41.07262"^^xsd:float ;
     geo1:long "14.33231"^^xsd:float .
 
-<https://www.geonames.org/3451189/rio-de-janeiro.html> a dcterms:Location ;
+<https://www.geonames.org/3451189> a dcterms:Location ;
     rdfs:label "Rio de Janeiro" ;
     geo1:lat "-22.25"^^xsd:float ;
     geo1:long "-42.5"^^xsd:float .
@@ -1805,7 +1805,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "37.77493"^^xsd:float ;
     geo1:long "-122.41942"^^xsd:float .
 
-<https://www.geonames.org/6458783/geneva.html> a dcterms:Location ;
+<https://www.geonames.org/6458783> a dcterms:Location ;
     rdfs:label "Geneva" ;
     geo1:lat "46.20804"^^xsd:float ;
     geo1:long "6.12737"^^xsd:float .
@@ -1835,12 +1835,12 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "47.42391"^^xsd:float ;
     geo1:long "9.37477"^^xsd:float .
 
-<https://www.geonames.org/2661552/bern.html> a dcterms:Location ;
+<https://www.geonames.org/2661552> a dcterms:Location ;
     rdfs:label "Bern" ;
     geo1:lat "46.94809"^^xsd:float ;
     geo1:long "7.44744"^^xsd:float .
 
-<https://www.geonames.org/2661604/basel.html> a dcterms:Location ;
+<https://www.geonames.org/2661604> a dcterms:Location ;
     rdfs:label "Basel" ;
     geo1:lat "47.55839"^^xsd:float ;
     geo1:long "7.57327"^^xsd:float .
@@ -1870,7 +1870,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "48.20849"^^xsd:float ;
     geo1:long "16.37208"^^xsd:float .
 
-<https://www.geonames.org/2861982/nordhausen.html> a dcterms:Location ;
+<https://www.geonames.org/2861982> a dcterms:Location ;
     rdfs:label "Nordhausen" ;
     geo1:lat "51.5018"^^xsd:float ;
     geo1:long "10.7957"^^xsd:float .
@@ -1895,16 +1895,6 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "50.9787"^^xsd:float ;
     geo1:long "11.03283"^^xsd:float .
 
-<https://www.geonames.org/2964574> a dcterms:Location ;
-    rdfs:label "Dublin" ;
-    geo1:lat "53.33306"^^xsd:float ;
-    geo1:long "-6.24889"^^xsd:float .
-
-<https://www.geonames.org/2964574/dublin.html> a dcterms:Location ;
-    rdfs:label "Dublin" ;
-    geo1:lat "53.33306"^^xsd:float ;
-    geo1:long "-6.24889"^^xsd:float .
-
 <https://www.geonames.org/3014728> a dcterms:Location ;
     rdfs:label "Grenoble" ;
     geo1:lat "45.17869"^^xsd:float ;
@@ -1915,7 +1905,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "44.05507"^^xsd:float ;
     geo1:long "5.04813"^^xsd:float .
 
-<https://www.geonames.org/3032213/blois.html> a dcterms:Location ;
+<https://www.geonames.org/3032213> a dcterms:Location ;
     rdfs:label "Blois" ;
     geo1:lat "47.59432"^^xsd:float ;
     geo1:long "1.32912"^^xsd:float .
@@ -1925,12 +1915,12 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "47.47156"^^xsd:float ;
     geo1:long "-0.55202"^^xsd:float .
 
-<https://www.geonames.org/3104499/gasteiz-vitoria.html> a dcterms:Location ;
+<https://www.geonames.org/3104499> a dcterms:Location ;
     rdfs:label "Vitoria-Gasteiz" ;
     geo1:lat "42.84998"^^xsd:float ;
     geo1:long "-2.67268"^^xsd:float .
 
-<https://www.geonames.org/3164602/venezia.html> a dcterms:Location ;
+<https://www.geonames.org/3164602> a dcterms:Location ;
     rdfs:label "Venezia" ;
     geo1:lat "45.5"^^xsd:float ;
     geo1:long "12.0"^^xsd:float .
@@ -1960,7 +1950,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "43.77925"^^xsd:float ;
     geo1:long "11.24626"^^xsd:float .
 
-<https://www.geonames.org/3181928/bologna.html> a dcterms:Location ;
+<https://www.geonames.org/3181928> a dcterms:Location ;
     rdfs:label "Bologna" ;
     geo1:lat "44.49381"^^xsd:float ;
     geo1:long "11.33875"^^xsd:float .
@@ -1980,7 +1970,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "39.29038"^^xsd:float ;
     geo1:long "-76.61219"^^xsd:float .
 
-<https://www.geonames.org/4560349/philadelphia.html> a dcterms:Location ;
+<https://www.geonames.org/4560349> a dcterms:Location ;
     rdfs:label "Philadelphia" ;
     geo1:lat "39.95238"^^xsd:float ;
     geo1:long "-75.16362"^^xsd:float .
@@ -2005,10 +1995,15 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "50.85045"^^xsd:float ;
     geo1:long "4.34878"^^xsd:float .
 
-<https://www.geonames.org/2952540/barmen.html> a dcterms:Location ;
+<https://www.geonames.org/2952540> a dcterms:Location ;
     rdfs:label "Barmen" ;
     geo1:lat "50.94381"^^xsd:float ;
     geo1:long "6.30508"^^xsd:float .
+
+<https://www.geonames.org/2964574> a dcterms:Location ;
+    rdfs:label "Dublin" ;
+    geo1:lat "53.33306"^^xsd:float ;
+    geo1:long "-6.24889"^^xsd:float .
 
 <https://www.geonames.org/3164603> a dcterms:Location ;
     rdfs:label "Venice" ;
@@ -2025,7 +2020,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "40.34872"^^xsd:float ;
     geo1:long "-74.65905"^^xsd:float .
 
-<https://www.geonames.org/9035371/ortignano.html> a dcterms:Location ;
+<https://www.geonames.org/9035371> a dcterms:Location ;
     rdfs:label "Ortignano" ;
     geo1:lat "43.68005"^^xsd:float ;
     geo1:long "11.75021"^^xsd:float .
@@ -2045,7 +2040,7 @@ monita:830 a dcterms:BibliographicResource ;
     geo1:lat "40.71427"^^xsd:float ;
     geo1:long "-74.00597"^^xsd:float .
 
-<https://www.geonames.org/2855745/paderborn.html> a dcterms:Location ;
+<https://www.geonames.org/2855745> a dcterms:Location ;
     rdfs:label "Paderborn" ;
     geo1:lat "51.71905"^^xsd:float ;
     geo1:long "8.75439"^^xsd:float .
