@@ -388,7 +388,76 @@ g.serialize("data/monita.ttl", format = "turtle")
 #przykład
 # match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location) return book, place
 
+#%% wizualizacja na mapie
+import requests
+import pandas as pd
+from pathlib import Path
+import plotly.express as px
+from plotly.offline import plot
+import plotly.graph_objs as go
 
+df_geonames = pd.DataFrame().from_dict(places_with_geonames, orient='index').reset_index().rename(columns={'index': 'geonames'})
+df_monita = df_fixed[['ID', 'title', 'prawdziwa miejscowość wydania', 'year_fixed']].rename(columns={'prawdziwa miejscowość wydania': 'geonames'})
+df_monita = df_monita.loc[df_monita['geonames'].notnull()]
+
+df_map = pd.merge(df_monita, df_geonames, how='left', on='geonames').sort_values('year_fixed')
+df_map['lat'] = df_map['lat'].astype(float)
+df_map['lng'] = df_map['lng'].astype(float)
+df_map['size'] = df_map.groupby(['geonames']).cumcount()+1
+df_map['size'] = df_map['size'] * 2
+# df_map['date'] = pd.to_datetime(df_map['year_fixed'], format='%Y')
+
+# fig = px.scatter_mapbox(
+#         df_map,
+#         lat="lat",
+#         lon="lng",
+#         size="size",
+#         hover_data=["title"],
+#         animation_frame="year_fixed",
+#     ).update_layout(
+#         mapbox={"style": "carto-positron", "zoom":11}, margin={"l": 0, "r": 0, "t": 0, "b": 0}
+#     )
+    
+# plot(fig, auto_open=True) 
+    
+
+fig = px.scatter_mapbox(
+        df_map,
+        lat="lat",
+        lon="lng",
+        size="size",
+        hover_name="name",
+        hover_data=["title"],
+        color_discrete_sequence=["red"],
+        animation_frame="year_fixed",
+        animation_group='name',
+        zoom=3.75,
+        center={'lat': 50.076301241046366,
+                'lon': 14.427848170989792}
+        )
+        
+fig.update_layout(mapbox_style="open-street-map")
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
+
+cumulative_frames = [{"data": [{"type": "scattermapbox",
+                                "lat": df_map.loc[df_map["year_fixed"] <= year, "lat"],
+                                "lon": df_map.loc[df_map["year_fixed"] <= year, "lng"],
+                                "mode": "markers",
+                                "marker": {"size": df_map.loc[df_map["year_fixed"] <= year, "size"].tolist()},
+                                "text": df_map.loc[df_map["year_fixed"] <= year, "name"].tolist(),
+                                "hoverinfo": "text+name+lat+lon"}],
+                      "name": str(year)}
+                     for year in sorted(df_map["year_fixed"].unique())]
+
+fig.frames = cumulative_frames
+
+plot(fig, auto_open=True)
+fig.write_html("data/monita.html")
+# fig.show()
+    
+    
+    
+    
     
     
     
