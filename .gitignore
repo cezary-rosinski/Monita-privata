@@ -1,1 +1,3 @@
 ﻿endnote_credentials.py
+__pycache__/*
+geckodriver.log

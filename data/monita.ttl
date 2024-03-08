@@ -1,6 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
-@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix monita: <http://purl.org/monita/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -11,6 +11,7 @@ monita:125 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -22,6 +23,7 @@ monita:1257 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3169070> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" .
@@ -32,6 +34,7 @@ monita:1311 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -43,6 +46,7 @@ monita:1444 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2510911> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -53,6 +57,7 @@ monita:1445 a dcterms:BibliographicResource ;
     dcterms:title "Singulares y secretas admoniciones para particulares personas de nuestra Compañia, traducidas de latin en romance" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -63,6 +68,7 @@ monita:1446 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3181928> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -74,6 +80,7 @@ monita:1449 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -85,6 +92,7 @@ monita:1451 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3028542> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -95,6 +103,7 @@ monita:1452 a dcterms:BibliographicResource ;
     dcterms:title "Mondo gesuitico scoperto al pubblico : con la vera e distinta relazione dell'arte soprafina con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -105,6 +114,7 @@ monita:1453 a dcterms:BibliographicResource ;
     dcterms:title "Mondo gesuitico scoperto al pubblico con la vera, e distinta relazione dell'arte soprafina, con cui la Compagnia tende all'universale monarchia del mondo" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -116,6 +126,7 @@ monita:1457 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3169070> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -126,6 +137,7 @@ monita:1460 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3169070> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" .
@@ -145,6 +157,7 @@ monita:1754 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2749541> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -156,6 +169,7 @@ monita:1764 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -166,6 +180,7 @@ monita:1767 a dcterms:BibliographicResource ;
     dcterms:title "Aurea monita religiosissimae societatis Jesu in gratiam politicorum & omnium qui Jesum amant, pro studio edita" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
@@ -176,6 +191,7 @@ monita:1772 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -187,6 +203,7 @@ monita:1776 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2964574> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -197,6 +214,7 @@ monita:1778 a dcterms:BibliographicResource ;
     dcterms:title "Forma del gouerno giesuitico con vna instruttione & auuiso a' potentati del modo con il quale si gouernano li Giesuiti per ridurre la loro Compagnia ad vna perfetta monarchia [Monita secreta]" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -207,6 +225,7 @@ monita:1782 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -218,6 +237,7 @@ monita:1784 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -229,6 +249,7 @@ monita:1786 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -240,6 +261,7 @@ monita:1788 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/4951257> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -251,6 +273,7 @@ monita:1790 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -270,6 +293,7 @@ monita:1805 a dcterms:BibliographicResource ;
     dcterms:title "Monita secreta die geheimen Instruktionen der Jesuiten; lateinisch und deutsch = Monita secreta" ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -281,6 +305,7 @@ monita:1806 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2658822> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -292,6 +317,7 @@ monita:1807 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2861982> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -303,6 +329,7 @@ monita:1810 a dcterms:BibliographicResource ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/2929567> ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -312,6 +339,7 @@ monita:1811 a dcterms:BibliographicResource ;
     dcterms:title "Privaterinnerungen der Gesellschaft Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -322,6 +350,7 @@ monita:1812 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2855745> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -333,6 +362,7 @@ monita:1815 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -344,6 +374,7 @@ monita:1819 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2759794> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -355,6 +386,7 @@ monita:1822 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -366,6 +398,7 @@ monita:1825 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -386,6 +419,7 @@ monita:1836 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2755251> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -397,6 +431,7 @@ monita:1840 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/2855745> ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -416,6 +451,7 @@ monita:1850 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/4951257> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -427,6 +463,7 @@ monita:1851 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -438,6 +475,7 @@ monita:1884 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2800866> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -448,6 +486,7 @@ monita:1896 a dcterms:BibliographicResource ;
     dcterms:title "Monita secreta : die geheimen Instruktionen der Jesuiten vergleichen mit den Amtlichen Quellen des Ordens" ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -459,6 +498,7 @@ monita:1924 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -470,6 +510,7 @@ monita:1933 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2855745> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -481,6 +522,7 @@ monita:1935 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" ;
@@ -492,6 +534,7 @@ monita:2015 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/4347778> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -503,6 +546,7 @@ monita:2258 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -514,6 +558,7 @@ monita:2261 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/5128581> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -525,6 +570,7 @@ monita:2262 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/4930956> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -536,6 +582,7 @@ monita:2263 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/5102922> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -547,6 +594,7 @@ monita:2267 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3128760> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -558,6 +606,7 @@ monita:2275 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/5391959> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -568,6 +617,7 @@ monita:2302 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -579,6 +629,7 @@ monita:231 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle true ;
     monita:probablePlace <https://www.geonames.org/3090436> ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -588,6 +639,7 @@ monita:232 a dcterms:BibliographicResource ;
     dcterms:title "Aurea Monita Religiosissimae Societatis Jesu" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -598,6 +650,7 @@ monita:2327 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2648579> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -609,6 +662,7 @@ monita:2338 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2964574> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -620,6 +674,7 @@ monita:2348 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/4560349> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -631,6 +686,7 @@ monita:2374 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -642,6 +698,7 @@ monita:2377 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3530597> ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
@@ -652,6 +709,7 @@ monita:2382 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -663,6 +721,7 @@ monita:2386 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" ;
@@ -674,6 +733,7 @@ monita:2393 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -685,6 +745,7 @@ monita:2395 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -696,6 +757,7 @@ monita:2407 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -707,6 +769,7 @@ monita:2413 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -718,6 +781,7 @@ monita:2417 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -729,6 +793,7 @@ monita:2423 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" ;
@@ -739,6 +804,7 @@ monita:2426 a dcterms:BibliographicResource ;
     dcterms:title "Monita privata Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "internal" .
@@ -749,6 +815,7 @@ monita:2430 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -760,6 +827,7 @@ monita:2434 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2925533> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -770,6 +838,7 @@ monita:2441 a dcterms:BibliographicResource ;
     dcterms:title "Aurea Monita Religiosissimæ Societatis Jesu. [Comprising the apocryphal “Monita Privata Societatis Jesu,” written by J. Zaorowsky, and “Testimonia de Jesuitis Italorum et Hispanorum quorundam”] ... edita a T. Eulalio" ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -780,6 +849,7 @@ monita:2452 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3936456> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -791,6 +861,7 @@ monita:2457 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/5128581> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -802,6 +873,7 @@ monita:2466 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/5102922> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -813,6 +885,7 @@ monita:2524 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2952540> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -824,6 +897,7 @@ monita:2525 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2952540> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -835,6 +909,7 @@ monita:2526 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -846,6 +921,7 @@ monita:2531 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2872155> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -857,6 +933,7 @@ monita:2533 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3247449> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -867,6 +944,7 @@ monita:2545 a dcterms:BibliographicResource ;
     dcterms:title "Monita privata ejusdem Societatis" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -876,6 +954,7 @@ monita:2548 a dcterms:BibliographicResource ;
     dcterms:title "Monita Privata Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -885,6 +964,7 @@ monita:2550 a dcterms:BibliographicResource ;
     dcterms:title "Monita privata Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle true ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -903,6 +983,7 @@ monita:2559 a dcterms:BibliographicResource ;
     dcterms:title "Die Entlarvte Wölfe" ;
     monita:placeType "NaN"^^xsd:double ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -913,6 +994,7 @@ monita:2561 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -932,6 +1014,7 @@ monita:2587 a dcterms:BibliographicResource ;
     dcterms:title "Verfassende die geheime Instructiones der Jesuiten, zu Beförderung ihres zeitlichen Interesse" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -942,6 +1025,7 @@ monita:2594 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/9035371> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -953,6 +1037,7 @@ monita:2596 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3169070> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -964,6 +1049,7 @@ monita:2597 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -975,6 +1061,7 @@ monita:2598 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2800866> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -986,6 +1073,7 @@ monita:2599 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/2988507> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -996,6 +1084,7 @@ monita:2601 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3128760> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1007,6 +1096,7 @@ monita:2602 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2661552> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1018,6 +1108,7 @@ monita:2603 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3104499> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1029,6 +1120,7 @@ monita:2604 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1040,6 +1132,7 @@ monita:2605 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3032213> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1051,6 +1144,7 @@ monita:2606 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1062,6 +1156,7 @@ monita:2608 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/1260607> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1073,6 +1168,7 @@ monita:261 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3247449> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1084,6 +1180,7 @@ monita:2610 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1095,6 +1192,7 @@ monita:2611 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3164603> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1106,6 +1204,7 @@ monita:2613 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3176959> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1117,6 +1216,7 @@ monita:2614 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1128,6 +1228,7 @@ monita:2615 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/264371> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1139,6 +1240,7 @@ monita:2618 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1150,6 +1252,7 @@ monita:2619 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1161,6 +1264,7 @@ monita:2623 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3173435> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1172,6 +1276,7 @@ monita:2626 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1183,6 +1288,7 @@ monita:2627 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1194,6 +1300,7 @@ monita:2628 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3128760> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1205,6 +1312,7 @@ monita:2629 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3530597> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1216,6 +1324,7 @@ monita:2630 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3435910> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1226,6 +1335,7 @@ monita:2631 a dcterms:BibliographicResource ;
     dcterms:title "Monita Secreta Societatis Jesu. Instructions secrètes des Jésuites. Treizième édition ... augmentée, contenant le dénombrement des Jésuites en France par Département" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1236,6 +1346,7 @@ monita:2632 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1256,6 +1367,7 @@ monita:2635 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1267,6 +1379,7 @@ monita:2636 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1278,6 +1391,7 @@ monita:2637 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/5128581> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1289,6 +1403,7 @@ monita:2638 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3014728> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1309,6 +1424,7 @@ monita:2643 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3037656> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1320,6 +1436,7 @@ monita:2644 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3172244> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1331,6 +1448,7 @@ monita:2645 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1342,6 +1460,7 @@ monita:2646 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3176219> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1353,6 +1472,7 @@ monita:2651 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3169070> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
@@ -1372,6 +1492,7 @@ monita:2659 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/6458783> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1382,6 +1503,7 @@ monita:2660 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1393,6 +1515,7 @@ monita:2662 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3169070> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" .
@@ -1412,6 +1535,7 @@ monita:2679 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2747891> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1423,6 +1547,7 @@ monita:268 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1433,6 +1558,7 @@ monita:2680 a dcterms:BibliographicResource ;
     dcterms:title "De ontmaskerde Jesuit, of De geheime onderrechtingen en voorschriften dezer Societeit, waer by een verhael van de verbanninge der Jesuiten uit Vrankrijk, en van hare herstelling Nevens een klaer vertoog van de gevaerlijke staetkunde dezer Paters voor alle Rijken ene Staten. Voorzien met eene Opdragt aan den tegenwoordigenn Paus Benedictus de XIII" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1452,6 +1578,7 @@ monita:2682 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3247449> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1463,6 +1590,7 @@ monita:2683 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3165524> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1474,6 +1602,7 @@ monita:2686 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2855745> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1485,6 +1614,7 @@ monita:2687 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1496,6 +1626,7 @@ monita:2695 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1507,6 +1638,7 @@ monita:2697 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3179866> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1517,6 +1649,7 @@ monita:2699 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2929670> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1528,6 +1661,7 @@ monita:2700 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2761369> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1539,6 +1673,7 @@ monita:2701 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2911522> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1550,6 +1685,7 @@ monita:2705 a dcterms:BibliographicResource ;
     monita:placeType "fikcyjna" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3164603> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1560,6 +1696,7 @@ monita:2708 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2267057> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" ;
@@ -1570,6 +1707,7 @@ monita:2713 a dcterms:BibliographicResource ;
     dcterms:title "Singulares y secretas admoniciones para particulares personas de nuestra compañia, traduzidas de Latin en Romance" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1580,6 +1718,7 @@ monita:2715 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "uncertain" ;
     monita:yearOrigin "external" ;
@@ -1591,6 +1730,7 @@ monita:2716 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1601,6 +1741,7 @@ monita:2718 a dcterms:BibliographicResource ;
     dcterms:title "Instructio secreta pro Superioribus Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1611,6 +1752,7 @@ monita:2723 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3117735> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1622,6 +1764,7 @@ monita:275 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1633,6 +1776,7 @@ monita:293 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2988507> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1653,6 +1797,7 @@ monita:314 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2661604> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1663,6 +1808,7 @@ monita:319 a dcterms:BibliographicResource ;
     dcterms:title "Instructio secreta pro superioribus Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1673,6 +1819,7 @@ monita:324 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2643743> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1683,6 +1830,7 @@ monita:328 a dcterms:BibliographicResource ;
     dcterms:title "Monita secreta Societatis Jesu" ;
     monita:placeType "nieznana" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
@@ -1701,6 +1849,7 @@ monita:335 a dcterms:BibliographicResource ;
     dcterms:title "Monitoria secreta ou Instrucções secretas dos padres da Companhia de Jesus" ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1712,6 +1861,7 @@ monita:398 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3169070> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately true ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1723,6 +1873,7 @@ monita:615 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/2886242> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1734,6 +1885,7 @@ monita:671 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/3172394> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1745,6 +1897,7 @@ monita:772 a dcterms:BibliographicResource ;
     monita:placeType "domniemana" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3165524> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle false ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "external" .
@@ -1755,6 +1908,7 @@ monita:828 a dcterms:BibliographicResource ;
     monita:placeInText <https://www.geonames.org/9035371> ;
     monita:placeType "prawdziwa" ;
     monita:privataInTitle false ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" ;
@@ -1766,312 +1920,313 @@ monita:830 a dcterms:BibliographicResource ;
     monita:placeType "fałszywa" ;
     monita:privataInTitle false ;
     monita:probablePlace <https://www.geonames.org/3164603> ;
+    monita:publishedSeparately false ;
     monita:secretaInTitle true ;
     monita:yearCertainty "certain" ;
     monita:yearOrigin "internal" .
 
 <https://www.geonames.org/2825297> a dcterms:Location ;
     rdfs:label "Stuttgart" ;
-    geo1:lat "48.78232"^^xsd:float ;
-    geo1:long "9.17702"^^xsd:float .
+    geo:lat "48.78232"^^xsd:float ;
+    geo:long "9.17702"^^xsd:float .
 
 <https://www.geonames.org/2929567> a dcterms:Location ;
     rdfs:label "Erlangen" ;
-    geo1:lat "49.59099"^^xsd:float ;
-    geo1:long "11.00783"^^xsd:float .
+    geo:lat "49.59099"^^xsd:float ;
+    geo:long "11.00783"^^xsd:float .
 
 <https://www.geonames.org/2954172> a dcterms:Location ;
     rdfs:label "Augsburg" ;
-    geo1:lat "48.37154"^^xsd:float ;
-    geo1:long "10.89851"^^xsd:float .
+    geo:lat "48.37154"^^xsd:float ;
+    geo:long "10.89851"^^xsd:float .
 
 <https://www.geonames.org/3090436> a dcterms:Location ;
     rdfs:label "Nysa" ;
-    geo1:lat "50.47379"^^xsd:float ;
-    geo1:long "17.33437"^^xsd:float .
+    geo:lat "50.47379"^^xsd:float ;
+    geo:long "17.33437"^^xsd:float .
 
 <https://www.geonames.org/3179866> a dcterms:Location ;
     rdfs:label "Caserta" ;
-    geo1:lat "41.07262"^^xsd:float ;
-    geo1:long "14.33231"^^xsd:float .
+    geo:lat "41.07262"^^xsd:float ;
+    geo:long "14.33231"^^xsd:float .
 
 <https://www.geonames.org/3451189> a dcterms:Location ;
     rdfs:label "Rio de Janeiro" ;
-    geo1:lat "-22.25"^^xsd:float ;
-    geo1:long "-42.5"^^xsd:float .
+    geo:lat "-22.25"^^xsd:float ;
+    geo:long "-42.5"^^xsd:float .
 
 <https://www.geonames.org/5391959> a dcterms:Location ;
     rdfs:label "San Francisco" ;
-    geo1:lat "37.77493"^^xsd:float ;
-    geo1:long "-122.41942"^^xsd:float .
+    geo:lat "37.77493"^^xsd:float ;
+    geo:long "-122.41942"^^xsd:float .
 
 <https://www.geonames.org/6458783> a dcterms:Location ;
     rdfs:label "Geneva" ;
-    geo1:lat "46.20804"^^xsd:float ;
-    geo1:long "6.12737"^^xsd:float .
+    geo:lat "46.20804"^^xsd:float ;
+    geo:long "6.12737"^^xsd:float .
 
 <https://www.geonames.org/1260607> a dcterms:Location ;
     rdfs:label "Panjim" ;
-    geo1:lat "15.49574"^^xsd:float ;
-    geo1:long "73.82624"^^xsd:float .
+    geo:lat "15.49574"^^xsd:float ;
+    geo:long "73.82624"^^xsd:float .
 
 <https://www.geonames.org/2510911> a dcterms:Location ;
     rdfs:label "Seville" ;
-    geo1:lat "37.38283"^^xsd:float ;
-    geo1:long "-5.97317"^^xsd:float .
+    geo:lat "37.38283"^^xsd:float ;
+    geo:long "-5.97317"^^xsd:float .
 
 <https://www.geonames.org/264371> a dcterms:Location ;
     rdfs:label "Athens" ;
-    geo1:lat "37.98376"^^xsd:float ;
-    geo1:long "23.72784"^^xsd:float .
+    geo:lat "37.98376"^^xsd:float ;
+    geo:long "23.72784"^^xsd:float .
 
 <https://www.geonames.org/2648579> a dcterms:Location ;
     rdfs:label "Glasgow" ;
-    geo1:lat "55.86515"^^xsd:float ;
-    geo1:long "-4.25763"^^xsd:float .
+    geo:lat "55.86515"^^xsd:float ;
+    geo:long "-4.25763"^^xsd:float .
 
 <https://www.geonames.org/2658822> a dcterms:Location ;
     rdfs:label "Saint Gallen" ;
-    geo1:lat "47.42391"^^xsd:float ;
-    geo1:long "9.37477"^^xsd:float .
+    geo:lat "47.42391"^^xsd:float ;
+    geo:long "9.37477"^^xsd:float .
 
 <https://www.geonames.org/2661552> a dcterms:Location ;
     rdfs:label "Bern" ;
-    geo1:lat "46.94809"^^xsd:float ;
-    geo1:long "7.44744"^^xsd:float .
+    geo:lat "46.94809"^^xsd:float ;
+    geo:long "7.44744"^^xsd:float .
 
 <https://www.geonames.org/2661604> a dcterms:Location ;
     rdfs:label "Basel" ;
-    geo1:lat "47.55839"^^xsd:float ;
-    geo1:long "7.57327"^^xsd:float .
+    geo:lat "47.55839"^^xsd:float ;
+    geo:long "7.57327"^^xsd:float .
 
 <https://www.geonames.org/2747891> a dcterms:Location ;
     rdfs:label "Rotterdam" ;
-    geo1:lat "51.9225"^^xsd:float ;
-    geo1:long "4.47917"^^xsd:float .
+    geo:lat "51.9225"^^xsd:float ;
+    geo:long "4.47917"^^xsd:float .
 
 <https://www.geonames.org/2749541> a dcterms:Location ;
     rdfs:label "Oostburg" ;
-    geo1:lat "51.32583"^^xsd:float ;
-    geo1:long "3.4875"^^xsd:float .
+    geo:lat "51.32583"^^xsd:float ;
+    geo:long "3.4875"^^xsd:float .
 
 <https://www.geonames.org/2755251> a dcterms:Location ;
     rdfs:label "Groningen" ;
-    geo1:lat "53.21917"^^xsd:float ;
-    geo1:long "6.56667"^^xsd:float .
+    geo:lat "53.21917"^^xsd:float ;
+    geo:long "6.56667"^^xsd:float .
 
 <https://www.geonames.org/2759794> a dcterms:Location ;
     rdfs:label "Amsterdam" ;
-    geo1:lat "52.37403"^^xsd:float ;
-    geo1:long "4.88969"^^xsd:float .
+    geo:lat "52.37403"^^xsd:float ;
+    geo:long "4.88969"^^xsd:float .
 
 <https://www.geonames.org/2761369> a dcterms:Location ;
     rdfs:label "Vienna" ;
-    geo1:lat "48.20849"^^xsd:float ;
-    geo1:long "16.37208"^^xsd:float .
+    geo:lat "48.20849"^^xsd:float ;
+    geo:long "16.37208"^^xsd:float .
 
 <https://www.geonames.org/2861982> a dcterms:Location ;
     rdfs:label "Nordhausen" ;
-    geo1:lat "51.5018"^^xsd:float ;
-    geo1:long "10.7957"^^xsd:float .
+    geo:lat "51.5018"^^xsd:float ;
+    geo:long "10.7957"^^xsd:float .
 
 <https://www.geonames.org/2872155> a dcterms:Location ;
     rdfs:label "Meissen" ;
-    geo1:lat "51.16158"^^xsd:float ;
-    geo1:long "13.4737"^^xsd:float .
+    geo:lat "51.16158"^^xsd:float ;
+    geo:long "13.4737"^^xsd:float .
 
 <https://www.geonames.org/2911522> a dcterms:Location ;
     rdfs:label "Halle" ;
-    geo1:lat "51.48158"^^xsd:float ;
-    geo1:long "11.97947"^^xsd:float .
+    geo:lat "51.48158"^^xsd:float ;
+    geo:long "11.97947"^^xsd:float .
 
 <https://www.geonames.org/2925533> a dcterms:Location ;
     rdfs:label "Frankfurt am Main" ;
-    geo1:lat "50.11552"^^xsd:float ;
-    geo1:long "8.68417"^^xsd:float .
+    geo:lat "50.11552"^^xsd:float ;
+    geo:long "8.68417"^^xsd:float .
 
 <https://www.geonames.org/2929670> a dcterms:Location ;
     rdfs:label "Erfurt" ;
-    geo1:lat "50.9787"^^xsd:float ;
-    geo1:long "11.03283"^^xsd:float .
+    geo:lat "50.9787"^^xsd:float ;
+    geo:long "11.03283"^^xsd:float .
 
 <https://www.geonames.org/3014728> a dcterms:Location ;
     rdfs:label "Grenoble" ;
-    geo1:lat "45.17869"^^xsd:float ;
-    geo1:long "5.71479"^^xsd:float .
+    geo:lat "45.17869"^^xsd:float ;
+    geo:long "5.71479"^^xsd:float .
 
 <https://www.geonames.org/3028542> a dcterms:Location ;
     rdfs:label "Carpentras" ;
-    geo1:lat "44.05507"^^xsd:float ;
-    geo1:long "5.04813"^^xsd:float .
+    geo:lat "44.05507"^^xsd:float ;
+    geo:long "5.04813"^^xsd:float .
 
 <https://www.geonames.org/3032213> a dcterms:Location ;
     rdfs:label "Blois" ;
-    geo1:lat "47.59432"^^xsd:float ;
-    geo1:long "1.32912"^^xsd:float .
+    geo:lat "47.59432"^^xsd:float ;
+    geo:long "1.32912"^^xsd:float .
 
 <https://www.geonames.org/3037656> a dcterms:Location ;
     rdfs:label "Angers" ;
-    geo1:lat "47.47156"^^xsd:float ;
-    geo1:long "-0.55202"^^xsd:float .
+    geo:lat "47.47156"^^xsd:float ;
+    geo:long "-0.55202"^^xsd:float .
 
 <https://www.geonames.org/3104499> a dcterms:Location ;
     rdfs:label "Vitoria-Gasteiz" ;
-    geo1:lat "42.84998"^^xsd:float ;
-    geo1:long "-2.67268"^^xsd:float .
+    geo:lat "42.84998"^^xsd:float ;
+    geo:long "-2.67268"^^xsd:float .
 
 <https://www.geonames.org/3164602> a dcterms:Location ;
     rdfs:label "Venezia" ;
-    geo1:lat "45.5"^^xsd:float ;
-    geo1:long "12.0"^^xsd:float .
+    geo:lat "45.5"^^xsd:float ;
+    geo:long "12.0"^^xsd:float .
 
 <https://www.geonames.org/3172244> a dcterms:Location ;
     rdfs:label "Nocera Inferiore" ;
-    geo1:lat "40.7454"^^xsd:float ;
-    geo1:long "14.64542"^^xsd:float .
+    geo:lat "40.7454"^^xsd:float ;
+    geo:long "14.64542"^^xsd:float .
 
 <https://www.geonames.org/3172394> a dcterms:Location ;
     rdfs:label "Naples" ;
-    geo1:lat "40.85216"^^xsd:float ;
-    geo1:long "14.26811"^^xsd:float .
+    geo:lat "40.85216"^^xsd:float ;
+    geo:long "14.26811"^^xsd:float .
 
 <https://www.geonames.org/3173435> a dcterms:Location ;
     rdfs:label "Milan" ;
-    geo1:lat "45.46427"^^xsd:float ;
-    geo1:long "9.18951"^^xsd:float .
+    geo:lat "45.46427"^^xsd:float ;
+    geo:long "9.18951"^^xsd:float .
 
 <https://www.geonames.org/3176219> a dcterms:Location ;
     rdfs:label "Genoa" ;
-    geo1:lat "44.40478"^^xsd:float ;
-    geo1:long "8.94439"^^xsd:float .
+    geo:lat "44.40478"^^xsd:float ;
+    geo:long "8.94439"^^xsd:float .
 
 <https://www.geonames.org/3176959> a dcterms:Location ;
     rdfs:label "Florence" ;
-    geo1:lat "43.77925"^^xsd:float ;
-    geo1:long "11.24626"^^xsd:float .
+    geo:lat "43.77925"^^xsd:float ;
+    geo:long "11.24626"^^xsd:float .
 
 <https://www.geonames.org/3181928> a dcterms:Location ;
     rdfs:label "Bologna" ;
-    geo1:lat "44.49381"^^xsd:float ;
-    geo1:long "11.33875"^^xsd:float .
+    geo:lat "44.49381"^^xsd:float ;
+    geo:long "11.33875"^^xsd:float .
 
 <https://www.geonames.org/3435910> a dcterms:Location ;
     rdfs:label "Buenos Aires" ;
-    geo1:lat "-34.61315"^^xsd:float ;
-    geo1:long "-58.37723"^^xsd:float .
+    geo:lat "-34.61315"^^xsd:float ;
+    geo:long "-58.37723"^^xsd:float .
 
 <https://www.geonames.org/3936456> a dcterms:Location ;
     rdfs:label "Lima" ;
-    geo1:lat "-12.04318"^^xsd:float ;
-    geo1:long "-77.02824"^^xsd:float .
+    geo:lat "-12.04318"^^xsd:float ;
+    geo:long "-77.02824"^^xsd:float .
 
 <https://www.geonames.org/4347778> a dcterms:Location ;
     rdfs:label "Baltimore" ;
-    geo1:lat "39.29038"^^xsd:float ;
-    geo1:long "-76.61219"^^xsd:float .
+    geo:lat "39.29038"^^xsd:float ;
+    geo:long "-76.61219"^^xsd:float .
 
 <https://www.geonames.org/4560349> a dcterms:Location ;
     rdfs:label "Philadelphia" ;
-    geo1:lat "39.95238"^^xsd:float ;
-    geo1:long "-75.16362"^^xsd:float .
+    geo:lat "39.95238"^^xsd:float ;
+    geo:long "-75.16362"^^xsd:float .
 
 <https://www.geonames.org/4930956> a dcterms:Location ;
     rdfs:label "Boston" ;
-    geo1:lat "42.35843"^^xsd:float ;
-    geo1:long "-71.05977"^^xsd:float .
+    geo:lat "42.35843"^^xsd:float ;
+    geo:long "-71.05977"^^xsd:float .
 
 <https://www.geonames.org/3165524> a dcterms:Location ;
     rdfs:label "Turin" ;
-    geo1:lat "45.07049"^^xsd:float ;
-    geo1:long "7.68682"^^xsd:float .
+    geo:lat "45.07049"^^xsd:float ;
+    geo:long "7.68682"^^xsd:float .
 
 <https://www.geonames.org/3530597> a dcterms:Location ;
     rdfs:label "Mexico City" ;
-    geo1:lat "19.42847"^^xsd:float ;
-    geo1:long "-99.12766"^^xsd:float .
+    geo:lat "19.42847"^^xsd:float ;
+    geo:long "-99.12766"^^xsd:float .
 
 <https://www.geonames.org/2800866> a dcterms:Location ;
     rdfs:label "Brussels" ;
-    geo1:lat "50.85045"^^xsd:float ;
-    geo1:long "4.34878"^^xsd:float .
+    geo:lat "50.85045"^^xsd:float ;
+    geo:long "4.34878"^^xsd:float .
 
 <https://www.geonames.org/2952540> a dcterms:Location ;
     rdfs:label "Barmen" ;
-    geo1:lat "50.94381"^^xsd:float ;
-    geo1:long "6.30508"^^xsd:float .
+    geo:lat "50.94381"^^xsd:float ;
+    geo:long "6.30508"^^xsd:float .
 
 <https://www.geonames.org/2964574> a dcterms:Location ;
     rdfs:label "Dublin" ;
-    geo1:lat "53.33306"^^xsd:float ;
-    geo1:long "-6.24889"^^xsd:float .
+    geo:lat "53.33306"^^xsd:float ;
+    geo:long "-6.24889"^^xsd:float .
 
 <https://www.geonames.org/3164603> a dcterms:Location ;
     rdfs:label "Venice" ;
-    geo1:lat "45.43713"^^xsd:float ;
-    geo1:long "12.33265"^^xsd:float .
+    geo:lat "45.43713"^^xsd:float ;
+    geo:long "12.33265"^^xsd:float .
 
 <https://www.geonames.org/4951257> a dcterms:Location ;
     rdfs:label "Somerville" ;
-    geo1:lat "42.3876"^^xsd:float ;
-    geo1:long "-71.0995"^^xsd:float .
+    geo:lat "42.3876"^^xsd:float ;
+    geo:long "-71.0995"^^xsd:float .
 
 <https://www.geonames.org/5102922> a dcterms:Location ;
     rdfs:label "Princeton" ;
-    geo1:lat "40.34872"^^xsd:float ;
-    geo1:long "-74.65905"^^xsd:float .
+    geo:lat "40.34872"^^xsd:float ;
+    geo:long "-74.65905"^^xsd:float .
 
 <https://www.geonames.org/9035371> a dcterms:Location ;
     rdfs:label "Ortignano" ;
-    geo1:lat "43.68005"^^xsd:float ;
-    geo1:long "11.75021"^^xsd:float .
+    geo:lat "43.68005"^^xsd:float ;
+    geo:long "11.75021"^^xsd:float .
 
 <https://www.geonames.org/3128760> a dcterms:Location ;
     rdfs:label "Barcelona" ;
-    geo1:lat "41.38879"^^xsd:float ;
-    geo1:long "2.15899"^^xsd:float .
+    geo:lat "41.38879"^^xsd:float ;
+    geo:long "2.15899"^^xsd:float .
 
 <https://www.geonames.org/3247449> a dcterms:Location ;
     rdfs:label "Aachen" ;
-    geo1:lat "50.77664"^^xsd:float ;
-    geo1:long "6.08342"^^xsd:float .
+    geo:lat "50.77664"^^xsd:float ;
+    geo:long "6.08342"^^xsd:float .
 
 <https://www.geonames.org/5128581> a dcterms:Location ;
     rdfs:label "New York" ;
-    geo1:lat "40.71427"^^xsd:float ;
-    geo1:long "-74.00597"^^xsd:float .
+    geo:lat "40.71427"^^xsd:float ;
+    geo:long "-74.00597"^^xsd:float .
 
 <https://www.geonames.org/2855745> a dcterms:Location ;
     rdfs:label "Paderborn" ;
-    geo1:lat "51.71905"^^xsd:float ;
-    geo1:long "8.75439"^^xsd:float .
+    geo:lat "51.71905"^^xsd:float ;
+    geo:long "8.75439"^^xsd:float .
 
 <https://www.geonames.org/2267057> a dcterms:Location ;
     rdfs:label "Lisbon" ;
-    geo1:lat "38.71667"^^xsd:float ;
-    geo1:long "-9.13333"^^xsd:float .
+    geo:lat "38.71667"^^xsd:float ;
+    geo:long "-9.13333"^^xsd:float .
 
 <https://www.geonames.org/3117735> a dcterms:Location ;
     rdfs:label "Madrid" ;
-    geo1:lat "40.4165"^^xsd:float ;
-    geo1:long "-3.70256"^^xsd:float .
+    geo:lat "40.4165"^^xsd:float ;
+    geo:long "-3.70256"^^xsd:float .
 
 <https://www.geonames.org/3169070> a dcterms:Location ;
     rdfs:label "Rome" ;
-    geo1:lat "41.89193"^^xsd:float ;
-    geo1:long "12.51133"^^xsd:float .
+    geo:lat "41.89193"^^xsd:float ;
+    geo:long "12.51133"^^xsd:float .
 
 <https://www.geonames.org/2886242> a dcterms:Location ;
     rdfs:label "Cologne" ;
-    geo1:lat "50.93333"^^xsd:float ;
-    geo1:long "6.95"^^xsd:float .
+    geo:lat "50.93333"^^xsd:float ;
+    geo:long "6.95"^^xsd:float .
 
 <https://www.geonames.org/2643743> a dcterms:Location ;
     rdfs:label "London" ;
-    geo1:lat "51.50853"^^xsd:float ;
-    geo1:long "-0.12574"^^xsd:float .
+    geo:lat "51.50853"^^xsd:float ;
+    geo:long "-0.12574"^^xsd:float .
 
 <https://www.geonames.org/2988507> a dcterms:Location ;
     rdfs:label "Paris" ;
-    geo1:lat "48.85341"^^xsd:float ;
-    geo1:long "2.3488"^^xsd:float .
+    geo:lat "48.85341"^^xsd:float ;
+    geo:long "2.3488"^^xsd:float .
 

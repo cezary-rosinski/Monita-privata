@@ -1,4 +1,3 @@
-import bibtexparser
 import pandas as pd
 import regex as re
 import random
@@ -216,6 +215,11 @@ df.columns = [conversion_dict_RIS.get(e) for e in df.columns]
 #%% records and places
 records_and_places = gsheet_to_df('1Gh7ZZ9hrcygOCAFr-jVHBTKPvIIQGd-UJ4uwaA4B4o0', 'Sheet1')
 
+# endnote_ids = df['ID'].to_list()
+# rap_ids = records_and_places['ID'].to_list()
+# new_ids = [e for e in endnote_ids if e not in rap_ids]
+
+# [e for e in endnote_ids if e in ['2725', '2726', '2718', '2122', '2724']]
 # new = df.loc[~df['ID'].isin(records_and_places['ID'].to_list())]
 
 df_total = pd.merge(df, records_and_places[['ID', 'typ miejscowości', 'miejscowość w tekście', 'prawdopodobna miejscowość wydania', 'prawdziwa miejscowość wydania', 'czy wydane samodzielnie (tak / nie)', 'manuskrypt', 'do usunięcia']], how='left', on='ID')
@@ -230,7 +234,7 @@ geonames_list = set([e for e in geonames_list if isinstance(e, str)])
 
 def query_geonames(geoname_url):
 # places_with_geonames = {}
-# for geoname_id in tqdm(geonames_list):
+# for geoname_url in tqdm(geonames_list):
     # m = 'Dublin'
     geoname_id = re.findall('\d+', geoname_url)[0]
     url = 'http://api.geonames.org/get?'
@@ -368,7 +372,11 @@ def add_book(row):
     g.add((book, monita.yearOrigin, Literal(row['year_origin'])))
     g.add((book, dcterms.title, Literal(row["title"])))
     g.add((book, monita.privataInTitle, Literal(row["privata_in_title"])))
-    g.add((book, monita.secretaInTitle, Literal(row["secreta_in_title"])))    
+    g.add((book, monita.secretaInTitle, Literal(row["secreta_in_title"])))
+    if pd.notnull(row['czy wydane samodzielnie (tak / nie)']):
+        if row['czy wydane samodzielnie (tak / nie)'] == 'tak':
+            g.add((book, monita.publishedSeparately, Literal(True)))
+        else: g.add((book, monita.publishedSeparately, Literal(False)))
     g.add((book, monita.placeType, Literal(row['typ miejscowości'])))
     if isinstance(row['miejscowość w tekście'], str):
         g.add((book, monita.placeInText, URIRef(row['miejscowość w tekście'])))
