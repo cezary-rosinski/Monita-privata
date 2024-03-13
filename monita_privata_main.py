@@ -22,6 +22,11 @@ import endnote_credentials
 import os
 from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import RDF, RDFS, FOAF, XSD, OWL
+import pandas as pd
+import plotly.express as px
+from plotly.offline import plot
+import plotly.graph_objs as go
+import plotly.io as pio
 
 #%%
 
@@ -239,17 +244,20 @@ def query_geonames(geoname_url):
     geoname_id = re.findall('\d+', geoname_url)[0]
     url = 'http://api.geonames.org/get?'
     params = {'username': random.choice(geonames_users), 'geonameId': geoname_id, 'style': 'FULL'}
-    result = requests.get(url, params=params)
-    if 'status' in result:
-        time.sleep(5)
-        query_geonames(geoname_id)
-    else:  
-        soup = BeautifulSoup(result.text, "html.parser")
-        temp_dict = {'name': soup.find('name').text,
-                     'lat': soup.find('lat').text,
-                     'lng': soup.find('lng').text,
-                     'geoname_id': geoname_id}
-        places_with_geonames[geoname_url] = temp_dict
+    try:
+        result = requests.get(url, params=params)
+        if 'status' in result:
+            time.sleep(5)
+            query_geonames(geoname_id)
+        else:  
+            soup = BeautifulSoup(result.text, "html.parser")
+            temp_dict = {'name': soup.find('name').text,
+                         'lat': soup.find('lat').text,
+                         'lng': soup.find('lng').text,
+                         'geoname_id': geoname_id}
+            places_with_geonames[geoname_url] = temp_dict
+    except AttributeError:
+        query_geonames(geoname_url)
     
 places_with_geonames = {}
 with ThreadPoolExecutor() as excecutor:
@@ -316,6 +324,7 @@ def get_secreta_in_title(x):
     else: return False   
     
 df_fixed['secreta_in_title'] = df_fixed['title'].apply(lambda x: get_secreta_in_title(x))
+df_fixed.to_excel('data/monita_database_processed.xlsx', index=False)
 #dopytać RM, jaka informacja i w którym polu
 #def set_publishing_form(x):
 
@@ -397,15 +406,11 @@ g.serialize("data/monita.ttl", format = "turtle")
 # match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location) return book, place
 
 #%% wizualizacja na mapie
-import requests
-import pandas as pd
-from pathlib import Path
-import plotly.express as px
-from plotly.offline import plot
-import plotly.graph_objs as go
 
 df_geonames = pd.DataFrame().from_dict(places_with_geonames, orient='index').reset_index().rename(columns={'index': 'geonames'})
-df_monita = df_fixed[['ID', 'title', 'prawdziwa miejscowość wydania', 'year_fixed']].rename(columns={'prawdziwa miejscowość wydania': 'geonames'})
+df_monita = df_fixed.copy()[['ID', 'title', 'prawdziwa miejscowość wydania', 'prawdopodobna miejscowość wydania', 'year_fixed']]
+df_monita['geonames'] = df_monita[['prawdziwa miejscowość wydania', 'prawdopodobna miejscowość wydania']].apply(lambda x: x['prawdziwa miejscowość wydania'] if pd.notnull(x['prawdziwa miejscowość wydania']) else x['prawdopodobna miejscowość wydania'], axis=1)
+df_monita.drop(columns=['prawdziwa miejscowość wydania', 'prawdopodobna miejscowość wydania'], inplace=True)
 df_monita = df_monita.loc[df_monita['geonames'].notnull()]
 
 df_map = pd.merge(df_monita, df_geonames, how='left', on='geonames').sort_values('year_fixed')
@@ -415,28 +420,14 @@ df_map['size'] = df_map.groupby(['geonames']).cumcount()+1
 df_map['size'] = df_map['size'] * 2
 # df_map['date'] = pd.to_datetime(df_map['year_fixed'], format='%Y')
 
-# fig = px.scatter_mapbox(
-#         df_map,
-#         lat="lat",
-#         lon="lng",
-#         size="size",
-#         hover_data=["title"],
-#         animation_frame="year_fixed",
-#     ).update_layout(
-#         mapbox={"style": "carto-positron", "zoom":11}, margin={"l": 0, "r": 0, "t": 0, "b": 0}
-#     )
-    
-# plot(fig, auto_open=True) 
-    
-
 fig = px.scatter_mapbox(
         df_map,
         lat="lat",
         lon="lng",
         size="size",
         hover_name="name",
-        hover_data=["title"],
-        color_discrete_sequence=["red"],
+        # hover_data=["title"],
+        color_discrete_sequence=["blue"],
         animation_frame="year_fixed",
         animation_group='name',
         zoom=3.75,
@@ -453,18 +444,88 @@ cumulative_frames = [{"data": [{"type": "scattermapbox",
                                 "mode": "markers",
                                 "marker": {"size": df_map.loc[df_map["year_fixed"] <= year, "size"].tolist()},
                                 "text": df_map.loc[df_map["year_fixed"] <= year, "name"].tolist(),
-                                "hoverinfo": "text+name+lat+lon"}],
+                                "hoverinfo": "name"}],
                       "name": str(year)}
-                     for year in sorted(df_map["year_fixed"].unique())]
+                      for year in sorted(df_map["year_fixed"].unique())]
 
 fig.frames = cumulative_frames
 
-plot(fig, auto_open=True)
+plot(fig, auto_open=True, filename='data/monita.html')
 fig.write_html("data/monita.html")
-# fig.show()
     
-    
-    
+
+
+# frames = []
+# slider_steps = []
+
+# # Get unique years
+# unique_years = sorted(df_map["year_fixed"].unique())
+
+# for i, year in enumerate(unique_years):
+#     data_year = df_map[df_map["year_fixed"] <= year]
+#     frame = go.Scattermapbox(
+#         lat=data_year["lat"],
+#         lon=data_year["lng"],
+#         mode="markers",
+#         marker=dict(size=data_year["size"]),
+#         text=data_year["name"],
+#         hoverinfo="text",
+#         name=str(year)
+#     )
+#     frames.append(frame)
+
+#     # Modify the label of the slider step to dynamically update with each year
+#     step = dict(
+#         method="animate",
+#         args=[[str(year)], dict(mode="immediate", frame=dict(duration=300, redraw=True), fromcurrent=True)],
+#         label=str(year)  # Update the label dynamically
+#     )
+#     slider_steps.append(step)
+
+# layout = go.Layout(
+#     mapbox=dict(
+#         style="open-street-map",
+#         zoom=3.75,
+#         center=dict(lat=50.076301241046366, lon=14.427848170989792)
+#     ),
+#     margin=dict(r=0, t=0, l=0, b=0),
+#     sliders=[dict(
+#         active=0,
+#         steps=slider_steps,
+#         x=0.1,
+#         y=0,
+#         xanchor="left",
+#         yanchor="bottom"
+#     )],
+#     updatemenus=[
+#         dict(
+#             type="buttons",
+#             buttons=[
+#                 dict(label="Play",
+#                      method="animate",
+#                      args=[None, dict(frame=dict(duration=300, redraw=True), fromcurrent=True)]),
+#                 dict(label="Pause",
+#                      method="animate",
+#                      args=[[None], dict(frame=dict(duration=0, redraw=False), mode="immediate")]),
+#                 dict(label="Stop",
+#                      method="animate",
+#                      args=[[None], dict(frame=dict(duration=0, redraw=False), fromcurrent=True)])
+#             ],
+#             x=0.1,
+#             y=1.05,
+#             xanchor="left",
+#             yanchor="top"
+#         )
+#     ]
+# )
+
+# fig = go.Figure(data=frames[0], layout=layout)
+# frames = [{"data": [frame], "name": str(i)} for i, frame in enumerate(frames)]
+# fig.frames = frames
+
+# plot(fig, auto_open=True)
+# fig.write_html("data/monita.html")
+
     
     
     
