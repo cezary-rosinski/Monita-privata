@@ -13,3 +13,11 @@ return book, place
 match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
 where book.monita__yearOrigin <> 'internal'
 return book, place
+
+match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
+where book.monita__publishedSeparately = true
+return book, place
+
+match (book:dcterms__BibliographicResource) - [a:fabio__hasPlaceOfPublication] - (place:dcterms__Location)
+where book.monita__publishedSeparately = false
+return book, place
