@@ -453,6 +453,17 @@ ID  - 2690
 ER  - 
 
 TY  - BOOK
+AU  - Rappe, Christoph von
+CY  - Cosmopolis [Geneva]
+LA  - Latin
+PY  - 1668
+SE  - [1] Bl., 46 S ; 4°
+ST  - Monita Privata Societatis Jesu. Edita opera ac studio Pacifici A Lapide. Una cum Prooemio, Notis ac Epilogo eiusdem, in Homo politicus
+TI  - Monita Privata Societatis Jesu. Edita opera ac studio Pacifici A Lapide. Una cum Prooemio, Notis ac Epilogo eiusdem, in Homo politicus
+ID  - 2727
+ER  - 
+
+TY  - BOOK
 AN  - FRBNF31281534000000X
 AU  - Saint-Hélier
 CN  - Tolbiac - Rez de Jardin - Philosophie, histoire, sciences de l'homme - Magasin
@@ -464,6 +475,42 @@ SP  - In-16, 22
 ST  - Les "Monita secreta" des Jésuites devant l'histoire, par Saint-Hélier
 TI  - Les "Monita secreta" des Jésuites devant l'histoire, par Saint-Hélier
 ID  - 1885
+ER  - 
+
+TY  - BOOK
+AD  - #2725
+AU  - Samarin, I︠U︡ Ḟ
+AU  - Martynov, Ivan Mikhaĭlovich
+CY  - Moscow
+LA  - Russian; Latin
+M1  - 480 p.
+N1  - "Monita privata Societatis Jesu": p. [403]-428
+Bibliographical footnotes.
+PB  - Tip. Ris
+PY  - 1868
+SP  - 480 p.
+ST  - Monita secreta
+T2  - Iezuity i ikh otnoshenie k Rossii: pisʹma k Iezuitu Martynovu
+TI  - Monita secreta
+UR  - http:////catalog.hathitrust.org/Record/001940995
+UR  - http://hdl.handle.net/2027/mdp.39015062955896
+UR  - http://hdl.handle.net/2027/uiug.30112119393038
+ID  - 2725
+ER  - 
+
+TY  - GEN
+A2  - Martynov, I.
+AD  - #2726
+AU  - Samarin, I︠U︡. Ḟ.
+CY  - Moskva :
+ET  - 2nd
+LA  - Russian; Latin
+PB  - Tip. Lazarevskago Inst
+PY  - 1868
+ST  - Monita secreta
+T2  - Iezuity i ikh Otnoshenīe k Rossīi : pisʹma k Īezuity Martynovu
+TI  - Monita secreta
+ID  - 2726
 ER  - 
 
 TY  - BOOK
@@ -495,6 +542,18 @@ ST  - Instructions secrètes des Jésuites
 TI  - Instructions secrètes des Jésuites
 UR  - https://katalogi.uj.edu.pl/discovery/fulldisplay/alma991016574557805067/48OMNIS_UJA:uja
 ID  - 2561
+ER  - 
+
+TY  - BOOK
+A2  - Zahorowski, Hieronim
+AU  - Zahorowski, Hieronim -
+CY  - S.l.
+LA  - Latin
+PY  - 1612
+ST  - Monita Privata Societatis Jesu
+TI  - Monita Privata Societatis Jesu
+UR  - http://resolver.staatsbibliothek-berlin.de/SBB0001CBE900000000
+ID  - 2728
 ER  - 
 
 TY  - BOOK
@@ -534,7 +593,7 @@ HAB Wolfenbüttel M: Tq 975 (2)
 Nutzungsrecht: Herzog August Bibliothek Wolfenbüttel
 kostenfrei
 PY  - 1657
-SP  - 8 Bl
+SP  - 8 Bl. 4°
 TI  - Monita Privata Societatis Jesu
 UR  - http://diglib.hab.de/drucke/tq-975-2s/start.htm
 UR  - http://nbn-resolving.de/urn:nbn:de:gbv:23-drucke/tq-975-2s8
@@ -2768,27 +2827,6 @@ ID  - 1832
 ER  - 
 
 TY  - BOOK
-AN  - 3554099
-AU  - [Zahorowski, Hieronim]
-CN  - BX3705.A2 M662 1996
-CY  - Moskva
-KW  - Jesuits
-LA  - Russian
-N1  - 97195576
-Monita secreta Societatis Jesu. Russian
-[predislovie I︠U︡.F. Samarina ; posleslovie P.V. Kalitina].
-ports. ; 18 cm.
-Includes bibliographical references.
-PB  - Russkiĭ Dvor
-PY  - 1996
-SN  - 5887520078
-SP  - 70 p.
-ST  - Taĭnye nastavlenii︠a︡ dli︠a︡ rukovodstva v Obshchestve Iisusa
-TI  - Taĭnye nastavlenii︠a︡ dli︠a︡ rukovodstva v Obshchestve Iisusa
-ID  - 2268
-ER  - 
-
-TY  - BOOK
 AU  - [Zahorowski, Hieronim]
 CY  - Placentiae
 LA  - Latin
@@ -3943,5 +3981,19 @@ TI  - Forma del governo giesuitico
 UR  - https://books.google.com/books/about/Forma_del_Governo_Giesuitico_con_vna_ins.html?hl=pl&id=1G7DMnEa88QC
 VL  - Forma del Governo Giesuitico con vna instruttione et uuiso a'Potentati del modo, Con il quale si gouernano li Giesuiti, Per ridurre la loro Compagnia ad vna perfetta Monarchia
 ID  - 1312
+ER  - 
+
+TY  - BOOK
+AU  - Самарин, Ю.Ѳ.
+CY  - Moscow
+ET  - 3rd
+LA  - Russian; Latin
+PB  - Тип. Грачева
+PY  - 1870
+ST  - Monita secreta
+T2  - Іезуиты и их отношеніе к Россіи: письма к іезуиту Мартынову
+TI  - Monita secreta
+UR  - https://books.google.pl/books?id=pjQNAAAAYAAJ
+ID  - 2724
 ER  - 
 

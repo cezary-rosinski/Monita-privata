@@ -68,7 +68,7 @@ except NoSuchElementException:
     password_input.send_keys(password)
     time.sleep(1)
     login.click()
-time.sleep(2)
+time.sleep(4)
 url = 'https://www.myendnoteweb.com/EndNoteWeb.html?func=export%20citations&'
 browser.get(url)
 time.sleep(2)
@@ -225,7 +225,7 @@ records_and_places = gsheet_to_df('1Gh7ZZ9hrcygOCAFr-jVHBTKPvIIQGd-UJ4uwaA4B4o0'
 # new_ids = [e for e in endnote_ids if e not in rap_ids]
 
 # [e for e in endnote_ids if e in ['2725', '2726', '2718', '2122', '2724']]
-# new = df.loc[~df['ID'].isin(records_and_places['ID'].to_list())]
+# new = df.loc[~df['ID'].isin(records_and_places['ID'].to_list())][['ID', 'title', 'publisher', 'notes', 'year', 'publication_place']]
 
 df_total = pd.merge(df, records_and_places[['ID', 'typ miejscowości', 'miejscowość w tekście', 'prawdopodobna miejscowość wydania', 'prawdziwa miejscowość wydania', 'czy wydane samodzielnie (tak / nie)', 'manuskrypt', 'do usunięcia']], how='left', on='ID')
 
