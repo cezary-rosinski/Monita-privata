@@ -502,7 +502,7 @@ TY  - GEN
 A2  - Martynov, I.
 AD  - #2726
 AU  - Samarin, I︠U︡. Ḟ.
-CY  - Moskva :
+CY  - Moscow
 ET  - 2nd
 LA  - Russian; Latin
 PB  - Tip. Lazarevskago Inst

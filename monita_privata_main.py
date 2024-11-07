@@ -324,6 +324,10 @@ def get_secreta_in_title(x):
     else: return False   
     
 df_fixed['secreta_in_title'] = df_fixed['title'].apply(lambda x: get_secreta_in_title(x))
+
+place_types = {'domniemana': 'alleged', 'fałszywa': 'false', 'fikcyjna': 'fictitious', 'nan': 'unknown', 'nieznana': 'unknown', 'prawdziwa': 'true'}
+
+df_fixed['typ miejscowości'] = df_fixed['typ miejscowości'].apply(lambda x: place_types.get(x) if pd.notna(x) else 'unknown')
 df_fixed.to_excel('data/monita_database_processed.xlsx', index=False)
 #dopytać RM, jaka informacja i w którym polu
 #def set_publishing_form(x):
@@ -331,7 +335,8 @@ df_fixed.to_excel('data/monita_database_processed.xlsx', index=False)
 #%% ontologia
 
 #namespaces
-monita = Namespace("http://purl.org/monita/")
+# monita = Namespace("http://purl.org/monita/")
+monita = Namespace('https://example.org/')
 n = Namespace("http://example.org/people/")
 dcterms = Namespace("http://purl.org/dc/terms/")
 rdf = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
@@ -397,7 +402,7 @@ def add_book(row):
 for i, row in df_fixed.iterrows():
     add_book(row)
     
-g.serialize("data/monita.ttl", format = "turtle")
+g.serialize("data/monita_privata_database.ttl", format = "turtle")
 
 #https://www.youtube.com/watch?v=kyucE2iINwQ
 #skopiować logi, dodać .jar do pluginów, https://neo4j.com/labs/neosemantics/4.0/install/, może być błąd, wtedy sprawdzić plugins, czy nie ma starego
