@@ -31,7 +31,8 @@ import plotly.io as pio
 #%%
 
 #usunąć plik
-file_path = r"C:\Users\Cezary\Documents\Monita-privata\data\exportlist.txt"
+file_path = r"D:\IBL\Documents\Monita-privata\data\exportlist.txt"
+
 os.remove(file_path)
 
 #download references from endnote
@@ -40,7 +41,7 @@ options = Options()
 
 options.set_preference("browser.download.folderList", 2)
 options.set_preference("browser.download.manager.showWhenStarting", False)
-options.set_preference("browser.download.dir", r'C:\Users\Cezary\Documents\Monita-privata\data')
+options.set_preference("browser.download.dir", r'D:\IBL\Documents\Monita-privata\data')
 options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
 
 browser = webdriver.Firefox(options=options)
@@ -216,6 +217,7 @@ conversion_dict_RIS = {
 #     }
 
 df.columns = [conversion_dict_RIS.get(e) for e in df.columns]
+df.to_excel('data/endnote_example.xlsx', index=False)
 
 #%% records and places
 records_and_places = gsheet_to_df('1Gh7ZZ9hrcygOCAFr-jVHBTKPvIIQGd-UJ4uwaA4B4o0', 'Sheet1')
