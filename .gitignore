@@ -2,3 +2,4 @@
 __pycache__/*
 geckodriver.log
 data/konferencja-poznan/*
+geonames_accounts.py

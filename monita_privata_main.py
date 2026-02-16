@@ -1,8 +1,8 @@
+import sys
+sys.path.insert(1, 'C:/Users/Cezary/Documents/IBL-PAN-Python')
 import pandas as pd
 import regex as re
 import random
-import sys
-sys.path.insert(1, 'C:/Users/Cezary/Documents/IBL-PAN-Python')
 from geonames_accounts import geonames_users
 import requests
 import time
@@ -86,8 +86,10 @@ save_button = browser.find_element('xpath', "//input[@name='export citations 2.x
 save_button.click()
 browser.close()
 
-
+#%%
 file = r"data\exportlist.txt"
+file = r"C:\Users\Cezary\Downloads\exportlist (27).txt"
+file = r"C:\Users\Cezary\Downloads\exportlist (9) (1).txt"
 
 # with open(file, encoding='utf-8') as bibtex_file:
 #     bib_database = bibtexparser.load(bibtex_file)
@@ -217,7 +219,7 @@ conversion_dict_RIS = {
 #     }
 
 df.columns = [conversion_dict_RIS.get(e) for e in df.columns]
-df.to_excel('data/endnote_example.xlsx', index=False)
+df.to_excel('data/exportlist (9).xlsx', index=False)
 
 #%% records and places
 records_and_places = gsheet_to_df('1Gh7ZZ9hrcygOCAFr-jVHBTKPvIIQGd-UJ4uwaA4B4o0', 'Sheet1')
